@@ -1,0 +1,2263 @@
+# Conversion review list
+
+Generated when converting 373 HTML pages to Markdown. Each section lists things in the original HTML that don't map cleanly to Markdown, with what the converter did and where they occur.
+
+## Summary
+
+| Item | Occurrences | Pages | What the converter did |
+|---|---|---|---|
+| [Embeds: Flash `<object>`/`<embed>`](#embeds-flash-objectembed) | 1 | 1 | replaced with a link to the embedded URL |
+| [Embeds: Google Books viewers](#embeds-google-books-viewers) | 8 | 7 | replaced with a link to the embedded URL |
+| [Embeds: Internet Archive book viewers](#embeds-internet-archive-book-viewers) | 87 | 33 | replaced with a link to the embedded URL |
+| [Embeds: YouTube videos](#embeds-youtube-videos) | 7 | 3 | replaced with a link to the embedded URL |
+| [Embeds: maps (Google / Bing / MapChannels)](#embeds-maps-google--bing--mapchannels) | 149 | 69 | replaced with a link to the embedded URL |
+| [Embeds: other](#embeds-other) | 2 | 1 | replaced with a link to the embedded URL |
+| [Background colour / highlight (dropped)](#background-colour--highlight-dropped) | 1 | 1 | dropped |
+| [Broken internal links / missing files](#broken-internal-links--missing-files) | 396 | 157 | link kept as-is (target page/file isn't in the export) |
+| [Coloured text (colour dropped)](#coloured-text-colour-dropped) | 1732 | 71 | colour dropped |
+| [External images (cached copies in files/)](#external-images-cached-copies-in-files) | 95 | 34 | cached copies in files/ |
+| [Floats / layout (dropped)](#floats--layout-dropped) | 14 | 6 | dropped |
+| [Font size changes (dropped)](#font-size-changes-dropped) | 38 | 21 | dropped |
+| [Footnote references](#footnote-references) | 4 | 3 | marker kept as plain text, e.g. [2] |
+| [Image sizing / float / alignment (dropped)](#image-sizing--float--alignment-dropped) | 154 | 53 | dropped |
+| [Indentation (dropped)](#indentation-dropped) | 876 | 20 | dropped |
+| [Non-heading anchors (kept as raw HTML `<a name>`)](#non-heading-anchors-kept-as-raw-html-a-name) | 461 | 42 | kept as raw HTML `<a name>` |
+| [Scripts (removed)](#scripts-removed) | 2 | 1 | removed |
+| [Small text (size dropped)](#small-text-size-dropped) | 58 | 34 | size dropped |
+| [Superscript (kept as inline `<sup>` HTML)](#superscript-kept-as-inline-sup-html) | 23 | 6 | kept as inline `<sup>` HTML |
+| [Tables (converted to Markdown tables; check layout)](#tables-converted-to-markdown-tables-check-layout) | 17 | 7 | converted to Markdown tables; check layout |
+| [Text alignment (dropped)](#text-alignment-dropped) | 4 | 4 | dropped |
+| [Twitter widgets (kept as plain link)](#twitter-widgets-kept-as-plain-link) | 2 | 1 | kept as plain link |
+| [Underline (kept as inline `<u>` HTML)](#underline-kept-as-inline-u-html) | 1115 | 96 | kept as inline `<u>` HTML |
+| [Wikispaces widgets: auto-generated page list (kept as static list)](#wikispaces-widgets-auto-generated-page-list-kept-as-static-list) | 6 | 6 | kept as static list |
+| [Wikispaces widgets: tag cloud (removed)](#wikispaces-widgets-tag-cloud-removed) | 2 | 2 | removed |
+
+## Embeds: Flash `<object>`/`<embed>`
+
+- [Charlotte Elliott (1789-1871)](Charlotte%20Elliott%20%281789-1871%29.md): <http://www.youtube.com/v/RVemdiMoths&start=220&end=382>
+
+## Embeds: Google Books viewers
+
+- [Catherine Marsh (1818-1912)](Catherine%20Marsh%20%281818-1912%29.md) (2)
+  - <http://books.google.co.uk/books?id=mH0DAAAAQAAJ&ots=hxcO-p3dpd&dq=the%20victory%20won%20catherine%20marsh&pg=PR1&output=embed>
+  - <http://books.google.co.uk/books?id=K0gBAAAAQAAJ&dq=inauthor%3A%22Catherine%20Marsh%22&pg=PR3&output=embed>
+- [FranÃ§oise de Vignolles (1643-1700)](Fran%C3%83%C2%A7oise%20de%20Vignolles%20%281643-1700%29.md): <http://books.google.co.uk/books?id=3Rw-AAAAcAAJ&lpg=PA1048&ots=M-mGXjbY9b&dq=Fran%C3%A7oise%20de%20Vignolles&pg=PA1048&output=embed>
+- [John Barton Senior (1789-1852)](John%20Barton%20Senior%20%281789-1852%29.md): <http://books.google.co.uk/books?id=0FAAAAAAYAAJ&dq=%22Hints%20for%20Improving%20the%20Condition%20of%20the%20Poor%22&pg=PA153&output=embed>
+- [Maria Hack (1777-1844)](Maria%20Hack%20%281777-1844%29.md): <http://books.google.co.uk/books?id=F6YYAAAAYAAJ&dq=inauthor%3A%22Maria%20Hack%22&pg=PP1&output=embed>
+- [_Dougan 1826](_Dougan%201826.md): <http://books.google.co.uk/books?id=BzdbAAAAQAAJ&pg=RA3-PA2&output=embed>
+- [_Penfold](_Penfold.md): <http://books.google.co.uk/books?id=Yxfykesq5kwC&pg=PA438&output=embed>
+- [_The Citizen (Carlisle periodical)](_The%20Citizen%20%28Carlisle%20periodical%29.md): <http://books.google.co.uk/books?id=GtgfAAAAMAAJ&pg=PA632&output=embed>
+
+## Embeds: Internet Archive book viewers
+
+- [Catherine Marsh (1818-1912)](Catherine%20Marsh%20%281818-1912%29.md) (3)
+  - <http://www.archive.org/stream/lifefriendshipso00ororiala?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/englishheartseng00marsrich?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/memorialsofcapta00mars?ui=embed#mode/2up>
+- [Church Missionary House, Madras](Church%20Missionary%20House%2C%20Madras.md): <http://www.archive.org/stream/churchinmadrasbe03penn?ui=embed#page/228/mode/2up>
+- [Defense of Slavery](Defense%20of%20Slavery.md) (9)
+  - <http://www.archive.org/stream/scripturalresea00harrgoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/govhammondslette00hamm?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/slaveryindispensa00mcke?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/originslavery00stririch?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/abolitionismunv00jamerich?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/historydefenseof00trot?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/negroslavery00vane?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/scripturaleccles00hopkrich?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/christiandoctrin00arms?ui=embed#mode/2up>
+- [Maria Hack (1777-1844)](Maria%20Hack%20%281777-1844%29.md) (7)
+  - <http://www.archive.org/stream/grecianstories00cogoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/storiesfromengl00hackgoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/harrybeaufoyorp00unkngoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/orientalfragmen00hackgoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/geologicalsketc00hackgoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/lecturesathomed00hackgoog?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/adventuresbylan00hackgoog?ui=embed#mode/2up/page/n2>
+- [Ormside Hall](Ormside%20Hall.md): <http://archive.org/stream/pedigreesrecorde00sainrich?ui=embed#page/120/mode/2up>
+- [Rev. Charles Boileau Elliott (1803-1875)](Rev.%20Charles%20Boileau%20Elliott%20%281803-1875%29.md) (3)
+  - <http://www.archive.org/stream/lettersfromnort01elligoog?ui=embed#page/n10/mode/2up>
+  - <http://www.archive.org/stream/travelsinthreeg02elligoog?ui=embed#page/n15/mode/2up>
+  - <http://www.archive.org/stream/travelsinthreeg00elligoog?ui=embed#page/n8/mode/2up>
+- [Rev. Edward Bishop Elliott (1793-1875)](Rev.%20Edward%20Bishop%20Elliott%20%281793-1875%29.md): <http://www.archive.org/stream/horaeapocalyptic02elli?ui=embed#mode/2up>
+- [Solomon Boileau (1745-1810)](Solomon%20Boileau%20%281745-1810%29.md): <http://archive.org/stream/listofgeneralfie00grea?ui=embed#page/226/mode/2up>
+- [Tesie Moule (1882-1905)](Tesie%20Moule%20%281882-1905%29.md): <http://www.archive.org/stream/schoolsuffering00moulgoog?ui=embed#page/n11/mode/2up>
+- [_Barton 1850](_Barton%201850.md) (3)
+  - <http://www.archive.org/stream/memoirletterspoe00bartrich?ui=embed#mode/2up/page/n5>
+  - <http://www.archive.org/stream/memoirletterspoe00bartrich?ui=embed#mode/2up/page/n48>
+  - <http://www.archive.org/stream/memoirletterspoe00bartrich?ui=embed#mode/2up/page/n153>
+- [_Barton parish registers](_Barton%20parish%20registers.md) (4)
+  - <http://www.archive.org/stream/registersofparis00bart?ui=embed#mode/2up/page/49>
+  - <http://www.archive.org/stream/registersofparis00bart?ui=embed#mode/2up/page/71>
+  - <http://www.archive.org/stream/registersofparis00bart?ui=embed#mode/2up/page/78>
+  - <http://www.archive.org/stream/registersofparis00bart?ui=embed#mode/2up/page/152>
+- [_Ferguson 1871](_Ferguson%201871.md): <http://www.archive.org/stream/earlycumberland00ferggoog?ui=embed#mode/2up/page/n172>
+- [_Fitzgerald 1849](_Fitzgerald%201849.md) (2)
+  - <http://www.archive.org/stream/miscellaniesedw00fitzgoog?ui=embed#mode/2up/page/n226>
+  - <http://www.archive.org/stream/miscellaniesedw00fitzgoog?ui=embed#mode/2up/page/n254>
+- [_Hole 1896](_Hole%201896.md) (2)
+  - <http://www.archive.org/stream/earlyhistoryofch00hole?ui=embed#mode/2up/page/626>
+  - <http://www.archive.org/stream/earlyhistoryofch00hole?ui=embed#mode/2up/page/646>
+- [_Jackson 1892](_Jackson%201892.md): <http://www.archive.org/stream/papersandpedigr00jackgoog?ui=embed#mode/2up/page/n157>
+- [_Lucas 1893](_Lucas%201893.md) (2)
+  - <http://www.archive.org/stream/bernardbartonhis00lucaiala?ui=embed#mode/2up>
+  - <http://www.archive.org/stream/bernardbartonhis00lucaiala?ui=embed#mode/2up/page/69>
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md) (9)
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n57>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n430>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n471>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n492>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n547>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n549>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n550>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n655>
+  - <http://www.archive.org/stream/historyandantiq00burngoog?ui=embed#mode/2up/page/n657>
+- [_Pennant 1774 & 1776](_Pennant%201774%20%26%201776.md): <http://www.archive.org/stream/tourinscotlandvo01penn?ui=embed#mode/2up/page/n85>
+- [_Pinckard 1806](_Pinckard%201806.md) (3)
+  - <http://www.archive.org/stream/notesonwestindie01unse?ui=embed#page/n5/mode/2up>
+  - <http://www.archive.org/stream/notesonwestindie02unse?ui=embed#page/202/mode/2up>
+  - <http://www.archive.org/stream/notesonwestindie03unse?ui=embed#page/n5/mode/2up>
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md): <http://www.archive.org/stream/mynameismillione00londuoft?ui=embed#page/n5/mode/2up>
+- [_Smith 1878](_Smith%201878.md): <http://www.archive.org/stream/annalssmithcant00smitgoog?ui=embed#mode/2up/page/n258>
+- [_Stock 1899](_Stock%201899.md) (13)
+  - <http://www.archive.org/stream/historyofchurchm01stoc?ui=embed#mode/2up/page/n23>
+  - <http://www.archive.org/stream/historyofchurchm01stoc?ui=embed#mode/2up/page/n79>
+  - <http://www.archive.org/stream/historyofchurchm01stoc?ui=embed#mode/2up/page/70>
+  - <http://www.archive.org/stream/historyofchurchm01stoc?ui=embed#mode/2up/page/266>
+  - <http://www.archive.org/stream/historyofchurchm01stoc?ui=embed#mode/2up/page/284>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/42>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/55>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/68>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/274>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/515>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/520>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/531>
+  - <http://www.archive.org/stream/historyofchurchm02stoc?ui=embed#mode/2up/page/550>
+- [_Transactions CWAALS n12 1887](_Transactions%20CWAALS%20n12%201887.md): <http://archive.org/stream/transactionsofcu84cumb?ui=embed#page/60/mode/2up>
+- [_Transactions CWAAS v10 1889](_Transactions%20CWAAS%20v10%201889.md): <http://www.archive.org/stream/transactionsofcu10cumb?ui=embed#mode/2up/page/267>
+- [_Transactions CWAAS v13 1895](_Transactions%20CWAAS%20v13%201895.md): <http://www.archive.org/stream/transactionscum05ferggoog?ui=embed#mode/2up/page/n168>
+- [_Transactions CWAAS v4 1904](_Transactions%20CWAAS%20v4%201904.md): <http://www.archive.org/stream/transactionsofcu04cumb?ui=embed#mode/2up/page/316>
+- [_Transactions CWAAS v5 1905](_Transactions%20CWAAS%20v5%201905.md) (4)
+  - <http://www.archive.org/stream/transactionsofcunsvol5cumb?ui=embed#mode/2up/page/63>
+  - <http://www.archive.org/stream/transactionsofcunsvol5cumb?ui=embed#mode/2up/page/88>
+  - <http://www.archive.org/stream/transactionsofcunsvol5cumb?ui=embed#mode/2up/page/96>
+  - <http://www.archive.org/stream/transactionsofcunsvol5cumb?ui=embed#mode/2up/page/197>
+- [_Transactions CWAAS v6 1882](_Transactions%20CWAAS%20v6%201882.md): <http://www.archive.org/stream/transactionscum09ferggoog?ui=embed#mode/2up/page/n131>
+- [_Transactions CWAAS v7 1884](_Transactions%20CWAAS%20v7%201884.md): <http://www.archive.org/stream/transactionsofcu07cumb?ui=embed#mode/2up/page/171>
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md) (3)
+  - <http://www.archive.org/stream/transactionscum02socigoog?ui=embed#mode/2up/page/n88>
+  - <http://www.archive.org/stream/transactionscum02socigoog?ui=embed#mode/2up/page/n108>
+  - <http://www.archive.org/stream/transactionscum02socigoog?ui=embed#mode/2up/page/n283>
+- [_Transactions SEAMC v6 1788](_Transactions%20SEAMC%20v6%201788.md): <http://www.archive.org/stream/transactionsofso05royauoft?ui=embed#mode/2up/page/229>
+- [_Trimmer 1787](_Trimmer%201787.md) (2)
+  - <http://www.archive.org/stream/oeconomycharity01trimgoog?ui=embed#page/n8/mode/2up>
+  - <http://www.archive.org/stream/oeconomycharity00trimgoog?ui=embed#page/n6/mode/2up>
+- [_Venn 1904](_Venn%201904.md): <http://www.archive.org/stream/annalsofclerical00vennuoft?ui=embed#mode/2up/page/n5>
+
+## Embeds: YouTube videos
+
+- [_Billy Barton Diary and Letters](_Billy%20Barton%20Diary%20and%20Letters.md): <https://www.youtube.com/embed/3HSY94QVIss>
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md): <https://www.youtube.com/embed/2WmfKnLXg2Y?fs=1>
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (5)
+  - <https://www.youtube.com/embed/uSqHJfic0eQ>
+  - <http://www.youtube.com/embed/JrpukRr3c9s>
+  - <http://www.youtube.com/embed/OwCvinPNHzI>
+  - <http://www.youtube.com/embed/_xV0uXAvRu4>
+  - <http://www.youtube.com/embed/0rMjmOB-bcI>
+
+## Embeds: maps (Google / Bing / MapChannels)
+
+- [47 Portland Place, London](47%20Portland%20Place%2C%20London.md) (2)
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=51.52157894307469~-0.14595201322768503&sty=h&draggable=true&v=2&eo=0&where1=51.5215388888889%2C+-0.145930555555556&pp=51.5215388888889~-0.145930555555556&emid=626598b6-3a27-2024-8f92-15039f38d9d2&w=800&h=300>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-0.145682&y=51.521548&z=17&t=0&c=1&s=0&b=259&p=-9&m=0&j=1&k=1&v=1>
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md) (2)
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004c26bdc19c65ecdc7b&hl=en&ie=UTF8&t=h&ll=54.568081,-2.622986&spn=0.317659,1.09726&z=10&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.624372782626786~-2.8022941946983337&sty=s&draggable=true&v=2&eo=0&where1=United+Kingdom&pp=54.07100021839142~-2.783999517560005&emid=3d101819-14b3-3b03-efe8-077124aeef91&w=800&h=300>
+- [Bartons Farm, Thomas Close](Bartons%20Farm%2C%20Thomas%20Close.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.75519436892505~-2.883836030960083&sty=s&draggable=true&v=2&eo=1&where1=Ivegill%2C+Cumbria&pp=54.78064499795437~-2.905679941177368&emid=8f500256-a61e-039f-49ec-13d73ce223e3&w=800&h=300>
+- [Bernard Barton of Carlisle (1728-1773)](Bernard%20Barton%20of%20Carlisle%20%281728-1773%29.md): <http://www.bing.com/maps/embed/?lvl=17&cp=54.893449999999994~-2.937413888888898&sty=h&draggable=true&v=2&eo=1&where1=54.89345%2C+-2.93741388888889&pp=54.89345~-2.93741388888889&emid=9d2e93af-5b71-64a8-fc7d-180c2b5a757b&w=800&h=300>
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md) (2)
+  - <https://maps.google.co.uk/maps?hl=en&ie=UTF8&t=h&ll=52.091683,1.31476&spn=0.001318,0.004286&z=18&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=1.314781&y=52.091779&z=16&t=0&c=1&s=0&b=175&p=-4&m=0&j=1&k=1&v=1>
+- [Bertie Bowman Barton (d.1917)](Bertie%20Bowman%20Barton%20%28d.1917%29.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.89146522830386~-2.9113488197326642&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=cefbf19c-61d6-4bc5-6fa2-ebd29e7a153b&w=800&h=400>
+- [Broadwater and Worthing Cemetery, Sussex](Broadwater%20and%20Worthing%20Cemetery%2C%20Sussex.md): <http://www.bing.com/maps/embed/?lvl=15&cp=50.82794291787994~-0.3773227925356526&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=f7cad818-b4f5-1c66-c234-61a51811859c&w=800&h=400>
+- [Chateau Castelnau](Chateau%20Castelnau.md) (2)
+  - <https://maps.google.co.uk/?ie=UTF8&t=h&ll=43.997006,4.239124&spn=0.003087,0.008572&z=17&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=4.239571&y=43.996405&z=16&t=0&c=1&s=0&b=339&p=-6&m=0&j=1&k=1&v=1>
+- [Church Missionary House, Madras](Church%20Missionary%20House%2C%20Madras.md): <https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=egmore,+chennai&sll=13.071755,80.257691&sspn=0.005769,0.009645&ie=UTF8&hq=&hnear=Egmore,+Chennai,+Tamil+Nadu,+India&t=h&ll=13.073124,80.257187&spn=0.024831,0.068579&z=14&iwloc=A&output=embed>
+- [Col. John Edward Broadbent (1845-1931)](Col.%20John%20Edward%20Broadbent%20%281845-1931%29.md): <http://www.bing.com/maps/embed/?lvl=15&cp=53.65243055555559~-1.8458055555555575&sty=s&draggable=true&v=2&eo=1&where1=53.6524305555556%2C+-1.84580555555556&pp=53.6524305555556~-1.84580555555556&emid=403a5cc9-42ac-4ce3-5eb7-f46e568b38e5&w=800&h=300>
+- [East Leigh House, Havant](East%20Leigh%20House%2C%20Havant.md): <http://www.bing.com/maps/embed/?lvl=17&cp=50.865935034532434~-0.9616922929847931&sty=h&draggable=true&v=2&eo=0&emid=5632a158-ddb7-3b12-d774-bfe68edf75b7&w=800&h=300>
+- [Edward Wigram (b.1802)](Edward%20Wigram%20%28b.1802%29.md): <https://maps.google.co.uk/maps?q=2+Connaught+Place+West,+Hyde+Park&ie=UTF8&hl=en&hq=&hnear=2+Connaught+Pl,+Paddington,+Greater+London+W2+2,+United+Kingdom&ll=51.513603,-0.161276&spn=0.015864,0.068579&z=14&iwloc=A&output=embed>
+- [Elizabeth Barton (1822-1909)](Elizabeth%20Barton%20%281822-1909%29.md) (3)
+  - <http://www.bing.com/maps/embed/?lvl=18&cp=54.89235748607737~-2.9321359258079527&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=95fcb90f-d3fe-8664-1b9f-5c7fd74a3d4e&w=800&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.84993476265163~-3.1788437366485645&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=a1790098-ffde-12d5-595b-ef96f6793472&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-3.177146&y=54.850108&z=15&t=0&c=1&s=0&b=240&p=0&m=0&j=1&k=1&v=1>
+- [Hartsop Hall](Hartsop%20Hall.md): <http://www.bing.com/maps/embed/?lvl=14&cp=54.49808658858833~-2.93124192064073&sty=s&draggable=true&v=2&eo=1&where1=54.5000055555556%2C+-2.93046944444444&pp=54.5000055555556~-2.93046944444444&emid=24b3aabe-ba98-e470-6358-070929c15af9&w=800&h=300>
+- [High Head Chapel](High%20Head%20Chapel.md): <https://maps.google.co.uk/maps?q=54.783807,-2.927744&num=1&t=h&sll=54.780699,-2.906449&sspn=0.051496,0.128059&gl=uk&ie=UTF8&ll=54.783786,-2.927728&spn=0.00735,0.034289&z=15&output=embed>
+- [Holy Trinity Church, Cambridge](Holy%20Trinity%20Church%2C%20Cambridge.md) (3)
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=52.205888888888886~0.12026388888889983&sty=h&draggable=true&v=2&eo=1&where1=52.2058888888889%2C+0.120263888888889&pp=52.2058888888889~0.120263888888889&emid=3f1e19c6-15d1-9143-50c9-846299c49c11&w=800&h=300>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=0.120334&y=52.206106&z=18&t=0&c=1&s=0&b=192&p=-13&m=0&j=1&k=1&v=1>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=0.122798&y=52.195964&z=18&t=0&c=1&s=0&b=83&p=-12&m=0&j=1&k=1&v=1>
+- [Huguenot Cemetery, Dublin](Huguenot%20Cemetery%2C%20Dublin.md) (2)
+  - <https://maps.google.co.uk/maps?hl=en&ie=UTF8&t=h&ll=53.338681,-6.254885&spn=0.00048,0.002146&z=19&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-6.255164&y=53.33855&z=16&t=0&c=1&s=0&b=58&p=4&m=0&j=1&k=1&v=1>
+- [Ive Bank, Ivegill](Ive%20Bank%2C%20Ivegill.md) (2)
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.78040427279739~-2.9182007831420833&sty=s&draggable=true&v=2&eo=0&where1=54.778647%2C+-2.908459&pp=54.778647~-2.908459&emid=aabfef3d-d056-5a3a-1750-c2b649cc7282&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.78040427279739~-2.9182007831420833&sty=h&draggable=true&v=2&eo=0&where1=54.778647%2C+-2.908459&pp=54.778647~-2.908459&emid=%20aabfef3d-d056-5a3a-1750-c2b649cc7282&w=800&h=300>
+- [Ivegill](Ivegill.md) (2)
+  - <https://maps.google.co.uk/maps?q=54.778663,-2.908394&num=1&t=h&sll=54.780699,-2.906449&sspn=0.051496,0.128059&gl=uk&ie=UTF8&ll=54.778663,-2.908459&spn=0.014702,0.068579&z=14&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.77886298489646~-2.918297052383423&sty=s&draggable=true&v=2&eo=1&where1=Ivegill%2C+Cumbria&pp=54.78064499795437~-2.905679941177368&emid=22649e03-92a1-0d2b-e95a-5d57bc5101e0&w=800&h=300>
+- [John Barton of Dublin (1782-1874)](John%20Barton%20of%20Dublin%20%281782-1874%29.md) (2)
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=55.065,-3.596649&spn=0.313775,0.547943&z=10&output=embed>
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=53.348912,-6.27594&spn=0.654169,1.095886&z=9&output=embed>
+- [John Barton of Newcastle-under-Lyme (1737-1836)](John%20Barton%20of%20Newcastle-under-Lyme%20%281737-1836%29.md) (4)
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=53.010032,-2.223015&spn=0.082421,0.136986&z=12&output=embed>
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=55.065,-3.596649&spn=0.313775,0.547943&z=10&output=embed>
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=54.179316,-6.333618&spn=0.320681,0.547943&z=10&output=embed>
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=53.236249,-1.424446&spn=0.010249,0.017123&z=15&output=embed>
+- [John Barton the Elder (1754-1789)](John%20Barton%20the%20Elder%20%281754-1789%29.md): <https://maps.google.co.uk/maps?hl=en&ie=UTF8&t=m&ll=51.503186,-0.0945&spn=0.002004,0.008572&z=17&output=embed>
+- [Mary Irving (1804-1890)](Mary%20Irving%20%281804-1890%29.md) (4)
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.84997856687362~-3.1786007881164524&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=2892de65-4b35-a157-3755-6fd1b98ee4eb&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=55.09631621102902~-2.7559591693115193&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=f0c7deaa-ea0a-09e3-d196-82503f164f8b&w=400&h=400>
+  - <https://maps.google.co.uk/?ie=UTF8&t=h&ll=54.892545,-2.93394&spn=0.000617,0.00107&z=19&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.93394&y=54.892545&z=15&t=0&c=1&s=0&b=69&p=-15&m=0&j=1&k=1&v=1>
+- [Mary Richardson (1746-1821)](Mary%20Richardson%20%281746-1821%29.md): <http://www.bing.com/maps/embed/?lvl=14&cp=54.950926651105846~-2.734747648239144&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=e10b940b-c666-ce17-e35e-2353063e75aa&w=800&h=400>
+- [Moorcroft, Weybridge in Surrey](Moorcroft%2C%20Weybridge%20in%20Surrey.md): <http://www.bing.com/maps/embed/?lvl=17&cp=51.36454158108362~-0.45929660272574324&sty=h&draggable=true&v=2&eo=0&where1=51.3645527777778%2C+-0.459233333333333&pp=51.3645527777778~-0.459233333333333&emid=df3b4bd2-b70f-afec-4f0f-4064d59d11b7&w=800&h=300>
+- [Ormside Hall](Ormside%20Hall.md) (5)
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.54995745978187~-2.463194137573254&sty=s&draggable=true&v=2&eo=0&where1=Ormside+Hall%2C+United+Kingdom&pp=54.55277~-2.46225&emid=7dac9b92-35c6-c5f8-d10d-7e01b4569e5a&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.51960683964824~-2.4643809795379723&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=aee9eb8e-de0a-1040-73b9-28550d536a42&w=800&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=13&cp=54.51659329226183~-2.9330752014160244&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=4e74aac2-4141-ebf3-c50c-f09551ce2a51&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=13&cp=54.6124375876189~-2.821495306396493&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=b9d80538-6ea8-236c-5b18-555f322b071a&w=400&h=400>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004c26bdc19c65ecdc7b&ie=UTF8&t=h&ll=54.57445,-2.60376&spn=0.31761,1.09726&z=10&output=embed>
+- [Osmaston Manor, Derbyshire](Osmaston%20Manor%2C%20Derbyshire.md): <http://www.bing.com/maps/embed/?lvl=14&cp=52.98298096833469~-1.7013084143392199&sty=s&draggable=true&v=2&dir=0&eo=0&q=osmaston+derbyshire&pp=52.98313599172661~-1.702080890535509&emid=08bf6204-7893-5b95-a421-15322e1873cd&w=800&h=300>
+- [Parishes of Cumberland and Westmorland](Parishes%20of%20Cumberland%20and%20Westmorland.md): <https://maps.google.co.uk/maps/ms?hl=en&ie=UTF8&t=h&msa=0&msid=113677220254684947542.0004922d2b256e9504fa3&ll=54.78485,-2.92511&spn=0.237572,0.549316&z=11&output=embed>
+- [Parkwood Mills, Huddersfield](Parkwood%20Mills%2C%20Huddersfield.md) (2)
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=53.647046262323286~-1.8351738443915933&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=df05b67c-11a1-87e3-d33e-375218d6794c&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-1.843466&y=53.647937&z=16&t=0&c=1&s=0&b=287&p=-14&m=0&j=1&k=1&v=1>
+- [Parsy Close, near Thomas Close](Parsy%20Close%2C%20near%20Thomas%20Close.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.751917517517704~-2.9002078342088766&sty=s&draggable=true&v=2&dir=0&eo=0&where1=Ivegill%2C+Cumbria&q=Ivegill%2C+Cumbria&form=LMLTEW&pp=54.78064499795437~-2.905679941177368&emid=94ee2c30-73b3-3d58-ea5c-0256d97ad45b&w=400&h=600>
+- [Places](Places.md): <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004c09e55b3f4668d8a2&ie=UTF8&t=m&ll=31.052934,6.328125&spn=138.381149,280.898438&z=2&output=embed>
+- [Rev. Cecil Barton (1870-1909)](Rev.%20Cecil%20Barton%20%281870-1909%29.md): <http://www.bing.com/maps/embed/?lvl=15&cp=50.7148643831883~-2.9994163513183647&sty=s&draggable=true&v=2&dir=0&eo=0&where1=Rousdon%2C+Devon&form=LMLTEW&pp=50.717491149902344~-3.0000600814819336&mkt=en-gb&emid=2768cac0-879b-8880-cc79-aa9ed7aa5329&w=800&h=400>
+- [Rev. Edward King Elliott (1828-1920)](Rev.%20Edward%20King%20Elliott%20%281828-1920%29.md): <https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=broadwater,+sussex&aq=&sll=53.800651,-4.064941&sspn=13.835858,39.506836&ie=UTF8&hq=&hnear=Broadwater,+West+Sussex,+United+Kingdom&t=m&ll=50.828764,-0.37405&spn=0.021686,0.068579&z=14&iwloc=A&output=embed>
+- [Rev. Gerard Barton (1834-1889)](Rev.%20Gerard%20Barton%20%281834-1889%29.md): <http://www.bing.com/maps/embed/?lvl=15&cp=52.524407290627295~1.1695725470781326&sty=s&draggable=true&v=2&dir=0&eo=1&q=Fundenhall&pp=52.524407290627295~1.1683280020953024&emid=702745f7-e193-5cc2-aad1-d40c1947c5bd&w=800&h=300>
+- [Robert Barton (1747-1795)](Robert%20Barton%20%281747-1795%29.md) (2)
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.84511656722249~-3.1666128635406543&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=1dfbff35-3186-ff65-1614-e96bc4196455&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-3.165369&y=54.845106&z=15&t=0&c=1&s=0&b=246&p=1&m=1&j=1&k=1&v=1>
+- [Robert Barton (1828-1917)](Robert%20Barton%20%281828-1917%29.md) (3)
+  - <http://www.bing.com/maps/embed/?lvl=18&cp=54.89235748607737~-2.9321359258079527&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=95fcb90f-d3fe-8664-1b9f-5c7fd74a3d4e&w=800&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.97174399734663~-2.9394117589052815&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=f3e45b11-6650-2d1c-2202-b90c7e1e920d&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=55.0582095811342~-2.9234043355044026&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=9785d9b0-bc1e-388c-1c48-fac1e3db635f&w=400&h=400>
+- [Robert Barton (1893-1916)](Robert%20Barton%20%281893-1916%29.md): <https://maps.google.co.uk/?ie=UTF8&t=m&ll=50.694283,3.186722&spn=0.130488,0.54863&z=11&output=embed>
+- [Robert de Barton, King's clerk (13th-14thC)](Robert%20de%20Barton%2C%20King%27s%20clerk%20%2813th-14thC%29.md) (2)
+  - <http://www.bing.com/maps/embed/?lvl=13&cp=54.16665757018705~-0.9131118655204729&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=6a8e3b55-2beb-ac10-6a06-01f4752e12d9&w=800&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=13&cp=54.12981303150283~-1.047763824462884&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=dfe0ed09-3f13-1410-3f58-02dedd7b4f98&w=800&h=400>
+- [Shimla, India](Shimla%2C%20India.md): <https://maps.google.co.uk/?ie=UTF8&t=k&ll=31.104189,77.174642&spn=0.005512,0.017145&z=16&output=embed>
+- [Smithills Hall](Smithills%20Hall.md): <http://www.bing.com/maps/embed/?lvl=15&cp=53.60340511667975~-2.4565601348876953&sty=s&draggable=true&v=2&eo=0&where1=Smithills+Hall%2C+Smithills+Dean+Road%2C+Bolton%2C+Lancashire+BL1+7NP&ss=ypid.YN1003x199116617~pg.1&emid=898e4e2c-1da4-945d-3add-c856ac7acf0c&w=800&h=300>
+- [Srinagar, India](Srinagar%2C%20India.md) (2)
+  - <https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=&sll=34.040712,74.807625&sspn=0.157039,0.308647&gl=uk&g=Badgam,+Jammu+and+Kashmir,+India&ie=UTF8&t=k&ll=34.066028,74.813805&spn=0.085322,0.274315&z=12&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=34.07007379278853~74.81232905435003&sty=h&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=acd12778-9686-0b56-9d1d-87636d51a4c3&w=800&h=300>
+- [St. Mary's Church, Tattingstone](St.%20Mary%27s%20Church%2C%20Tattingstone.md): <https://maps.google.co.uk/maps?f=d&source=s_d&saddr=&daddr=&hl=en&geocode=&sll=52.028838,1.112366&sspn=0.449508,1.234589&vpsrc=0&gl=uk&mra=mr&ie=UTF8&t=h&ll=51.990635,1.111872&spn=0.002643,0.008572&z=17&output=embed>
+- [Tattingstone Rectory, Suffolk](Tattingstone%20Rectory%2C%20Suffolk.md): <http://www.bing.com/maps/embed/?lvl=17&cp=51.9900055555556~1.1120166666666478&sty=h&draggable=true&v=2&eo=1&where1=51.9900055555556%2C+1.11201666666667&pp=51.9900055555556~1.11201666666667&emid=54522f48-1419-68ed-648b-a833e5a2ae53&w=800&h=300>
+- [The Barton name](The%20Barton%20name.md): <https://maps.google.co.uk/maps/ms?f=q&source=s_q&hl=en&geocode=&ie=UTF8&msa=0&msid=113677220254684947542.000496e337a55ced5c4d9&ll=53.383328,-4.262695&spn=7.787263,35.112305&z=5&output=embed>
+- [The Grange, Ivegill](The%20Grange%2C%20Ivegill.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.77701872850951~-2.906886518520764&sty=s&draggable=true&v=2&eo=1&where1=54.7783305555556%2C+-2.90658611111111&pp=54.7783305555556~-2.90658611111111&emid=1878a675-23ca-abc0-85f0-50525d3065ff&w=800&h=300>
+- [The portrait of John Barton the Elder](The%20portrait%20of%20John%20Barton%20the%20Elder.md): <http://www.bing.com/maps/embed/?lvl=16&cp=54.89375513107407~-2.934707879120597&sty=r&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=ed954961-1668-700a-ee31-dd978380294f&w=800&h=400>
+- [Thomas Barton (1833-1893)](Thomas%20Barton%20%281833-1893%29.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.89146522830386~-2.9113488197326642&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=6c7ada1c-cd07-0b9f-4e5a-ec6f3801801b&w=400&h=400>
+- [Thomas Dougan (d.1797)](Thomas%20Dougan%20%28d.1797%29.md): <https://maps.google.co.uk/maps?ie=UTF8&t=m&vpsrc=0&source=embed&ll=6.787353,-58.182564&spn=0.136367,0.274315&z=12&output=embed>
+- [Thornhaugh, Croydon](Thornhaugh%2C%20Croydon.md): <http://www.bing.com/maps/embed/?lvl=14&cp=51.36912111621171~-0.073268582152477&sty=s&draggable=true&v=2&dir=0&eo=0&where1=51.3813%2C+-0.0543&q=51.3813%2C+-0.0543&pp=undefined~undefined&emid=4b0cfa23-72b0-974a-ee0c-b843c9c3d8ec&w=800&h=400>
+- [Whenby, Yorkshire](Whenby%2C%20Yorkshire.md) (2)
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004c09e55b3f4668d8a2&ie=UTF8&t=m&ll=54.055357,-0.995636&spn=0.322451,1.09726&z=10&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=12&cp=54.13820752672715~-0.9748241305351213&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=e040454f-f4ef-94c0-e421-b99b5de58d9b&w=800&h=400>
+- [William Barton (1785-1846)](William%20Barton%20%281785-1846%29.md) (4)
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=54.8924596689596~-2.9334716796874982&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=941796d8-06b0-3b5d-6ecb-f4c872fc2083&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.930802&y=54.892189&z=18&t=0&c=1&s=0&b=289&p=9&m=0&j=1&k=1&v=1>
+  - <http://www.bing.com/maps/embed/?lvl=18&cp=54.89212918403913~-2.9325838547134397&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=9f56378d-3655-5c63-da98-31addb252ecc&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.93273&y=54.89234&z=16&t=0&c=1&s=0&b=116&p=-12&m=0&j=1&k=1&v=1>
+- [William Barton of Beacon Hill](William%20Barton%20of%20Beacon%20Hill.md): <http://www.bing.com/maps/embed/?lvl=14&cp=54.78739162299206~-2.8994151217040987&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=0fa4bd2e-4257-1505-6c67-a59a96ac7f87&w=800&h=400>
+- [_Broadbent 1976](_Broadbent%201976.md) (6)
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&t=p&source=embed&msa=0&msid=204227934348798681488.00049a86ae6a518ca6652&ll=53.655576,-1.83712&spn=0.015107,0.068579&z=14&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-1.849121&y=53.654126&z=15&t=0&c=1&s=0&b=21&p=-3&m=0&j=1&k=1&v=1>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-1.843466&y=53.647937&z=16&t=0&c=1&s=0&b=287&p=-14&m=0&j=1&k=1&v=1>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-1.845833&y=53.652202&z=15&t=0&c=1&s=0&b=359&p=-6&m=0&j=1&k=1&v=1>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-0.149717&y=51.512421&z=15&t=0&c=1&s=0&b=322&p=-4&m=0&j=1&k=1&v=1>
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=204227934348798681488.00049abe9d107869ec674&ll=25.799891,76.464844&spn=23.367971,70.224609&z=4&output=embed>
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md) (16)
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=k&ll=34.045832,75.205536&spn=0.455157,1.09726&z=10&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.045832,74.965553&spn=0.11379,0.274315&z=12&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.073706,75.086746&spn=0.113752,0.274315&z=12&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.141646,75.148201&spn=0.113661,0.274315&z=12&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.132268,75.222359&spn=0.113673,0.274315&z=12&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.100292,75.300293&spn=0.056858,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.123316,75.353165&spn=0.056843,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.076408,75.361748&spn=0.056874,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.091478,75.415821&spn=0.056864,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.119337,75.463371&spn=0.028423,0.068579&z=14&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.099012,75.431099&spn=0.056859,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.087924,75.465603&spn=0.056867,0.137157&z=13&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.070436,75.396338&spn=0.028439,0.068579&z=14&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=34.018803,75.332909&spn=0.113826,0.274315&z=12&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=33.938803,75.29892&spn=0.227866,0.54863&z=11&output=embed>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b76e42d60acfffec8&ie=UTF8&t=h&ll=33.913734,74.97345&spn=0.455865,1.09726&z=10&output=embed>
+- [_Dalston parish records](_Dalston%20parish%20records.md): <https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=dalston,+cumbria&sll=54.759105,-2.883911&sspn=0.096476,0.308647&gl=uk&ie=UTF8&hq=&hnear=Dalston,+Carlisle,+Cumbria,+United+Kingdom&t=h&ll=54.841431,-2.984161&spn=0.117433,0.54863&z=11&iwloc=A&output=embed>
+- [_Dougan 1826](_Dougan%201826.md): <http://www.bing.com/maps/embed/?lvl=12&cp=18.428393211096363~-64.61045549755858&sty=r&draggable=true&v=2&emid=bb3d60ca-bc79-943a-d61b-54b034f7d915&w=800&h=300>
+- [_Emily Dougan's 1856 Sketchbook](_Emily%20Dougan%27s%201856%20Sketchbook.md): <https://maps.google.co.uk/maps/ms?hl=en&ie=UTF8&t=p&msa=0&msid=113677220254684947542.0004947a956d2c61a1a16&ll=48.166085,8.525391&spn=8.795208,35.112305&z=5&output=embed>
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md) (2)
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&msid=113677220254684947542.000496cec8301f8ac4499&ll=10.876465,78.112793&spn=6.405203,17.556152&t=p&z=6&output=embed>
+  - <https://maps.google.com/maps/ms?t=p&ie=UTF8&hl=en&msa=0&msid=113677220254684947542.00049747f9c7e4db860bb&ll=44.527843,8.876953&spn=9.301864,35.112305&z=5&output=embed>
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (5)
+  - <https://maps.google.co.uk/maps?hl=en&q=stoughton+sussex&ie=UTF8&hq=&hnear=Stoughton,+Chichester,+Sussex,+United+Kingdom&gl=uk&sqi=2&ll=50.896537,-0.86174&spn=0.128625,0.54863&z=11&iwloc=A&output=embed>
+  - <https://maps.google.com/maps/ms?t=p&ie=UTF8&hl=en&msa=0&msid=204227934348798681488.00049798e1b74d44c5ae2&ll=54.648413,-2.911377&spn=0.943929,4.389038&z=8&output=embed>
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=204227934348798681488.000497798ab31428b328b&ll=53.054422,-3.982544&spn=0.980577,4.389038&z=8&output=embed>
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&msid=204227934348798681488.000497782227437abcab9&ll=56.752723,-4.020996&spn=1.788871,8.778076&t=p&z=7&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=51.520635785911104~-0.129848169311515&sty=r&draggable=true&v=2&eo=0&where1=Keppel+Street%2C+London+WC1E+6&pp=51.520549~-0.129934&emid=fc455efc-43aa-964f-3c92-4cac54b7da4f&w=800&h=300>
+- [_Miscellaneous records](_Miscellaneous%20records.md) (5)
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.63196606529824~-2.8176089376211166&sty=s&draggable=true&v=2&eo=1&where1=Dacre%2C+Cumbria&pp=54.63092274963856~-2.839324101805687&emid=f5f4a26c-e90a-90b9-ef56-dbe9c993d958&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.59453568915194~-2.626134753227234&sty=s&draggable=true&v=2&eo=1&where1=Morland%2C+Cumbria&pp=54.59622636437416~-2.627508044242859&emid=1adb5b2d-c49b-0701-de51-c32c4a7437ad&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.88429676563237~-2.9634520411491394&sty=s&draggable=true&v=2&eo=1&where1=CA2+6JP%2C+Carlisle%2C+Cumbria&pp=54.885851964354515~-2.963666617870331&emid=43eda43e-63bf-b5fd-2d09-ef5ae551253d&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=14&cp=54.67691408478287~-2.8086054840087797&sty=s&draggable=true&v=2&cid=2A988D526A36CC69!112&eo=0&where1=54.846281%2C+-3.175875&pp=54.846281~-3.175875&emid=fba96089-3627-5c74-4a20-9b47c9ef9a9e&w=800&h=300>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.8440817984148~-3.166776947021475&sty=s&draggable=true&v=2&cid=2A988D526A36CC69!112&eo=0&where1=54.846281%2C+-3.175875&pp=54.846281~-3.175875&emid=af1e0b38-7cc1-c17d-f2a4-326945f15c49&w=800&h=300>
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md): <http://www.bing.com/maps/embed/?lvl=14&cp=54.54517818569649~-2.4849951324463007&sty=s&draggable=true&v=2&eo=1&where1=Ormside+Hall%2C+United+Kingdom&pp=54.55277~-2.46225&emid=a4735f7e-6772-c3a0-76fa-dae44aa1a783&w=800&h=400>
+- [_Penfold](_Penfold.md) (11)
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.84997856687362~-3.1786007881164524&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=2892de65-4b35-a157-3755-6fd1b98ee4eb&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=55.09631621102902~-2.7559591693115193&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=f0c7deaa-ea0a-09e3-d196-82503f164f8b&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.845031776706804~-3.1664339299257893&sty=s&draggable=true&v=2&dir=0&form=LMLTEW&mkt=en-gb&emid=a3ab5c92-96fc-a7a0-22aa-59a2d1bbd18d&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.958023879559306~-2.7197272777557457&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=e10b940b-c666-ce17-e35e-2353063e75aa&w=400&h=400>
+  - <https://maps.google.co.uk/?ie=UTF8&t=h&ll=54.892545,-2.93394&spn=0.000617,0.00107&z=19&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.93394&y=54.892545&z=15&t=0&c=1&s=0&b=69&p=-15&m=0&j=1&k=1&v=1>
+  - <https://maps.google.co.uk/?ie=UTF8&t=m&ll=54.890499,-2.922192&spn=0.002468,0.004281&z=17&output=embed>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.866490613361954~-2.9319214820861728&sty=s&draggable=true&v=2&dir=0&eo=0&ss=yp.blackwell~pg.1~rad.0%2C933039415497824&form=LMLTEW&mkt=en-gb&emid=b07e2e0e-62d5-c3cb-911a-232703dc191a&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.86899041580495~-2.962103366851798&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=4ba25a5f-24b7-ff3f-566a-07a68b17e469&w=800&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.7547538161436~-2.882211158691408&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=dce2a962-4396-cbd8-fac8-442e91af07f2&w=400&h=400>
+  - <http://www.bing.com/maps/embed/?lvl=15&cp=54.971980795376666~-2.9396748046264665&sty=s&draggable=true&v=2&dir=0&eo=0&where1=Thomas+Close%2C+Thomas+Close+CA11+9&form=LMLTEW&pp=54.756611~-2.887361&mkt=en-gb&emid=4f59176d-0dbe-4cec-4b6b-2e0311ca5376&w=400&h=400>
+- [_Perriam articles and research](_Perriam%20articles%20and%20research.md) (7)
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=54.88843643752348~-2.935477972030638&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=c330a7c1-bbb5-9649-e500-c3d9c6900294&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.936617&y=54.890148&z=17&t=0&c=1&s=0&b=167&p=0&m=0&j=1&k=1&v=1>
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=54.8924596689596~-2.9334716796874982&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=941796d8-06b0-3b5d-6ecb-f4c872fc2083&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.930802&y=54.892189&z=18&t=0&c=1&s=0&b=289&p=9&m=0&j=1&k=1&v=1>
+  - <http://www.bing.com/maps/embed/?lvl=18&cp=54.89212918403913~-2.9325838547134397&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=9f56378d-3655-5c63-da98-31addb252ecc&w=800&h=400>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-2.93273&y=54.89234&z=16&t=0&c=1&s=0&b=116&p=-12&m=0&j=1&k=1&v=1>
+  - <http://www.bing.com/maps/embed/?lvl=17&cp=54.88843643752348~-2.935477972030638&sty=r&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=c330a7c1-bbb5-9649-e500-c3d9c6900294&w=800&h=400>
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (4)
+  - <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=204227934348798681488.00049a4c7771672acf026&ll=51.592429,-0.280151&spn=0.253386,1.09726&z=10&output=embed>
+  - <http://data.mapchannels.com/streetmap/v101/streetmap101.htm?x=-0.17684&y=51.580816&z=15&t=0&c=1&s=0&b=287&p=-7&m=0&j=1&k=1&v=1>
+  - <https://maps.google.co.uk/maps/ms?msa=0&msid=204227934348798681488.0004b62bf8c93840d8dcb&ie=UTF8&t=h&vpsrc=1&ll=51.51118,-0.117915&spn=0.006877,0.08243&output=embed>
+  - <https://maps.google.co.uk/?ie=UTF8&t=h&vpsrc=0&ll=51.562779,-0.180175&spn=0.001334,0.004286&z=18&output=embed>
+- [_Transactions CWAAS v13 1895](_Transactions%20CWAAS%20v13%201895.md): <https://maps.google.co.uk/maps?q=westward+cumbria&ie=UTF8&hq=&hnear=Westward,+Wigton,+Cumbria,+United+Kingdom&gl=uk&ei=K4asTNL0J93NjAevnY3FBw&ved=0CBcQ8gEwAA&t=h&ll=54.793956,-3.130417&spn=0.117571,0.54863&z=11&iwloc=A&output=embed>
+- [_Transactions CWAAS v6 1882](_Transactions%20CWAAS%20v6%201882.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.356625059291~-2.7560900000000004&sty=s&draggable=true&v=2&eo=0&where1=Burneside+Hall%2C+United+Kingdom&pp=54.35645~-2.75609&emid=73fd1d5d-9c93-f8db-9a25-958e8e32c6df&w=800&h=300>
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md): <https://maps.google.co.uk/maps?q=Sebergham&ie=UTF8&hl=en&hq=&hnear=Sebergham,+Carlisle,+Cumbria,+United+Kingdom&t=h&ll=54.767424,-3.000641&spn=0.058824,0.274315&z=12&iwloc=A&output=embed>
+- [_Wheatley 1903](_Wheatley%201903.md): <http://www.bing.com/maps/embed/?lvl=15&cp=54.958023879559306~-2.7197272777557457&sty=s&draggable=true&v=2&dir=0&eo=0&form=LMLTEW&mkt=en-gb&emid=e10b940b-c666-ce17-e35e-2353063e75aa&w=800&h=400>
+- [index](index.md): <https://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&t=p&source=embed&msa=0&msid=113677220254684947542.0004916cc50677cb5b8b0&ll=54.638876,-2.697144&spn=0.476858,2.194519&z=9&output=embed>
+
+## Embeds: other
+
+- [Timeline](Timeline.md) (2)
+  - <http://www.dipity.com/dbhbarton/Barton-family-history/embed_map?bgcolor=%237a99c1>
+  - Dipity timeline embed: [Embedded embed from www.dipity.com] Barton family history on Dipity.
+
+## Background colour / highlight (dropped)
+
+- [_High Head baptismal register](_High%20Head%20baptismal%20register.md)
+  - **#ffffff** ×1 — e.g. “17 September 1754. Is this a mistake or a mysteriously late …”
+
+## Broken internal links / missing files
+
+- [Agnes Wright (d.1857)](Agnes%20Wright%20%28d.1857%29.md): `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+- [Albert Edward Barton (1861-1932)](Albert%20Edward%20Barton%20%281861-1932%29.md): `Marguerite%20Norma%20Smith%20%281884-1979%29.html` (no page named “Marguerite Norma Smith (1884-1979)”)
+- [Alfred Charles Elliott (1870-1952)](Alfred%20Charles%20Elliott%20%281870-1952%29.md) (2)
+  - `Louisa%20Jane%20Dumbell%20%281841-1879%29.html` (no page named “Louisa Jane Dumbell (1841-1879)”)
+  - `Maud%20Beeching%20%28d.1946%29.html` (no page named “Maud Beeching (d.1946)”)
+- [Alice Matilda Barton (b.1862)](Alice%20Matilda%20Barton%20%28b.1862%29.md): `Ellinor%20Taylor%20%281832-1862%29.html` (no page named “Ellinor Taylor (1832-1862)”)
+- [Alicia Elliott (1832-1912)](Alicia%20Elliott%20%281832-1912%29.md) (2)
+  - `Charles%20Hudson%20Boileau%20Cane%20%28b.1867%29.html` (no page named “Charles Hudson Boileau Cane (b.1867)”)
+  - `Alicia%20Catherine%20Cane%20%28b.1869%29.html` (no page named “Alicia Catherine Cane (b.1869)”)
+- [Anna Maria Elliott (1837-1883)](Anna%20Maria%20Elliott%20%281837-1883%29.md): `Harriet%20Emily%20Steele.html` (no page named “Harriet Emily Steele”)
+- [Anne Boileau (1769-1854)](Anne%20Boileau%20%281769-1854%29.md): `John%20Reid.html` (no page named “John Reid”)
+- [Anne Stote Fox (1867-1957)](Anne%20Stote%20Fox%20%281867-1957%29.md) (5)
+  - `Rev.%20Henry%20E.%20Fox.html` (no page named “Rev. Henry E. Fox”)
+  - `Humphrey%20Douglas%20Elliott%20Barton%20%28b.1900%29.html` (no page named “Humphrey Douglas Elliott Barton (b.1900)”)
+  - `David%20Gerard%20Frederick%20Barton%20%28b.1901%29.html` (no page named “David Gerard Frederick Barton (b.1901)”)
+  - `George%20Donald%20Barton%20%28b.1904%29.html` (no page named “George Donald Barton (b.1904)”)
+  - `Violet%20Jean%20Barton%20%28b.1908%29.html` (no page named “Violet Jean Barton (b.1908)”)
+- [Antoine Boileau (d.1530)](Antoine%20Boileau%20%28d.1530%29.md) (2)
+  - `Etiennette%20Bourdin.html` (no page named “Etiennette Bourdin”)
+  - `Fran%C3%A7oise%20Trousselier.html` (no page named “Françoise Trousselier”)
+- [Archibald Vere Monro (1867-1944)](Archibald%20Vere%20Monro%20%281867-1944%29.md): `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+- [Arthur Edward Elliott (b.1867)](Arthur%20Edward%20Elliott%20%28b.1867%29.md): `/Arthur%20Edward%20Elliott%20%28nephew%20of%20Emily%29%20and%20Janet%20Chennock-Smith%20married%20June%201895%20B.jpg` (no page named “Arthur Edward Elliott (nephew of Emily) and Janet Chennock-Smith married June 1895 B.jpg”)
+- [Arthur Elliott Barton (1864-1931)](Arthur%20Elliott%20Barton%20%281864-1931%29.md): `Madeleine%20Parcheminey%20%28b.1885%29.html` (no page named “Madeleine Parcheminey (b.1885)”)
+- [Basil Edward Spragge (1851-1926)](Basil%20Edward%20Spragge%20%281851-1926%29.md) (2)
+  - `Sarah%20Prickett%20%281812-1899%29.html` (no page named “Sarah Prickett (1812-1899)”)
+  - `Anne%20Ingham%20Brook%20%28b.1871%29.html` (no page named “Anne Ingham Brook (b.1871)”)
+- [Bernard Barton of Carlisle (1728-1773)](Bernard%20Barton%20of%20Carlisle%20%281728-1773%29.md): `/Bernard%20Barton%20of%20Carlisle%201773%20will.jpg` (no page named “Bernard Barton of Carlisle 1773 will.jpg”)
+- [Bernard Cecil Leslie Barton (1898-1992)](Bernard%20Cecil%20Leslie%20Barton%20%281898-1992%29.md): `Agnes%20Thomson%20%281900-1973%29.html` (no page named “Agnes Thomson (1900-1973)”)
+- [Broadwater and Worthing Cemetery, Sussex](Broadwater%20and%20Worthing%20Cemetery%2C%20Sussex.md) (5)
+  - `Mary%20Elizabeth%20Richey.html` (no page named “Mary Elizabeth Richey”)
+  - `Alice%20Joan%20Emily%20Elliott%20%281857-1950%29.html` (no page named “Alice Joan Emily Elliott (1857-1950)”)
+  - `Edith%20Helen%20Willey.html` (no page named “Edith Helen Willey”)
+  - `Charteris%20Frederick%20Venn%20Richey%20Elliott%20%281901-1969%29.html` (no page named “Charteris Frederick Venn Richey Elliott (1901-1969)”)
+  - `Maria%20Emma%20Smith%20%281874-1956%29.html` (no page named “Maria Emma Smith (1874-1956)”)
+- [Butterworth Broadbent (1837-1873)](Butterworth%20Broadbent%20%281837-1873%29.md): `Julia%20Minerva%20Harpin.html` (no page named “Julia Minerva Harpin”)
+- [Caroline Adelaide Dupre (1815-1898)](Caroline%20Adelaide%20Dupre%20%281815-1898%29.md) (5)
+  - `Madeline%20Maxwell%20%281780-1818%29.html` (no page named “Madeline Maxwell (1780-1818)”)
+  - `Frederick%20du%20Pre%20Thornton%20%281841-1903%29.html` (no page named “Frederick du Pre Thornton (1841-1903)”)
+  - `Julia%20Frances%20Thornton%20%281846-1885%29.html` (no page named “Julia Frances Thornton (1846-1885)”)
+  - `Caroline%20Sophia%20Thornton%20%281846-1912%29.html` (no page named “Caroline Sophia Thornton (1846-1912)”)
+  - `Emily%20Montagu%20Thornton%20%281849-1934%29.html` (no page named “Emily Montagu Thornton (1849-1934)”)
+- [Catherine Anne Dupre (b.1804)](Catherine%20Anne%20Dupre%20%28b.1804%29.md) (7)
+  - `Madeline%20Maxwell%20%281780-1818%29.html` (no page named “Madeline Maxwell (1780-1818)”)
+  - `Maria%20Lousie%20Grenfell%20%28b.1827%29.html` (no page named “Maria Lousie Grenfell (b.1827)”)
+  - `Pasco%20Du%20Pre%20Grenfell%20%281828-1896%29.html` (no page named “Pasco Du Pre Grenfell (1828-1896)”)
+  - `St.%20Leger%20Murray%20Grenfell%20%281830-1860%29.html` (no page named “St. Leger Murray Grenfell (1830-1860)”)
+  - `Arthur%20Riversdale%20Grenfell%20%281831-1895%29.html` (no page named “Arthur Riversdale Grenfell (1831-1895)”)
+  - `Gertrude%20Fanny%20Grenfell%20%281834-1880%29.html` (no page named “Gertrude Fanny Grenfell (1834-1880)”)
+  - `Elizabeth%20Mary%20Grenfell%20%281836-1894%29.html` (no page named “Elizabeth Mary Grenfell (1836-1894)”)
+- [Catherine Mary Pearson (b.1815)](Catherine%20Mary%20Pearson%20%28b.1815%29.md) (2)
+  - `Rev.%20Hugh%20Nicholas%20Pearson%20%281776-1856%29.html` (no page named “Rev. Hugh Nicholas Pearson (1776-1856)”)
+  - `Henry%20Hugh%20Pearson%20%281815-1873%29.html` (no page named “Henry Hugh Pearson (1815-1873)”)
+- [Catherine Wigram (1831-1860)](Catherine%20Wigram%20%281831-1860%29.md): `Catherine%20Smith.html` (no page named “Catherine Smith”)
+- [Charles Arthur Boileau Elliott (1893-1917)](Charles%20Arthur%20Boileau%20Elliott%20%281893-1917%29.md): `Katherine%20Frances%20Boileau%20Elliott%20%28b.1896%29.html` (no page named “Katherine Frances Boileau Elliott (b.1896)”)
+- [Charles Boileau (d.1733)](Charles%20Boileau%20%28d.1733%29.md) (10)
+  - `Fran%C3%A7oise%20de%20Vignolles%20%281643-1700%29.html` (no page named “Françoise de Vignolles (1643-1700)”)
+  - `Mary%20Magdalena%20Collot%20D%E2%80%99Escury%20%281679-1731%29.html` (no page named “Mary Magdalena Collot D’Escury (1679-1731)”)
+  - `Charles%20Daniel%20Boileau%20%281711-1772%29.html` (no page named “Charles Daniel Boileau (1711-1772)”)
+  - `Henry%20Charles%20Boileau%20%28b.1712%29.html` (no page named “Henry Charles Boileau (b.1712)”)
+  - `Marie%20Louise%20Boileau%20%28b.1713%29.html` (no page named “Marie Louise Boileau (b.1713)”)
+  - `Georgette%20Magdeleine%20Boileau%20%28b.1715%29.html` (no page named “Georgette Magdeleine Boileau (b.1715)”)
+  - `Pierre%20Boileau%20%28b.1720%29.html` (no page named “Pierre Boileau (b.1720)”)
+  - `Jean%20Boileau%20%281721-1722%29.html` (no page named “Jean Boileau (1721-1722)”)
+  - `Marie%20Boileau%20%281723-1760%29.html` (no page named “Marie Boileau (1723-1760)”)
+  - `Marguerite%20Boileau%20%28d.1778%29.html` (no page named “Marguerite Boileau (d.1778)”)
+- [Charles Edward Elliot (1693-1763)](Charles%20Edward%20Elliot%20%281693-1763%29.md): `Gilbert%20Elliot%20of%20Nethermill.html` (no page named “Gilbert Elliot of Nethermill”)
+- [Charles Elliott (1776-1856)](Charles%20Elliott%20%281776-1856%29.md): `Sarah%20Ann%20Sherman%20%28d.1784%29.html` (no page named “Sarah Ann Sherman (d.1784)”)
+- [Charles Elliott the cabinet-maker (1752-1832)](Charles%20Elliott%20the%20cabinet-maker%20%281752-1832%29.md): `Sarah%20Ann%20Sherman%20%28d.1784%29.html` (no page named “Sarah Ann Sherman (d.1784)”)
+- [Charles Lister Boileau Elliott (1864-1940)](Charles%20Lister%20Boileau%20Elliott%20%281864-1940%29.md): `Katherine%20Frances%20Boileau%20Elliott%20%28b.1896%29.html` (no page named “Katherine Frances Boileau Elliott (b.1896)”)
+- [Chrissie Barton (b.1874)](Chrissie%20Barton%20%28b.1874%29.md) (2)
+  - `Freddie%20Payne.html` (no page named “Freddie Payne”)
+  - `Rhoda%20Payne%20%28b.1902%29.html` (no page named “Rhoda Payne (b.1902)”)
+- [Clarissa Squire (1780-1830)](Clarissa%20Squire%20%281780-1830%29.md) (9)
+  - `Elizabeth%20Spurrell.html` (no page named “Elizabeth Spurrell”)
+  - `Clarissa%20Angela%20Dougan%20%281800-1841%29.html` (no page named “Clarissa Angela Dougan (1800-1841)”)
+  - `Ellen%20Penelope%20Dougan%20%281802-1835%29.html` (no page named “Ellen Penelope Dougan (1802-1835)”)
+  - `Clara%20Domett%20Dougan%20%281809-1858%29.html` (no page named “Clara Domett Dougan (1809-1858)”)
+  - `Anna%20Maria%20Dougan%20%281813-1833%29.html` (no page named “Anna Maria Dougan (1813-1833)”)
+  - `Laura%20Dougan%20%281814-1861%29.html` (no page named “Laura Dougan (1814-1861)”)
+  - `Charles%20Cockburn%20Dougan%20%281815-1824%29.html` (no page named “Charles Cockburn Dougan (1815-1824)”)
+  - `Rosalie%20Adelaide%20Dougan%20%281817-1894%29.html` (no page named “Rosalie Adelaide Dougan (1817-1894)”)
+  - `George%20Augustus%20Dougan%20%281818-1877%29.html` (no page named “George Augustus Dougan (1818-1877)”)
+- [Claude George Thornton (1776-1866)](Claude%20George%20Thornton%20%281776-1866%29.md) (3)
+  - `Godfrey%20Thornton%20%281737-1805%29.html` (no page named “Godfrey Thornton (1737-1805)”)
+  - `Jane%20Codin.html` (no page named “Jane Codin”)
+  - `Frances%20Anne%20Smith%20%281785-1862%29.html` (no page named “Frances Anne Smith (1785-1862)”)
+- [Col. Theodore Broadbent (1881-1952)](Col.%20Theodore%20Broadbent%20%281881-1952%29.md): `Katherine%20Peters%20%28d.1956%29.html` (no page named “Katherine Peters (d.1956)”)
+- [Contents](Contents.md) (2)
+  - `Fran%C3%A7oise%20de%20Vignolles%20%281643-1700%29.html` (no page named “Françoise de Vignolles (1643-1700)”)
+  - `home.html` (no page named “home”)
+- [Dora Nicholson (1844-1897)](Dora%20Nicholson%20%281844-1897%29.md): `files/Dora%20Broadbent%20nee%20Nicholson%20with%20her%20son%20Theo%20at%20%20Woodhall%20Cottage%20in%20Shimla%20India%2C%20~1887.jpg`
+- [Edith Frances Cane (1869-1946)](Edith%20Frances%20Cane%20%281869-1946%29.md): `Alicia%20Catherine%20Cane%20%281869-1944%29.html` (no page named “Alicia Catherine Cane (1869-1944)”)
+- [Editors FAQ](Editors%20FAQ.md) (2)
+  - `home.html` (no page named “home”)
+  - `Living%20Connections.html` (no page named “Living Connections”)
+- [Edward Barton (1828-1913)](Edward%20Barton%20%281828-1913%29.md) (3)
+  - `Mary%20Irving%20Barton%20%28d.1942%29.html` (no page named “Mary Irving Barton (d.1942)”)
+  - `Elizabeth%20Barton%20%281862-1870%29.html` (no page named “Elizabeth Barton (1862-1870)”)
+  - `Maud%20Barton.html` (no page named “Maud Barton”)
+- [Edward Stanhope Pearson (b.1824)](Edward%20Stanhope%20Pearson%20%28b.1824%29.md): `Rev.%20Hugh%20Nicholas%20Pearson%20%281776-1856%29.html` (no page named “Rev. Hugh Nicholas Pearson (1776-1856)”)
+- [Edward Wigram (b.1802)](Edward%20Wigram%20%28b.1802%29.md) (2)
+  - `Eleanor%20Watts.html` (no page named “Eleanor Watts”)
+  - `Catherine%20Smith.html` (no page named “Catherine Smith”)
+- [Eling Mary Elliott (b.1833)](Eling%20Mary%20Elliott%20%28b.1833%29.md): `Rev.%20Clement%20Frances%20Cobb%20%281827-1896%29.html` (no page named “Rev. Clement Frances Cobb (1827-1896)”)
+- [Eliza Elliott (1786-1875)](Eliza%20Elliott%20%281786-1875%29.md) (5)
+  - `Rev.%20Francis%20Spragge%20%28d.1838%29.html` (no page named “Rev. Francis Spragge (d.1838)”)
+  - `Charles%20Henry%20Spragge%20%281813-1837%29.html` (no page named “Charles Henry Spragge (1813-1837)”)
+  - `Eling%20Jane%20Sophia%20Spragge%20%281817-1829%29.html` (no page named “Eling Jane Sophia Spragge (1817-1829)”)
+  - `William%20Kennaway%20Spragge%20%281820-1874%29.html` (no page named “William Kennaway Spragge (1820-1874)”)
+  - `Albert%20Lewis%20Spragge%20%281821-1822%29.html` (no page named “Albert Lewis Spragge (1821-1822)”)
+- [Elizabeth Horne (1760-1833)](Elizabeth%20Horne%20%281760-1833%29.md) (2)
+  - `Thomas%20Horne%20%281725-1802%29.html` (no page named “Thomas Horne (1725-1802)”)
+  - `Mary%20Hill%20%281734-1798%29.html` (no page named “Mary Hill (1734-1798)”)
+- [Elizabeth Wright (d.1909)](Elizabeth%20Wright%20%28d.1909%29.md) (2)
+  - `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+  - `John%20Bridges%20Plumptre%20%281832-1888%29.html` (no page named “John Bridges Plumptre (1832-1888)”)
+- [Ellinor Josephina Barton (1857-1940)](Ellinor%20Josephina%20Barton%20%281857-1940%29.md) (5)
+  - `Ellinor%20Taylor%20%281832-1862%29.html` (no page named “Ellinor Taylor (1832-1862)”)
+  - `Rev.%20Charles%20Hamilton.html` (no page named “Rev. Charles Hamilton”)
+  - `Harold%20Gerald%20Hans%20Hamilton%20%28b.1894%29.html` (no page named “Harold Gerald Hans Hamilton (b.1894)”)
+  - `Archibald%20Campbell%20Hans%20Hamilton%20%28b.%26d.1896%29.html` (no page named “Archibald Campbell Hans Hamilton (b.&d.1896)”)
+  - `Claude%20Frederic%20Hamilton%20%28b.1897%29.html` (no page named “Claude Frederic Hamilton (b.1897)”)
+- [Emily Marjory Barton (b.1897)](Emily%20Marjory%20Barton%20%28b.1897%29.md): `Lionel%20Howe%20%28d.1961%29.html` (no page named “Lionel Howe (d.1961)”)
+- [Emily Wigram (1833-1855)](Emily%20Wigram%20%281833-1855%29.md): `Catherine%20Smith.html` (no page named “Catherine Smith”)
+- [Esther Broadbent (1873-1959)](Esther%20Broadbent%20%281873-1959%29.md): `/%2ACecil%20%26%20Esther%27s%20wedding%20photo%2C%201896` (no page named “_Cecil & Esther's wedding photo, 1896”)
+- [Esther Butterworth (1810-1879)](Esther%20Butterworth%20%281810-1879%29.md) (6)
+  - `Living%20descendants.html#David Barton` (no page named “Living descendants”)
+  - `Mary%20Jane%20Broadbent%20%281839-1864%29.html` (no page named “Mary Jane Broadbent (1839-1864)”)
+  - `Sarah%20Broadbent%20%281842-1930%29.html` (no page named “Sarah Broadbent (1842-1930)”)
+  - `Leila%20Broadbent%20%281848-1925%29.html` (no page named “Leila Broadbent (1848-1925)”)
+  - `Benjamin%20Broadbent%20%281850-1925%29.html` (no page named “Benjamin Broadbent (1850-1925)”)
+  - `Arthur%20Broadbent%20%281855-1932%29.html` (no page named “Arthur Broadbent (1855-1932)”)
+- [Ethel Emma Louise Reid (1860-1900)](Ethel%20Emma%20Louise%20Reid%20%281860-1900%29.md): `Jane%20Boileau.html` (no page named “Jane Boileau”)
+- [Famous connections](Famous%20connections.md): `royal%20ancestry.html` (no page named “royal ancestry”)
+- [Fanny Barton (1841-1878)](Fanny%20Barton%20%281841-1878%29.md): `Alice%20Henrietta%20Giles%20Puller%20%281852-1930%29.html` (no page named “Alice Henrietta Giles Puller (1852-1930)”)
+- [Frances May Egerton](Frances%20May%20Egerton.md) (2)
+  - `Sir%20Mark%20Aitchison%20Young%20%28b.1886%29.html` (no page named “Sir Mark Aitchison Young (b.1886)”)
+  - `Norman%20Bateman%20Young%20%28b.1890%29.html` (no page named “Norman Bateman Young (b.1890)”)
+- [Frances Wright (1840-1914)](Frances%20Wright%20%281840-1914%29.md): `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+- [Francis Beresford Wright (d.1911)](Francis%20Beresford%20Wright%20%28d.1911%29.md): `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+- [Francis Hoare Spragge (1815-1881)](Francis%20Hoare%20Spragge%20%281815-1881%29.md) (2)
+  - `Rev.%20Francis%20Roach%20Spragge%20%281782-1838%29.html` (no page named “Rev. Francis Roach Spragge (1782-1838)”)
+  - `Sarah%20Prickett%20%281812-1899%29.html` (no page named “Sarah Prickett (1812-1899)”)
+- [Francis Wright (1806-1873)](Francis%20Wright%20%281806-1873%29.md) (10)
+  - `John%20Wright%20%281758-1840%29.html` (no page named “John Wright (1758-1840)”)
+  - `Elizabeth%20Beresford%20%281762-1833%29.html` (no page named “Elizabeth Beresford (1762-1833)”)
+  - `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+  - `Mary%20Wright%20%28d.1920%29.html` (no page named “Mary Wright (d.1920)”)
+  - `Selina%20Wright%20%28d.1900%29.html` (no page named “Selina Wright (d.1900)”)
+  - `Judith%20Wright%20%28d.1903%29.html` (no page named “Judith Wright (d.1903)”)
+  - `John%20Osmaston%20%281831-1901%29.html` (no page named “John Osmaston (1831-1901)”)
+  - `FitzHerbert%20Wright%20%281841-1910%29.html` (no page named “FitzHerbert Wright (1841-1910)”)
+  - `Marcus%20Beresford%20Wright%20%281845-1847%29.html` (no page named “Marcus Beresford Wright (1845-1847)”)
+  - `Philip%20Wright%20%281846-1915%29.html` (no page named “Philip Wright (1846-1915)”)
+- [Frank Louis Dumbell Elliott (1874-1939)](Frank%20Louis%20Dumbell%20Elliott%20%281874-1939%29.md) (2)
+  - `Louisa%20Jane%20Dumbell%20%281841-1879%29.html` (no page named “Louisa Jane Dumbell (1841-1879)”)
+  - `Mabel%20Edith%20Murray%20%28d.1952%29.html` (no page named “Mabel Edith Murray (d.1952)”)
+- [FranÃ§oise de Vignolles (1643-1700)](Fran%C3%83%C2%A7oise%20de%20Vignolles%20%281643-1700%29.md): `Jacques%20de%20Vignolles%20%281609-1686%29.html` (no page named “Jacques de Vignolles (1609-1686)”)
+- [Fred Barton (1868-1929)](Fred%20Barton%20%281868-1929%29.md) (4)
+  - `Humphrey%20Douglas%20Elliott%20Barton%20%28b.1900%29.html` (no page named “Humphrey Douglas Elliott Barton (b.1900)”)
+  - `David%20Gerard%20Frederick%20Barton%20%28b.1901%29.html` (no page named “David Gerard Frederick Barton (b.1901)”)
+  - `George%20Donald%20Barton%20%28b.1904%29.html` (no page named “George Donald Barton (b.1904)”)
+  - `Violet%20Jean%20Barton%20%28b.1908%29.html` (no page named “Violet Jean Barton (b.1908)”)
+- [George Tompkins Norman Barton (1876-1900)](George%20Tompkins%20Norman%20Barton%20%281876-1900%29.md): `Susan%20Wilhelmina%20Sullivan%20%281844-1927%29.html` (no page named “Susan Wilhelmina Sullivan (1844-1927)”)
+- [Godfrey John Elliott Spragge (1905-1989)](Godfrey%20John%20Elliott%20Spragge%20%281905-1989%29.md): `Anne%20Ingham%20Brook%20%28b.1871%29.html` (no page named “Anne Ingham Brook (b.1871)”)
+- [Helen Isabel Cane (1871-1953)](Helen%20Isabel%20Cane%20%281871-1953%29.md) (7)
+  - `Rev.%20Frances%20S.%20Paynter.html` (no page named “Rev. Frances S. Paynter”)
+  - `Frances%20John%20Handley%20Paynter%20%281892-1907%29.html` (no page named “Frances John Handley Paynter (1892-1907)”)
+  - `Hubert%20Sydney%20Paynter%20%28b.1893%29.html` (no page named “Hubert Sydney Paynter (b.1893)”)
+  - `Charles%20Theodore%20Paynter%20%281895-1918%29.html` (no page named “Charles Theodore Paynter (1895-1918)”)
+  - `Noel%20Stephen%20Paynter%20%28b.1898%29.html` (no page named “Noel Stephen Paynter (b.1898)”)
+  - `Bernard%20Paynter%20%28b.1904%29.html` (no page named “Bernard Paynter (b.1904)”)
+  - `Arthur%20Paynter%20%281909-1937%29.html` (no page named “Arthur Paynter (1909-1937)”)
+- [Henry Edward Thornton (1842-1926)](Henry%20Edward%20Thornton%20%281842-1926%29.md): `Isabel%20Mary%20Smith%20%281866-1945%29.html` (no page named “Isabel Mary Smith (1866-1945)”)
+- [High Head Chapel](High%20Head%20Chapel.md): `Bernard%20Barton%20%28d.1715%29.html` (no page named “Bernard Barton (d.1715)”)
+- [Isabel Catherine Moule (1884-1959)](Isabel%20Catherine%20Moule%20%281884-1959%29.md): `R.%20S.%20de%20Vere.html` (no page named “R. S. de Vere”)
+- [Isabel Maria Elliott (1842-1870)](Isabel%20Maria%20Elliott%20%281842-1870%29.md): `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+- [Isabel Mary Young (1870-1929)](Isabel%20Mary%20Young%20%281870-1929%29.md) (2)
+  - `Archibald%20Vere%20Monro.html` (no page named “Archibald Vere Monro”)
+  - `Margaret%20Susan%20Monro%20%28b.1898%29.html` (no page named “Margaret Susan Monro (b.1898)”)
+- [Jacques Boileau (1626-1697)](Jacques%20Boileau%20%281626-1697%29.md) (2)
+  - `Anne%20de%20Calvi%C3%A8re%20de%20Boucoiran%20%28d.1648%29.html` (no page named “Anne de Calvière de Boucoiran (d.1648)”)
+  - `Fran%C3%A7oise%20de%20Vignolles%20%281643-1700%29.html` (no page named “Françoise de Vignolles (1643-1700)”)
+- [James Dupre (1778-1870)](James%20Dupre%20%281778-1870%29.md) (3)
+  - `Josias%20Dupre%20%281726-1780%29.html` (no page named “Josias Dupre (1726-1780)”)
+  - `Rebella%20Alexander%20%281726-1785%29.html` (no page named “Rebella Alexander (1726-1785)”)
+  - `Madeline%20Maxwell%20%281780-1818%29.html` (no page named “Madeline Maxwell (1780-1818)”)
+- [Jean Boileau (1500-1562)](Jean%20Boileau%20%281500-1562%29.md): `Fran%C3%A7oise%20Trousselier.html` (no page named “Françoise Trousselier”)
+- [Jean Boileau (d.1618)](Jean%20Boileau%20%28d.1618%29.md): `Anne%20de%20Montcalm%20%281515-1560%29.html` (no page named “Anne de Montcalm (1515-1560)”)
+- [John Barton of Dublin (1782-1874)](John%20Barton%20of%20Dublin%20%281782-1874%29.md) (2)
+  - `Isabella%20Barton%20%281832-1913%29.html` (no page named “Isabella Barton (1832-1913)”)
+  - `James%20Barton%20%281826-1913%29.html` (no page named “James Barton (1826-1913)”)
+- [John Barton of Newcastle-under-Lyme (1737-1836)](John%20Barton%20of%20Newcastle-under-Lyme%20%281737-1836%29.md): `Ann%20Malkin%20%28b.1749%29.html` (no page named “Ann Malkin (b.1749)”)
+- [John Broadbent (1796-1880)](John%20Broadbent%20%281796-1880%29.md) (7)
+  - `John%20Broadbent%20%281758-1837%29.html` (no page named “John Broadbent (1758-1837)”)
+  - `Mary%20Dyson%20%28d.1805%29.html` (no page named “Mary Dyson (d.1805)”)
+  - `Mary%20Jane%20Broadbent%20%281839-1864%29.html` (no page named “Mary Jane Broadbent (1839-1864)”)
+  - `Sarah%20Broadbent%20%281842-1930%29.html` (no page named “Sarah Broadbent (1842-1930)”)
+  - `Leila%20Broadbent%20%281848-1925%29.html` (no page named “Leila Broadbent (1848-1925)”)
+  - `Benjamin%20Broadbent%20%281850-1925%29.html` (no page named “Benjamin Broadbent (1850-1925)”)
+  - `Arthur%20Broadbent%20%281855-1932%29.html` (no page named “Arthur Broadbent (1855-1932)”)
+- [John Campbell Barton (1858-1889)](John%20Campbell%20Barton%20%281858-1889%29.md): `Ellinor%20Taylor%20%281832-1862%29.html` (no page named “Ellinor Taylor (1832-1862)”)
+- [John Dougan (1765-1826)](John%20Dougan%20%281765-1826%29.md) (9)
+  - `Clarissa%20Squire%20%28d.1830%29.html` (no page named “Clarissa Squire (d.1830)”)
+  - `Clarissa%20Angela%20Dougan%20%281800-1841%29.html` (no page named “Clarissa Angela Dougan (1800-1841)”)
+  - `Ellen%20Penelope%20Dougan%20%281802-1835%29.html` (no page named “Ellen Penelope Dougan (1802-1835)”)
+  - `Clara%20Domett%20Dougan%20%281809-1858%29.html` (no page named “Clara Domett Dougan (1809-1858)”)
+  - `Anna%20Maria%20Dougan%20%281813-1833%29.html` (no page named “Anna Maria Dougan (1813-1833)”)
+  - `Laura%20Dougan%20%281814-1861%29.html` (no page named “Laura Dougan (1814-1861)”)
+  - `Charles%20Cockburn%20Dougan%20%281815-1824%29.html` (no page named “Charles Cockburn Dougan (1815-1824)”)
+  - `Rosalie%20Adelaide%20Dougan%20%281817-1894%29.html` (no page named “Rosalie Adelaide Dougan (1817-1894)”)
+  - `George%20Augustus%20Dougan%20%281818-1877%29.html` (no page named “George Augustus Dougan (1818-1877)”)
+- [Joseph Squire](Joseph%20Squire.md) (2)
+  - `Living%20descendants.html#David%20Barton` (no page named “Living descendants”)
+  - `Living%20descendants.html#Laurel%20Rockliff` (no page named “Living descendants”)
+- [Josephina Rickman (1808-1892)](Josephina%20Rickman%20%281808-1892%29.md) (2)
+  - `Catherine%20Wigram%20%28d.1860%29.html` (no page named “Catherine Wigram (d.1860)”)
+  - `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+- [Julia Louisa Richey Elliott (1855-1905)](Julia%20Louisa%20Richey%20Elliott%20%281855-1905%29.md): `Mary%20Elizabeth%20Richey.html` (no page named “Mary Elizabeth Richey”)
+- [Katharine Isabel Monro](Katharine%20Isabel%20Monro.md): `Archibald%20Vere%20Monro.html` (no page named “Archibald Vere Monro”)
+- [Kathleen Barton (b.1874)](Kathleen%20Barton%20%28b.1874%29.md): `Susan%20Sullivan.html` (no page named “Susan Sullivan”)
+- [Lestock Robert Reid (1799-1878)](Lestock%20Robert%20Reid%20%281799-1878%29.md) (20)
+  - `John%20Reid.html` (no page named “John Reid”)
+  - `Jane%20Boileau.html` (no page named “Jane Boileau”)
+  - `Samuel%20Brandrum%20Boileau%20%281801-1860%29.html` (no page named “Samuel Brandrum Boileau (1801-1860)”)
+  - `John%20Theophilus%20Boileau%20%281755-1817%29.html` (no page named “John Theophilus Boileau (1755-1817)”)
+  - `Lestock%20Reid%20%281826-1899%29.html` (no page named “Lestock Reid (1826-1899)”)
+  - `Emily%20Georgina%20Reid%20%281821-1899%29.html` (no page named “Emily Georgina Reid (1821-1899)”)
+  - `James%20Henry%20Reid%20%281829-1890%29.html` (no page named “James Henry Reid (1829-1890)”)
+  - `Maria%20Katherine%20Reid%20%28b.1830%29.html` (no page named “Maria Katherine Reid (b.1830)”)
+  - `George%20Boileau%20Reid%20%28b.1843%29.html` (no page named “George Boileau Reid (b.1843)”)
+  - `Julia%20Fanny%20Eliza%20Reid%20%28b.1844%29.html` (no page named “Julia Fanny Eliza Reid (b.1844)”)
+  - `Jane%20Florence%20Harriet%20Reid%20%28b.1845%29.html` (no page named “Jane Florence Harriet Reid (b.1845)”)
+  - `Edward%20Jervis%20Reid%20%28b.1847%29.html` (no page named “Edward Jervis Reid (b.1847)”)
+  - `Ellis%20Ramsay%20Reid%20%28b.1850%29.html` (no page named “Ellis Ramsay Reid (b.1850)”)
+  - `William%20Crawford%20Reid%20%281852-1888%29.html` (no page named “William Crawford Reid (1852-1888)”)
+  - `Frank%20Lumsden%20Reid%20%28b.1853%29.html` (no page named “Frank Lumsden Reid (b.1853)”)
+  - `Claude%20Gordon%20Reid%20%28b.1854%29.html` (no page named “Claude Gordon Reid (b.1854)”)
+  - `Arthur%20Morse%20Reid%20%28b.1854%29.html` (no page named “Arthur Morse Reid (b.1854)”)
+  - `Ada%20Ruth%20Erskine%20Reid%20%28b.1857%29.html` (no page named “Ada Ruth Erskine Reid (b.1857)”)
+  - `Percy%20Frith%20Reid%20%281859-1883%29.html` (no page named “Percy Frith Reid (1859-1883)”)
+  - `Mary%20Annie%20Rachel%20Reid%20%28b.1864%29.html` (no page named “Mary Annie Rachel Reid (b.1864)”)
+- [Living connections](Living%20connections.md): `files/mdbarton.jpg`
+- [Louisa Katherene Wigram (b.1843)](Louisa%20Katherene%20Wigram%20%28b.1843%29.md): `Catherine%20Smith.html` (no page named “Catherine Smith”)
+- [Major General Billy Barton (1916-2001)](Major%20General%20Billy%20Barton%20%281916-2001%29.md): `Olivia%20Mary%20Darroll-Smith.html` (no page named “Olivia Mary Darroll-Smith”)
+- [Major Harold Alfred Venn Elliott (1901-1981)](Major%20Harold%20Alfred%20Venn%20Elliott%20%281901-1981%29.md): `Maud%20Beeching%20%28d.1946%29.html` (no page named “Maud Beeching (d.1946)”)
+- [Major Robert George Lindsay Barton (b.1914)](Major%20Robert%20George%20Lindsay%20Barton%20%28b.1914%29.md) (2)
+  - `Mary%20%27Polinda%27%20Murray%20%281887-1978%29.html` (no page named “Mary 'Polinda' Murray (1887-1978)”)
+  - `Jean%20Nancy%20McCallum%20%28d.1952%29.html` (no page named “Jean Nancy McCallum (d.1952)”)
+- [Margaret Susan Monro (1898-1987)](Margaret%20Susan%20Monro%20%281898-1987%29.md) (2)
+  - `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+  - `Archibald%20Vere%20Monro.html` (no page named “Archibald Vere Monro”)
+- [Maria Done (1752-1784)](Maria%20Done%20%281752-1784%29.md) (2)
+  - `John%20Done%20%28b.1720%29.html` (no page named “John Done (b.1720)”)
+  - `Ellen%20Bradbury%20%28b.1721%29.html` (no page named “Ellen Bradbury (b.1721)”)
+- [Maria Hack (1777-1844)](Maria%20Hack%20%281777-1844%29.md): `Stephen%20Hack%20%281775-1823%29.html` (no page named “Stephen Hack (1775-1823)”)
+- [Marion Edith Barton (b.1871)](Marion%20Edith%20Barton%20%28b.1871%29.md): `Susan%20Wilhelmina%20Sullivan%20%281844-1927%29.html` (no page named “Susan Wilhelmina Sullivan (1844-1927)”)
+- [Mary Amy Elliott (1867-1947)](Mary%20Amy%20Elliott%20%281867-1947%29.md) (2)
+  - `Louisa%20Jane%20Dumbell%20%281841-1879%29.html` (no page named “Louisa Jane Dumbell (1841-1879)”)
+  - `Col.%20Richard%20Donne.html` (no page named “Col. Richard Donne”)
+- [Mary Anne Carter (1831-1911)](Mary%20Anne%20Carter%20%281831-1911%29.md) (3)
+  - `Mary%20Irving%20Barton%20%28d.1942%29.html` (no page named “Mary Irving Barton (d.1942)”)
+  - `Elizabeth%20Barton%20%281862-1870%29.html` (no page named “Elizabeth Barton (1862-1870)”)
+  - `Maud%20Barton.html` (no page named “Maud Barton”)
+- [Mary Carty Farrell (1907-1999)](Mary%20Carty%20Farrell%20%281907-1999%29.md) (2)
+  - `George%20Farrell%20%281872-1956%29.html` (no page named “George Farrell (1872-1956)”)
+  - `Sarah%20Carty%20%281874-1937%29.html` (no page named “Sarah Carty (1874-1937)”)
+- [Mary Emily Cane (1866-1940)](Mary%20Emily%20Cane%20%281866-1940%29.md): `Rev.%20Christopher%20Douglas%20Hamilton%20%28b.1855%29.html` (no page named “Rev. Christopher Douglas Hamilton (b.1855)”)
+- [Mary Irving (1804-1890)](Mary%20Irving%20%281804-1890%29.md) (3)
+  - `Thomas%20Irving%20%28b.1780%29.html` (no page named “Thomas Irving (b.1780)”)
+  - `Elizabeth%20Dodgson%20%28b.1782%29.html` (no page named “Elizabeth Dodgson (b.1782)”)
+  - `William%20Barton%20%281834-1856%29.html` (no page named “William Barton (1834-1856)”)
+- [Mary Porter (1732-1786)](Mary%20Porter%20%281732-1786%29.md): `Living%20descendants.html#David Barton` (no page named “Living descendants”)
+- [Mary Sophia Elliott (1790-1843)](Mary%20Sophia%20Elliott%20%281790-1843%29.md) (4)
+  - `Famous%20friends.html#William Wilberforce` (no page named “Famous friends”)
+  - `Sir%20James%20Stephen%20%281789-1859%29.html` (no page named “Sir James Stephen (1789-1859)”)
+  - `Famous%20friends.html#The Keans` (no page named “Famous friends”)
+  - `Famous%20friends.html#Charles Simeon` (no page named “Famous friends”)
+- [Mary Stephen Dougan (1804-1881)](Mary%20Stephen%20Dougan%20%281804-1881%29.md) (2)
+  - `Richard%20Walkden%20%28d.1880%29.html` (no page named “Richard Walkden (d.1880)”)
+  - `Living%20descendants.html#Laurel%20Rockliff` (no page named “Living descendants”)
+- [Nicholas Boileau (d.1657)](Nicholas%20Boileau%20%28d.1657%29.md): `Rose%20de%20Calvi%C3%A8re%20de%20St.%20Cosme%20%281558-1644%29.html` (no page named “Rose de Calvière de St. Cosme (1558-1644)”)
+- [Osmaston Manor, Derbyshire](Osmaston%20Manor%2C%20Derbyshire.md): `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+- [Parsy Close, near Thomas Close](Parsy%20Close%2C%20near%20Thomas%20Close.md): `/Full%20Howes%20Estate%20map%20with%20Parsy%20Close.jpg` (no page named “Full Howes Estate map with Parsy Close.jpg”)
+- [Pascoe St. Leger Grenfell (1798-1874)](Pascoe%20St.%20Leger%20Grenfell%20%281798-1874%29.md) (10)
+  - `Pascoe%20Grenfell%20%281761-1838%29.html` (no page named “Pascoe Grenfell (1761-1838)”)
+  - `Georgiana%20St.%20Leger%20%28d.1818%29.html` (no page named “Georgiana St. Leger (d.1818)”)
+  - `Living%20descendants.html#Malcolm Barton` (no page named “Living descendants”)
+  - `Penelope%20Frances%20Madan%20%28d.1868%29.html` (no page named “Penelope Frances Madan (d.1868)”)
+  - `Maria%20Lousie%20Grenfell%20%28b.1827%29.html` (no page named “Maria Lousie Grenfell (b.1827)”)
+  - `Pasco%20Du%20Pre%20Grenfell%20%281828-1896%29.html` (no page named “Pasco Du Pre Grenfell (1828-1896)”)
+  - `St.%20Leger%20Murray%20Grenfell%20%281830-1860%29.html` (no page named “St. Leger Murray Grenfell (1830-1860)”)
+  - `Arthur%20Riversdale%20Grenfell%20%281831-1895%29.html` (no page named “Arthur Riversdale Grenfell (1831-1895)”)
+  - `Gertrude%20Fanny%20Grenfell%20%281834-1880%29.html` (no page named “Gertrude Fanny Grenfell (1834-1880)”)
+  - `Elizabeth%20Mary%20Grenfell%20%281836-1894%29.html` (no page named “Elizabeth Mary Grenfell (1836-1894)”)
+- [People](People.md): `Fran%C3%A7oise%20de%20Vignolles%20%281643-1700%29.html` (no page named “Françoise de Vignolles (1643-1700)”)
+- [Rev. Claude Cecil Thornton (1844-1921)](Rev.%20Claude%20Cecil%20Thornton%20%281844-1921%29.md): `Alice%20Henrietta%20Giles%20Puller%20%281852-1930%29.html` (no page named “Alice Henrietta Giles Puller (1852-1930)”)
+- [Rev. Edward Bishop Elliott (1793-1875)](Rev.%20Edward%20Bishop%20Elliott%20%281793-1875%29.md) (4)
+  - `Eugenia%20Money%20Elliott%20%281830-1909%29.html` (no page named “Eugenia Money Elliott (1830-1909)”)
+  - `Henry%20Venn%20Elliott%20%281831-1847%29.html` (no page named “Henry Venn Elliott (1831-1847)”)
+  - `Emily%20Elizabeth%20Steele%20Elliott%20%281836-1897%29.html` (no page named “Emily Elizabeth Steele Elliott (1836-1897)”)
+  - `Albert%20Augustine%20Elliott%20%281844-1883%29.html` (no page named “Albert Augustine Elliott (1844-1883)”)
+- [Rev. Edward James Elliott (1863-1927)](Rev.%20Edward%20James%20Elliott%20%281863-1927%29.md) (3)
+  - `Mary%20Elizabeth%20Richey.html` (no page named “Mary Elizabeth Richey”)
+  - `Edith%20Helen%20Willey.html` (no page named “Edith Helen Willey”)
+  - `Charteris%20Frederick%20Venn%20Richey%20Elliott%20%281901-1969%29.html` (no page named “Charteris Frederick Venn Richey Elliott (1901-1969)”)
+- [Rev. Edward King Elliott (1828-1920)](Rev.%20Edward%20King%20Elliott%20%281828-1920%29.md): `Mary%20Elizabeth%20Richey.html` (no page named “Mary Elizabeth Richey”)
+- [Rev. Fred Wigram (1834-1897)](Rev.%20Fred%20Wigram%20%281834-1897%29.md): `Catherine%20Smith.html` (no page named “Catherine Smith”)
+- [Rev. George Ruthven Thornton (1845-1895)](Rev.%20George%20Ruthven%20Thornton%20%281845-1895%29.md): `Theresa%20Labouchere%20%281844-1905%29.html` (no page named “Theresa Labouchere (1844-1905)”)
+- [Rev. Gerard Barton (1834-1889)](Rev.%20Gerard%20Barton%20%281834-1889%29.md) (5)
+  - `Mary%20Elizabeth%20Barton%20%281859-1865%29.html` (no page named “Mary Elizabeth Barton (1859-1865)”)
+  - `Gerard%20William%20Barton%20%28b.1861%29.html` (no page named “Gerard William Barton (b.1861)”)
+  - `Bernard%20Barton%20%28b.1862%29.html` (no page named “Bernard Barton (b.1862)”)
+  - `Oswald%20Barton%20%28b.1870%29.html` (no page named “Oswald Barton (b.1870)”)
+  - `Grace%20Emily%20Barton%20%28b.1871%29.html` (no page named “Grace Emily Barton (b.1871)”)
+- [Rev. Henry Venn Elliott (1792-1865)](Rev.%20Henry%20Venn%20Elliott%20%281792-1865%29.md): `Julia%20Ann%20Marshall%20%281809-1841%29.html` (no page named “Julia Ann Marshall (1809-1841)”)
+- [Rev. Henry Venn Elliott (1869-1922)](Rev.%20Henry%20Venn%20Elliott%20%281869-1922%29.md) (2)
+  - `Louisa%20Jane%20Dumbell%20%281841-1879%29.html` (no page named “Louisa Jane Dumbell (1841-1879)”)
+  - `Florence%20Margaret%20Hunter%20%28b.1873%29.html` (no page named “Florence Margaret Hunter (b.1873)”)
+- [Rev. Henry Wright (d.1880)](Rev.%20Henry%20Wright%20%28d.1880%29.md): `Selina%20FitzHerbert%20%281806-1888%29.html` (no page named “Selina FitzHerbert (1806-1888)”)
+- [Rev. Jack Barton (1866-1941)](Rev.%20Jack%20Barton%20%281866-1941%29.md): `Madeline%20Susan%20Barton%20%281911-1994%29.html` (no page named “Madeline Susan Barton (1911-1994)”)
+- [Rev. John Brettle Cane (1828-1896)](Rev.%20John%20Brettle%20Cane%20%281828-1896%29.md) (4)
+  - `Rev.%20Thomas%20Coats%20Cane%20%281800-1887%29.html` (no page named “Rev. Thomas Coats Cane (1800-1887)”)
+  - `Mary%20Brettle%20%281804-1887%29.html` (no page named “Mary Brettle (1804-1887)”)
+  - `Charles%20Hudson%20Boileau%20Cane%20%28b.1867%29.html` (no page named “Charles Hudson Boileau Cane (b.1867)”)
+  - `Alicia%20Catherine%20Cane%20%28b.1869%29.html` (no page named “Alicia Catherine Cane (b.1869)”)
+- [Rev. Joseph Barton (1829-1905)](Rev.%20Joseph%20Barton%20%281829-1905%29.md) (6)
+  - `Ellinor%20Taylor%20%281832-1862%29.html` (no page named “Ellinor Taylor (1832-1862)”)
+  - `Susan%20Wilhelmina%20Sullivan%20%281844-1927%29.html` (no page named “Susan Wilhelmina Sullivan (1844-1927)”)
+  - `Ellinor%20Josephina%20Barton%20%28b.1857%29.html` (no page named “Ellinor Josephina Barton (b.1857)”)
+  - `Major%20Charles%20Gerard%20Barton%20%281860-1919%29.html` (no page named “Major Charles Gerard Barton (1860-1919)”)
+  - `Ernest%20Robert%20Barton%20%28b.%26d.1862%29.html` (no page named “Ernest Robert Barton (b.&d.1862)”)
+  - `Kathleen%20Susie%20Barton%20%281874-1956%29.html` (no page named “Kathleen Susie Barton (1874-1956)”)
+- [Rev. Julius Marshall Elliott (1841-1869)](Rev.%20Julius%20Marshall%20Elliott%20%281841-1869%29.md): `Julia%20Ann%20Marshall%20%281809-1841%29.html` (no page named “Julia Ann Marshall (1809-1841)”)
+- [Rev. Raymond Henry Barton (1905-1975)](Rev.%20Raymond%20Henry%20Barton%20%281905-1975%29.md): `Cecily%20Fleming.html` (no page named “Cecily Fleming”)
+- [Rev. Spencer Ruthven Thornton (1813-1850)](Rev.%20Spencer%20Ruthven%20Thornton%20%281813-1850%29.md) (5)
+  - `Frances%20Anne%20Smith%20%281785-1862%29.html` (no page named “Frances Anne Smith (1785-1862)”)
+  - `Frederick%20du%20Pre%20Thornton%20%281841-1903%29.html` (no page named “Frederick du Pre Thornton (1841-1903)”)
+  - `Julia%20Frances%20Thornton%20%281846-1885%29.html` (no page named “Julia Frances Thornton (1846-1885)”)
+  - `Caroline%20Sophia%20Thornton%20%281846-1912%29.html` (no page named “Caroline Sophia Thornton (1846-1912)”)
+  - `Emily%20Montagu%20Thornton%20%281849-1934%29.html` (no page named “Emily Montagu Thornton (1849-1934)”)
+- [Royal ancestry](Royal%20ancestry.md) (13)
+  - `Fran%C3%A7oise%20de%20Vignolles%20%281643-1700%29.html` (no page named “Françoise de Vignolles (1643-1700)”)
+  - `Hippolyte%20de%20Bourgogne.html` (no page named “Hippolyte de Bourgogne”)
+  - `Mahaut%20de%20Bourgogne%20%281190-1242%29.html` (no page named “Mahaut de Bourgogne (1190-1242)”)
+  - `Marie%20de%20Champagne%20%281128-1190%29.html` (no page named “Marie de Champagne (1128-1190)”)
+  - `Dauphine%20de%20Glandev%C3%A8s.html` (no page named “Dauphine de Glandevès”)
+  - `Audis%20d%E2%80%99Anduze.html` (no page named “Audis d’Anduze”)
+  - `Marguerite%20de%20Tournel.html` (no page named “Marguerite de Tournel”)
+  - `Odilon%20Gu%C3%A9rin%20V.html` (no page named “Odilon Guérin V”)
+  - `Odilon%20Gu%C3%A9rin%20IV%20%28b.1283%29.html` (no page named “Odilon Guérin IV (b.1283)”)
+  - `Miracle%20de%20Montlaur.html` (no page named “Miracle de Montlaur”)
+  - `Marguerite%20d%E2%80%99Auvergne%20%28d.1263%29.html` (no page named “Marguerite d’Auvergne (d.1263)”)
+  - `Guy%20II%20d%E2%80%99Auvergne%20%28d.1222%29.html` (no page named “Guy II d’Auvergne (d.1222)”)
+  - `Mahaut%20de%20Bourgogne%20%28d.1202%29.html` (no page named “Mahaut de Bourgogne (d.1202)”)
+- [Ruth Janet Chernocke Elliott (b.1913)](Ruth%20Janet%20Chernocke%20Elliott%20%28b.1913%29.md): `Haliburton%20Hume%20Leech.html` (no page named “Haliburton Hume Leech”)
+- [Sarah Maria Elliott (1781-1858)](Sarah%20Maria%20Elliott%20%281781-1858%29.md): `Rev.%20Hugh%20Nicholas%20Pearson%20%281776-1856%29.html` (no page named “Rev. Hugh Nicholas Pearson (1776-1856)”)
+- [Shimla, India](Shimla%2C%20India.md): `Col.%20Theodore%20Broadbent%20%28b.1881%29.html` (no page named “Col. Theodore Broadbent (b.1881)”)
+- [Simeon Boileau (1717-1767)](Simeon%20Boileau%20%281717-1767%29.md) (16)
+  - `Magdelana%20Desbrisay%20%281720-1786%29.html` (no page named “Magdelana Desbrisay (1720-1786)”)
+  - `Magdalena%20Boileau%20%28b.1743%29.html` (no page named “Magdalena Boileau (b.1743)”)
+  - `Simeon%20Boileau%20%281745-1746%29.html` (no page named “Simeon Boileau (1745-1746)”)
+  - `John%20Peter%20Boileau%20%281747-1837%29.html` (no page named “John Peter Boileau (1747-1837)”)
+  - `Anne%20Charlotte%20Boileau%20%28b.1748%29.html` (no page named “Anne Charlotte Boileau (b.1748)”)
+  - `Bonnie%20Boileau%20%28b.1749%29.html` (no page named “Bonnie Boileau (b.1749)”)
+  - `Philip%20Daniel%20Boileau%20%281751-1771%29.html` (no page named “Philip Daniel Boileau (1751-1771)”)
+  - `Mary%20Magdalena%20Boileau%20%28b.1752%29.html` (no page named “Mary Magdalena Boileau (b.1752)”)
+  - `Henrietta%20Boileau%20%28b.1753%29.html` (no page named “Henrietta Boileau (b.1753)”)
+  - `Thomas%20Boileau%20%281754-1806%29.html` (no page named “Thomas Boileau (1754-1806)”)
+  - `John%20Theophilus%20Boileau%20%281755-1817%29.html` (no page named “John Theophilus Boileau (1755-1817)”)
+  - `Marguerite%20Boileau%20%28b.1757%29.html` (no page named “Marguerite Boileau (b.1757)”)
+  - `Sarah%20Boileau%20%28b.1758%29.html` (no page named “Sarah Boileau (b.1758)”)
+  - `Gaspard%20Francis%20Boileau%20%28b.%26d.1759%29.html` (no page named “Gaspard Francis Boileau (b.&d.1759)”)
+  - `Elizabeth%20Boileau%20%281760-1826%29.html` (no page named “Elizabeth Boileau (1760-1826)”)
+  - `Margaret%20Boileau%20%28b.1762%29.html` (no page named “Margaret Boileau (b.1762)”)
+- [Sir Charles Alfred Elliott (1835-1911)](Sir%20Charles%20Alfred%20Elliott%20%281835-1911%29.md) (4)
+  - `Julia%20Ann%20Marshall%20%281809-1841%29.html` (no page named “Julia Ann Marshall (1809-1841)”)
+  - `Louisa%20Jane%20Dumbell%20%281841-1879%29.html` (no page named “Louisa Jane Dumbell (1841-1879)”)
+  - `Alice%20Louisa%20Gaussen%20%28d.1930%29.html` (no page named “Alice Louisa Gaussen (d.1930)”)
+  - `Julius%20Marshal%20Elliott%20%281872-1873%29.html` (no page named “Julius Marshal Elliott (1872-1873)”)
+- [Sir Claude Aurelius Elliott (1888-1973)](Sir%20Claude%20Aurelius%20Elliott%20%281888-1973%29.md) (2)
+  - `Alice%20Louisa%20Gaussen%20%28d.1930%29.html` (no page named “Alice Louisa Gaussen (d.1930)”)
+  - `Gillian%20Dorothea%20Bloxam.html` (no page named “Gillian Dorothea Bloxam”)
+- [Sir Robert Wigram (1744-1830)](Sir%20Robert%20Wigram%20%281744-1830%29.md) (4)
+  - `John%20Wigram.html` (no page named “John Wigram”)
+  - `Mary%20Clifford.html` (no page named “Mary Clifford”)
+  - `Catherine%20Broadhurst.html` (no page named “Catherine Broadhurst”)
+  - `Eleanor%20Watts.html` (no page named “Eleanor Watts”)
+- [Sir William Henry Broadbent (1835-1907)](Sir%20William%20Henry%20Broadbent%20%281835-1907%29.md): `Eliza%20Harpin.html` (no page named “Eliza Harpin”)
+- [Sir William Mackworth Young (b.1840)](Sir%20William%20Mackworth%20Young%20%28b.1840%29.md) (3)
+  - `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+  - `Sir%20Mark%20Aitchison%20Young%20%28b.1886%29.html` (no page named “Sir Mark Aitchison Young (b.1886)”)
+  - `Norman%20Bateman%20Young%20%28b.1890%29.html` (no page named “Norman Bateman Young (b.1890)”)
+- [Solomon Boileau (1745-1810)](Solomon%20Boileau%20%281745-1810%29.md) (16)
+  - `Lucy%20Slater%20%28b.1771%29.html` (no page named “Lucy Slater (b.1771)”)
+  - `Magdalene%20Boileau%20%281767-1777%29.html` (no page named “Magdalene Boileau (1767-1777)”)
+  - `Dorothea%20Boileau%20%281768-1770%29.html` (no page named “Dorothea Boileau (1768-1770)”)
+  - `Frances%20Boileau%20%281771-1852%29.html` (no page named “Frances Boileau (1771-1852)”)
+  - `Simeon%20Peter%20Boileau%20%281772-1842%29.html` (no page named “Simeon Peter Boileau (1772-1842)”)
+  - `Henrietta%20Boileau%20%281773-1853%29.html` (no page named “Henrietta Boileau (1773-1853)”)
+  - `Charles%20John%20Boileau%20%281775-1776%29.html` (no page named “Charles John Boileau (1775-1776)”)
+  - `Dorothea%20Boileau%20%281776-1777%29.html` (no page named “Dorothea Boileau (1776-1777)”)
+  - `Lucy%20Boileau%20%281777-1778%29.html` (no page named “Lucy Boileau (1777-1778)”)
+  - `Charlotte%20Boileau%20%281778-1778%29.html` (no page named “Charlotte Boileau (1778-1778)”)
+  - `Jasper%20Desbrisay%20Boileau%20%281780-1781%29.html` (no page named “Jasper Desbrisay Boileau (1780-1781)”)
+  - `Solomon%20Hugh%20Richard%20Boileau%20%281781-1810%29.html` (no page named “Solomon Hugh Richard Boileau (1781-1810)”)
+  - `Maria%20Jane%20Boileau%20%281783-1817%29.html` (no page named “Maria Jane Boileau (1783-1817)”)
+  - `Lestock%20Francis%20Boileau%20%281785-1849%29.html` (no page named “Lestock Francis Boileau (1785-1849)”)
+  - `John%20Peter%20Boileau%20%281787-1838%29.html` (no page named “John Peter Boileau (1787-1838)”)
+  - `Dorothea%20Boileau%20%281793-1865%29.html` (no page named “Dorothea Boileau (1793-1865)”)
+- [Susan Thornton (1875-1958)](Susan%20Thornton%20%281875-1958%29.md): `Madeline%20Susan%20Barton%20%281911-1994%29.html` (no page named “Madeline Susan Barton (1911-1994)”)
+- [The portrait of John Barton the Elder](The%20portrait%20of%20John%20Barton%20the%20Elder.md): `/John%20Barton%20the%20Elder%201754-1789%201774%20portrait%20LARGE.jpg` (no page named “John Barton the Elder 1754-1789 1774 portrait LARGE.jpg”)
+- [Walter Lindsay Barton (1877-1952)](Walter%20Lindsay%20Barton%20%281877-1952%29.md) (5)
+  - `Susan%20Wilhelmina%20Sullivan%20%281844-1927%29.html` (no page named “Susan Wilhelmina Sullivan (1844-1927)”)
+  - `Mary%20%27Polinda%27%20Murray%20%281887-1978%29.html` (no page named “Mary 'Polinda' Murray (1887-1978)”)
+  - `Susan%20Mary%20Lorette%20Barton%20%28b.1915%29.html` (no page named “Susan Mary Lorette Barton (b.1915)”)
+  - `Audrey%20Joan%20Barton%20%28b.1916%29.html` (no page named “Audrey Joan Barton (b.1916)”)
+  - `Mary%20Evelyn%20Barton%20%28b.1921%29.html` (no page named “Mary Evelyn Barton (b.1921)”)
+- [William Barton (1700-1763)](William%20Barton%20%281700-1763%29.md) (2)
+  - `John%20Barton%20%28b.1676%29.html` (no page named “John Barton (b.1676)”)
+  - `Frances%20Setree.html` (no page named “Frances Setree”)
+- [William Barton (1737-1818)](William%20Barton%20%281737-1818%29.md): `Frances%20Setree.html` (no page named “Frances Setree”)
+- [William Barton (1785-1846)](William%20Barton%20%281785-1846%29.md): `William%20Barton%20%281834-1856%29.html` (no page named “William Barton (1834-1856)”)
+- [William Barton of Beacon Hill](William%20Barton%20of%20Beacon%20Hill.md): `Isabella%20Mondeville.html` (no page named “Isabella Mondeville”)
+- [William Pearson Elliott (1780-1802)](William%20Pearson%20Elliott%20%281780-1802%29.md): `Sarah%20Ann%20Sherman%20%28d.1784%29.html` (no page named “Sarah Ann Sherman (d.1784)”)
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md) (2)
+  - `Ann%20Woodruffe-Smith%20%281791-1821%29.html` (no page named “Ann Woodruffe-Smith (1791-1821)”)
+  - `Living%20descendants.html#Nicholas%20Barton` (no page named “Living descendants”)
+- [_Carlisle Journal](_Carlisle%20Journal.md): `William%20Barton%20%281834-1856%29.html` (no page named “William Barton (1834-1856)”)
+- [_Cecil & Esther's wedding photos, 1896](_Cecil%20%26%20Esther%27s%20wedding%20photos%2C%201896.md): `/Cecil%20Barton%20married%20Esther%20Broadbent%20Oct%2021%201896%20at%20Murree%20Punjahb%20LARGE.jpg` (no page named “Cecil Barton married Esther Broadbent Oct 21 1896 at Murree Punjahb LARGE.jpg”)
+- [_Correspondence of Mary Stephen Dougan](_Correspondence%20of%20Mary%20Stephen%20Dougan.md): `Laura%20Dougan%20%281814-1861%29.html` (no page named “Laura Dougan (1814-1861)”)
+- [_Dalston parish records](_Dalston%20parish%20records.md) (2)
+  - `Mabell%20Barton%20%28d.1639%29.html` (no page named “Mabell Barton (d.1639)”)
+  - `Bernard%20Barton%20%28d.1715%29.html` (no page named “Bernard Barton (d.1715)”)
+- [_Fitzgerald 1849](_Fitzgerald%201849.md): `Famous%20friends.html#Edward Fitzgerald` (no page named “Famous friends”)
+- [_Hudson 1999](_Hudson%201999.md): `Famous%20friends.html#Emperor Akbar Shah II` (no page named “Famous friends”)
+- [_Humphries 1984](_Humphries%201984.md): `Living%20descendants.html#David Barton` (no page named “Living descendants”)
+- [_Marx 1861-3](_Marx%201861-3.md): `Famous%20friends.html#Karl Marx` (no page named “Famous friends”)
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md) (11)
+  - `Rev.%20John%20Brattle%20Cane%20%281829-1896%29.html` (no page named “Rev. John Brattle Cane (1829-1896)”)
+  - `Isabel%20Mary%20Young%20%28b.1870%29.html` (no page named “Isabel Mary Young (b.1870)”)
+  - `Ellinor%20Josephina%20Barton%20%28b.1857%29.html` (no page named “Ellinor Josephina Barton (b.1857)”)
+  - `Conrad%20Barton%20%281879-1979%29.html` (no page named “Conrad Barton (1879-1979)”)
+  - `Mary%20Emily%20Cane%20%28b.1866%29.html` (no page named “Mary Emily Cane (b.1866)”)
+  - `Helen%20Isabel%20Cane%20%28b.1871%29.html` (no page named “Helen Isabel Cane (b.1871)”)
+  - `George%20Norman%20Barton%20%281876-1900%29.html` (no page named “George Norman Barton (1876-1900)”)
+  - `Lt.%20Col.%20Ted%20Barton%20%28b.1897%29.html` (no page named “Lt. Col. Ted Barton (b.1897)”)
+  - `Archibald%20Vere%20Monro.html` (no page named “Archibald Vere Monro”)
+  - `Edith%20Frances%20Cane%20%28b.1869%29.html` (no page named “Edith Frances Cane (b.1869)”)
+  - `Margaret%20Susan%20Monro%20%28b.1898%29.html` (no page named “Margaret Susan Monro (b.1898)”)
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (2)
+  - `Ann%20Woodrouffe-Smith%20%281791-1821%29.html` (no page named “Ann Woodrouffe-Smith (1791-1821)”)
+  - `Eleanor%20Taylor%20%28d.1862%29.html` (no page named “Eleanor Taylor (d.1862)”)
+- [_NJB family archive](_NJB%20family%20archive.md): `Living%20descendants.html#Nicholas Barton` (no page named “Living descendants”)
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (2)
+  - `Lt.%20Col.%20Ted%20Barton%20%28b.1897%29.html` (no page named “Lt. Col. Ted Barton (b.1897)”)
+  - `p138.html` (no page named “p138”)
+- [_Slave Trade Minutes 1787-1788](_Slave%20Trade%20Minutes%201787-1788.md): `Famous%20friends.html#William Wilberforce` (no page named “Famous friends”)
+- [_Smith 1878](_Smith%201878.md): `Famous%20friends.html#William Roscoe` (no page named “Famous friends”)
+- [_Transactions CWAAS v5 1905](_Transactions%20CWAAS%20v5%201905.md): `Barton%20arms.html` (no page named “Barton arms”)
+- [_Transactions CWAAS v6 1882](_Transactions%20CWAAS%20v6%201882.md): `Barton%20arms.html` (no page named “Barton arms”)
+- [space.menu](space.menu.md): `Home.html` (no page named “Home”)
+- [toc](toc.md) (2)
+  - `mainSpace/Françoise de Vignolles (1643-1700).html` (no page named “Françoise de Vignolles (1643-1700)”)
+  - `mainSpace/home.html` (no page named “home”)
+
+## Coloured text (colour dropped)
+
+- [Antoine Boileau (d.1530)](Antoine%20Boileau%20%28d.1530%29.md)
+  - **#660000** ×1 — e.g. “Françoise Trousselier”
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md)
+  - **#800080** ×1 — e.g. “purple pin”
+  - **#00ff00** ×1 — e.g. “green”
+  - **#ff0000** ×1 — e.g. “red”
+  - **#0000FF** ×1 — e.g. “Ormside Barton Connections”
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Catherine Mary Pearson (b.1815)](Catherine%20Mary%20Pearson%20%28b.1815%29.md)
+  - **#660000** ×2 — e.g. “William Pearson”; “Great Aunt Mary Elliott”
+- [Charlotte Elliott (1789-1871)](Charlotte%20Elliott%20%281789-1871%29.md)
+  - **#660000** ×1 — e.g. “Eling Venn (1758-1843)”
+  - **rgb(85, 85, 85)** ×1 — e.g. “powered by Splicd.com”
+  - **rgb(200, 91, 0)** ×1 — e.g. “Splicd.com”
+- [Chateau Castelnau](Chateau%20Castelnau.md)
+  - **#000000** ×1 — e.g. “Castelnau-de-la-Garde (now called Chateau Castelnau-Valence)…”
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Church Missionary House, Madras](Church%20Missionary%20House%2C%20Madras.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Col. John Edward Broadbent (1845-1931)](Col.%20John%20Edward%20Broadbent%20%281845-1931%29.md)
+  - **#660000** ×1 — e.g. “Dora Nicholson (1844-1897)”
+- [Edith Frances Cane (1869-1946)](Edith%20Frances%20Cane%20%281869-1946%29.md)
+  - **#660000** ×1 — e.g. “Alicia Catherine Cane (1869-1944)”
+- [Edward Stanhope Pearson (b.1824)](Edward%20Stanhope%20Pearson%20%28b.1824%29.md)
+  - **#660000** ×1 — e.g. “Rev. Hugh Nicholas Pearson (1776-1856)”
+- [Edward Wigram (b.1802)](Edward%20Wigram%20%28b.1802%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Emily Elliott (1839-1924)](Emily%20Elliott%20%281839-1924%29.md)
+  - **#660000** ×2 — e.g. “Emily Dougan (1806-1877) .”; “Arthur Elliott Barton (1864-1931) .”
+- [Fanny Barton (1841-1878)](Fanny%20Barton%20%281841-1878%29.md)
+  - **#660000** ×1 — e.g. “Rev. Claude Cecil Thornton (1844-1921)”
+- [Fanny Rickman (1807-1842)](Fanny%20Rickman%20%281807-1842%29.md)
+  - **#660000** ×2 — e.g. “Sara Barton (1838-1842)”; “Emily Barton (1842-1927)”
+- [Fred Barton (1868-1929)](Fred%20Barton%20%281868-1929%29.md)
+  - **#660000** ×1 — e.g. “Anne Stote Fox (1867-1957)”
+- [George Tompkins Norman Barton (1876-1900)](George%20Tompkins%20Norman%20Barton%20%281876-1900%29.md)
+  - **#660000** ×1 — e.g. “Susan Wilhelmina Sullivan (1844-1927)”
+- [High Head Chapel](High%20Head%20Chapel.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+  - **#660000** ×1 — e.g. “Bernard Barton (d.1715)”
+- [Huguenot Cemetery, Dublin](Huguenot%20Cemetery%2C%20Dublin.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+  - **#ff0000** ×1 — e.g. “X”
+- [Isabel Maria Elliott (1842-1870)](Isabel%20Maria%20Elliott%20%281842-1870%29.md)
+  - **#660000** ×1 — e.g. “Sir William Mackworth Young (b.1840)”
+- [Ivegill](Ivegill.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [John Barton of Dublin (1782-1874)](John%20Barton%20of%20Dublin%20%281782-1874%29.md)
+  - **#0000FF** ×2 — e.g. “View Larger Map”; “View Larger Map”
+- [John Barton of Newcastle-under-Lyme (1737-1836)](John%20Barton%20of%20Newcastle-under-Lyme%20%281737-1836%29.md)
+  - **#0000FF** ×4 — e.g. “View Larger Map”; “View Larger Map”
+- [John Barton the Elder (1754-1789)](John%20Barton%20the%20Elder%20%281754-1789%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [John Broadbent (1796-1880)](John%20Broadbent%20%281796-1880%29.md)
+  - **#660000** ×2 — e.g. “Esther Butterworth (1810-1879)”; “Esther Butterworth (1810-1879)”
+- [Major Robert George Lindsay Barton (b.1914)](Major%20Robert%20George%20Lindsay%20Barton%20%28b.1914%29.md)
+  - **#660000** ×1 — e.g. “Mary 'Polinda' Murray (1887-1978)”
+- [Maria Done (1752-1784)](Maria%20Done%20%281752-1784%29.md)
+  - **#000080** ×349 — e.g. “Chapter 1: Romance”; “‘And catch each lovelier transcript of her face’”
+- [Mary Amy Elliott (1867-1947)](Mary%20Amy%20Elliott%20%281867-1947%29.md)
+  - **#660000** ×1 — e.g. “Louisa Jane Dumbell (1841-1879)”
+- [Mary Irving (1804-1890)](Mary%20Irving%20%281804-1890%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Mary Sophia Elliott (1790-1843)](Mary%20Sophia%20Elliott%20%281790-1843%29.md)
+  - **#660000** ×2 — e.g. “Basil Wood Elliott (1799-1814)”; “Sir James Stephens”
+- [Ormside Hall](Ormside%20Hall.md)
+  - **#00ff00** ×1 — e.g. “green”
+  - **#0000FF** ×1 — e.g. “Ormside Barton Connections”
+- [Parishes of Cumberland and Westmorland](Parishes%20of%20Cumberland%20and%20Westmorland.md)
+  - **#0000FF** ×1 — e.g. “Cumberland parishes”
+- [Pascoe St. Leger Grenfell (1798-1874)](Pascoe%20St.%20Leger%20Grenfell%20%281798-1874%29.md)
+  - **#660000** ×2 — e.g. “Catherine Anne Dupre (b.1804)”; “Catherine Anne Dupre (b.1804)”
+- [Places](Places.md)
+  - **#0000FF** ×1 — e.g. “BartonHistory master map”
+- [Rev. Cecil Barton (1870-1909)](Rev.%20Cecil%20Barton%20%281870-1909%29.md)
+  - **#660000** ×1 — e.g. “Esther Broadbent (1873-1959)”
+- [Rev. Edward Bishop Elliott (1793-1875)](Rev.%20Edward%20Bishop%20Elliott%20%281793-1875%29.md)
+  - **#660000** ×1 — e.g. “Eling Venn (1758-1843)”
+- [Rev. Edward King Elliott (1828-1920)](Rev.%20Edward%20King%20Elliott%20%281828-1920%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Rev. George Ruthven Thornton (1845-1895)](Rev.%20George%20Ruthven%20Thornton%20%281845-1895%29.md)
+  - **#660000** ×1 — e.g. “Caroline Adelaide Dupre (1815-1898)”
+- [Rev. Julius Marshall Elliott (1841-1869)](Rev.%20Julius%20Marshall%20Elliott%20%281841-1869%29.md)
+  - **#660000** ×1 — e.g. “Julia Ann Marshall (1809-1841)”
+- [Rev. Tom Causton (1835-1899)](Rev.%20Tom%20Causton%20%281835-1899%29.md)
+  - **#660000** ×1 — e.g. “Ernest Augustus Causton (b.1867)”
+- [Robert Barton (1893-1916)](Robert%20Barton%20%281893-1916%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Shimla, India](Shimla%2C%20India.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+  - **#660000** ×1 — e.g. “Dora Nicholson (1844-1897)”
+- [Sir Claude Aurelius Elliott (1888-1973)](Sir%20Claude%20Aurelius%20Elliott%20%281888-1973%29.md)
+  - **#660000** ×1 — e.g. “Alice Louisa Gaussen (d.1930)”
+- [Sir William Mackworth Young (b.1840)](Sir%20William%20Mackworth%20Young%20%28b.1840%29.md)
+  - **#660000** ×1 — e.g. “Frances May Egerton”
+- [Solomon Boileau (1745-1810)](Solomon%20Boileau%20%281745-1810%29.md)
+  - **#000080** ×31 — e.g. “The end of the life of Solomon Boileau”; “Solomon made his last will and testament in Dublin in July 1…”
+- [Srinagar, India](Srinagar%2C%20India.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [St. Mary's Church, Tattingstone](St.%20Mary%27s%20Church%2C%20Tattingstone.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Susan Thornton (1875-1958)](Susan%20Thornton%20%281875-1958%29.md)
+  - **#660000** ×4 — e.g. “Jackie Barton (1896-1904)”; “Arthur Grenfell Barton (1901-1974)”
+- [The Barton name](The%20Barton%20name.md)
+  - **#0000FF** ×1 — e.g. “Places called 'Barton' in the UK (red markers; also with 'Bu…”
+- [Thomas Dougan (d.1797)](Thomas%20Dougan%20%28d.1797%29.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [Thomas Henry Fitzpatrick (b.1866)](Thomas%20Henry%20Fitzpatrick%20%28b.1866%29.md)
+  - **#660000** ×1 — e.g. “Rev. Thomas Henry Fitzpatrick (d.1866)”
+- [Whenby, Yorkshire](Whenby%2C%20Yorkshire.md)
+  - **#0000FF** ×1 — e.g. “BartonHistory master map”
+- [William Pearson Elliott (1780-1802)](William%20Pearson%20Elliott%20%281780-1802%29.md)
+  - **#660000** ×1 — e.g. “Sarah Ann Sherman (d.1784)”
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md)
+  - **#008000** ×257 — e.g. “Robert Southey to Bernard Barton, August 1814 ( p149 )”; “Keswick, 3rd August, 1814.”
+- [_Broadbent 1976](_Broadbent%201976.md)
+  - **#0000FF** ×2 — e.g. “Broadbent locations”; “John Edward Broadbent in India, 1868-1869”
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md)
+  - **#0000FF** ×16 — e.g. “Cecil Barton's mountaineering expeditions 1: Kolahoi, June 1…”; “Cecil Barton's mountaineering expeditions 1: Kolahoi, June 1…”
+- [_Correspondence of Mary Stephen Dougan](_Correspondence%20of%20Mary%20Stephen%20Dougan.md)
+  - **#008000** ×11 — e.g. “James Stephen to Mary Stephen Dougan, August 1831”; “Miss Dougan, Prospect Street, Reading”
+- [_Dalston parish records](_Dalston%20parish%20records.md)
+  - **#bfbfbf** ×84 — e.g. “v1p 9”; “Bapt.”
+  - **#000000** ×21 — e.g. “v1p”; “v1p”
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [_Dougan 1826](_Dougan%201826.md)
+  - **#ff0000** ×122 — e.g. “[Major Moody's Remarks. (a) Major Moody never wrote a third …”; “[Major Moody's Remarks. (b). Major Moody is not aware that h…”
+  - **#008000** ×35 — e.g. “The Commissioners Inquiring into the State of Captured Afric…”; “Tortola, 28th May 1822.”
+  - **#800080** ×27 — e.g. “THE RIGHT HONOURABLE THE EARL BATHURST , &c. &c. &c.”; “No. 25, Hadlow-street, Burton Crescent, Nov. 1826.”
+- [_Emily Dougan's 1856 Sketchbook](_Emily%20Dougan%27s%201856%20Sketchbook.md)
+  - **#0000FF** ×1 — e.g. “Emily Dougan's 1856 sketchbook”
+- [_High Head baptismal register](_High%20Head%20baptismal%20register.md)
+  - **#808080** ×12 — e.g. “1722 - October 10th baptised Margaret daughter of John Barto…”; “1728 - June 23 baptised Barnard, son of John Barton of Ive-g…”
+  - **#ff0000** ×5 — e.g. “2”; “of Ive-gill”
+  - **#000000** ×1 — e.g. “[But already entered above?!]”
+- [_John Barton the Elder Correspondence](_John%20Barton%20the%20Elder%20Correspondence.md)
+  - **#008000** ×154 — e.g. “A. Charnley to John Barton, September 1774”; “Mr. Barton, English Street, Carlisle”
+  - **#800080** ×59 — e.g. “John Barton in the Cumberland Pacquet, 22 April 1777”; “OPINION PIECE”
+  - **#000080** ×37 — e.g. “Mr Lowthion to Bernard Barton , January 1772”; “Mr. Barton, Carlisle.”
+  - **#cc4c00** ×16 — e.g. “Advertisement in the Cumberland Pacquet, summer 1775”; “WEAVERS WANTED”
+- [_Maria Done Correspondence](_Maria%20Done%20Correspondence.md)
+  - **#000080** ×132 — e.g. “Jenny Griffies to Betty Griffies, April 1772 (R.C.2765)”; “Miss Betty Griffies at Mr Thos Griffies’, Northgate Street, …”
+  - **#008000** ×51 — e.g. “William Roscoe to Maria Done, June 1772”; “To : Miss M. Done at Mr. Bewleys, Rowcliffe”
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md)
+  - **#0000FF** ×1 — e.g. “Emily & John's Tour of South India, 1874-5”
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md)
+  - **#0000FF** ×3 — e.g. “View Larger Map”; “John Barton's tour of Wales, 1856”
+- [_Miscellaneous records](_Miscellaneous%20records.md)
+  - **red** ×3 — e.g. “Baptism/Christening 29 Jul 1760 [BIRTH?],”; “Baptism/Christening 31 Jul 1760,”
+- [_Penfold](_Penfold.md)
+  - **#0000FF** ×2 — e.g. “View Larger Map”; “View Larger Map”
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md)
+  - **#808080** ×191 — e.g. “grey text”; “grey text with a strike through effect”
+  - **#000000** ×6 — e.g. “[does this half-joke refer to this chap ?]”; “[implying that the film was probably Tin Pan Alley , which s…”
+  - **#0000FF** ×2 — e.g. “Ronald Barton's war diary 1941”; “View Larger Map”
+- [_Transactions CWAAS v13 1895](_Transactions%20CWAAS%20v13%201895.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md)
+  - **#0000FF** ×1 — e.g. “View Larger Map”
+- [index](index.md)
+  - **#f70000** ×1 — e.g. “UPDATE: Recently some image links broke on the site. I think…”
+  - **#ffff00** ×1 — e.g. “yellow”
+  - **#ff0000** ×1 — e.g. “red”
+  - **#00ffff** ×1 — e.g. “blue”
+  - **#00ff00** ×1 — e.g. “green”
+  - **#0000FF** ×1 — e.g. “The Barton Triangle”
+- [space.menu](space.menu.md)
+  - **#c0c0c0** ×16 — e.g. “Home”; “The Barton name”
+  - **#909090** ×2 — e.g. “Editors FAQ”; “Online resources”
+  - **#808080** ×1 — e.g. “To Do list”
+
+## External images (cached copies in files/)
+
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md): external image 279418_ead410b3.jpg → `http://s0.geograph.org.uk/photos/27/94/279418_ead410b3.jpg`
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md): external image 6826133_108639462589.jpg → `http://image2.findagrave.com/photos/2004/155/6826133_108639462589.jpg`
+- [Chateau Castelnau](Chateau%20Castelnau.md): external image chateau.jpg → `http://www.gites-gard-cevennes.com/web/chateau.jpg`
+- [Coats of Arms](Coats%20of%20Arms.md): external image image-thumb.aspx?compid=64645&pubid=533&filename=fig213.gif → `http://www.british-history.ac.uk/image-thumb.aspx?compid=64645&pubid=533&filename=fig213.gif`
+- [Conrad Henry Barton (1879-1979)](Conrad%20Henry%20Barton%20%281879-1979%29.md): external image Conrad%20Henry%20Barton%20%281879-1979%29.jpg → `https://dl.dropboxusercontent.com/u/2324445/Conrad%20Henry%20Barton%20%281879-1979%29.jpg`
+- [DNA](DNA.md) (2)
+  - external image 615px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png → `http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/615px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png`
+  - external image D1S80Demo.gif → `http://upload.wikimedia.org/wikipedia/commons/7/78/D1S80Demo.gif`
+- [Etienne Boileau](Etienne%20Boileau.md): external image 450px-Hotel_de_ville_paris039.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hotel_de_ville_paris039.jpg/450px-Hotel_de_ville_paris039.jpg`
+- [Famous connections](Famous%20connections.md) (22)
+  - external image ThomasPennant_oil.jpeg → `http://upload.wikimedia.org/wikipedia/commons/3/34/ThomasPennant_oil.jpeg`
+  - external image 453px-Priestley.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Priestley.jpg/453px-Priestley.jpg`
+  - external image WilliamPaley.jpg → `http://upload.wikimedia.org/wikipedia/commons/3/39/WilliamPaley.jpg`
+  - external image Williamroscoe.jpg → `http://upload.wikimedia.org/wikipedia/commons/6/62/Williamroscoe.jpg`
+  - external image James_Stephen_cropped.jpg → `http://upload.wikimedia.org/wikipedia/commons/a/a5/James_Stephen_cropped.jpg`
+  - external image CharlesSimeon.jpg → `http://upload.wikimedia.org/wikipedia/commons/8/82/CharlesSimeon.jpg`
+  - external image William_wilberforce.jpg → `http://upload.wikimedia.org/wikipedia/commons/e/eb/William_wilberforce.jpg`
+  - external image Thomas_Clarkson_by_Carl_Frederik_at_the_National_Portrait_Galery.jpg → `http://upload.wikimedia.org/wikipedia/commons/c/c1/Thomas_Clarkson_by_Carl_Frederik_at_the_National_Portrait_Galery.jpg`
+  - external image Akbar_Shah_II_of_India.jpg → `https://upload.wikimedia.org/wikipedia/commons/6/66/Akbar_Shah_II_of_India.jpg`
+  - external image Zachary_Macaulay.jpg → `http://upload.wikimedia.org/wikipedia/commons/7/7a/Zachary_Macaulay.jpg`
+  - external image Thomas_Babington_Macaulay%2C_Baron_Macaulay.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d9/Thomas_Babington_Macaulay%2C_Baron_Macaulay.jpg`
+  - external image CharlesLamb_01.jpg → `http://upload.wikimedia.org/wikipedia/commons/0/0e/CharlesLamb_01.jpg`
+  - external image 800px-George_Gordon_Byron%2C_6th_Baron_Byron_by_Richard_Westall_%282%29.jpg → `https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/George_Gordon_Byron%2C_6th_Baron_Byron_by_Richard_Westall_%282%29.jpg/800px-George_Gordon_Byron%2C_6th_Baron_Byron_by_Richard_Westall_%282%29.jpg`
+  - external image Franz_Xaver_Winterhalter_Napoleon_III.jpg → `http://upload.wikimedia.org/wikipedia/commons/9/99/Franz_Xaver_Winterhalter_Napoleon_III.jpg`
+  - external image Edward_FitzGerald.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d9/Edward_FitzGerald.jpg`
+  - external image Charles_Kean_Hamlet_1838.jpg → `http://upload.wikimedia.org/wikipedia/commons/2/27/Charles_Kean_Hamlet_1838.jpg`
+  - external image Ellen_Kean.jpg → `http://upload.wikimedia.org/wikipedia/commons/c/c0/Ellen_Kean.jpg`
+  - external image Karl_Marx_001.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d4/Karl_Marx_001.jpg`
+  - external image Eduard_VII.jpg → `http://upload.wikimedia.org/wikipedia/commons/f/f4/Eduard_VII.jpg`
+  - external image Ranulph_Fiennes_2014.jpg → `http://upload.wikimedia.org/wikipedia/commons/5/51/Ranulph_Fiennes_2014.jpg`
+  - external image 430px-Ralph_Fiennes_cropped.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ralph_Fiennes_cropped.jpg/430px-Ralph_Fiennes_cropped.jpg`
+  - external image JosephFiennes.png → `http://upload.wikimedia.org/wikipedia/commons/a/a8/JosephFiennes.png`
+- [Francis Wright (1806-1873)](Francis%20Wright%20%281806-1873%29.md): external image 304779_001.jpg → `http://www.thepeerage.com/304779_001.jpg`
+- [Hartsop Hall](Hartsop%20Hall.md): external image hartsop_hall_2.jpg → `http://www.english-lakes.com/images/lakes_3/hartsop_hall_2.jpg`
+- [Ivegill](Ivegill.md): external image 127538_a80249e8.jpg → `http://s0.geograph.org.uk/photos/12/75/127538_a80249e8.jpg`
+- [Lord Francis Wallace Grenfell (1840-1925)](Lord%20Francis%20Wallace%20Grenfell%20%281840-1925%29.md): external image Francis_Wallace_Grenfell.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d9/Francis_Wallace_Grenfell.jpg`
+- [Major-General Sir Edward Broadbent (1875-1944)](Major-General%20Sir%20Edward%20Broadbent%20%281875-1944%29.md): external image 52629168_127438823663.jpg → `http://image1.findagrave.com/photos/2010/139/52629168_127438823663.jpg`
+- [Ormside Hall](Ormside%20Hall.md) (2)
+  - external image 383197_3961e9f4.jpg → `http://s0.geograph.org.uk/photos/38/31/383197_3961e9f4.jpg`
+  - external image 237258_181deced.jpg → `http://s0.geograph.org.uk/photos/23/72/237258_181deced.jpg`
+- [Osmaston Manor, Derbyshire](Osmaston%20Manor%2C%20Derbyshire.md): external image osmaston%20manor%201905.jpg → `http://www.ashbourne-town.com/villages/osmaston/osmaston%20manor%201905.jpg`
+- [Rev. Edward Bishop Elliott (1793-1875)](Rev.%20Edward%20Bishop%20Elliott%20%281793-1875%29.md): external image mw147813.jpg → `http://images.npg.org.uk/790_500/1/3/mw147813.jpg`
+- [Rev. Handley Moule (1841-1920)](Rev.%20Handley%20Moule%20%281841-1920%29.md) (2)
+  - external image HandleyCarrGlynMoule.jpg → `http://freepages.genealogy.rootsweb.ancestry.com/~fordingtondorset/Images/HandleyCarrGlynMoule.jpg`
+  - external image dur_dac_39_624x544.jpg → `http://static.bbci.co.uk/arts/yourpaintings/images/paintings/dac/624x544/dur_dac_39_624x544.jpg`
+- [Royal ancestry](Royal%20ancestry.md) (13)
+  - external image William1.jpg → `http://upload.wikimedia.org/wikipedia/commons/f/f4/William1.jpg`
+  - external image Matilda-flanders_sm.png → `http://upload.wikimedia.org/wikipedia/commons/d/d1/Matilda-flanders_sm.png`
+  - external image Louis_VI_of_France.gif → `http://upload.wikimedia.org/wikipedia/commons/b/b5/Louis_VI_of_France.gif`
+  - external image 340px-Philip_I_of_France_%C2%B7_HHWXI28.svg.png → `http://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Philip_I_of_France_%C2%B7_HHWXI28.svg/340px-Philip_I_of_France_%C2%B7_HHWXI28.svg.png`
+  - external image Henri_I.jpg → `http://upload.wikimedia.org/wikipedia/commons/e/eb/Henri_I.jpg`
+  - external image SaintRadegondeMural.jpg → `http://upload.wikimedia.org/wikipedia/commons/2/22/SaintRadegondeMural.jpg`
+  - external image 800px-Bernardus_van_Clairvaux_bekeert_Willem_van_Aquitani%C3%AB.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Bernardus_van_Clairvaux_bekeert_Willem_van_Aquitani%C3%AB.jpg/800px-Bernardus_van_Clairvaux_bekeert_Willem_van_Aquitani%C3%AB.jpg`
+  - external image 400px-Statue_of_King_Alfred_in_Wantage_Market_Square.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Statue_of_King_Alfred_in_Wantage_Market_Square.jpg/400px-Statue_of_King_Alfred_in_Wantage_Market_Square.jpg`
+  - external image 069FFC8A-5408-430E-B7A9-F025DF604EE3.jpg → `http://content1.catalog.photos.msn.com/ds/pic-en-us/picenus_msnentertainment/Touchtone/069FFC8A-5408-430E-B7A9-F025DF604EE3.jpg`
+  - external image 409px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg/409px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg`
+  - external image Karl_der_gro%C3%9Fe.jpg → `http://upload.wikimedia.org/wikipedia/commons/f/f0/Karl_der_gro%C3%9Fe.jpg`
+  - external image 468px-Tizian_091.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tizian_091.jpg/468px-Tizian_091.jpg`
+  - external image 396px-Olympians.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Olympians.jpg/396px-Olympians.jpg`
+- [Shimla, India](Shimla%2C%20India.md) (2)
+  - external image 13209483.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/13209483.jpg`
+  - external image 1135216.jpg → `http://mw2.google.com/mw-panoramio/photos/medium/1135216.jpg`
+- [Sir William Henry Broadbent (1835-1907)](Sir%20William%20Henry%20Broadbent%20%281835-1907%29.md): external image William_Broadbent_Vanity_Fair_30_October_1902.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d6/William_Broadbent_Vanity_Fair_30_October_1902.jpg`
+- [Srinagar, India](Srinagar%2C%20India.md) (2)
+  - external image 5492315.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/5492315.jpg`
+  - external image 19420877.jpg → `http://mw2.google.com/mw-panoramio/photos/medium/19420877.jpg`
+- [The portrait of John Barton the Elder](The%20portrait%20of%20John%20Barton%20the%20Elder.md): external image painting1.jpg → `http://www.wikigallery.org/paintings/211501-212000/211521/painting1.jpg`
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md): external image martin3.jpg → `http://madamepickwickartblog.com/wp-content/uploads/2010/08/martin3.jpg`
+- [_Billy Barton Diary and Letters](_Billy%20Barton%20Diary%20and%20Letters.md) (2)
+  - external image HMS_Enterprise_WWII_IWM_FL_005389.jpg → `http://upload.wikimedia.org/wikipedia/commons/7/76/HMS_Enterprise_WWII_IWM_FL_005389.jpg`
+  - external image HMS_Nigeria.jpg → `http://upload.wikimedia.org/wikipedia/commons/e/ee/HMS_Nigeria.jpg`
+- [_Cecil & Esther's wedding photos, 1896](_Cecil%20%26%20Esther%27s%20wedding%20photos%2C%201896.md) (2)
+  - external image mw40743.jpg → `http://images.npg.org.uk/790_500/4/3/mw40743.jpg`
+  - external image 035.jpg → `http://www.queensroyalsurreys.org.uk/colonels/035.jpg`
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md): external image 640px-Lord_Amarnath.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lord_Amarnath.jpg/640px-Lord_Amarnath.jpg`
+- [_Emily Dougan's 1856 Sketchbook](_Emily%20Dougan%27s%201856%20Sketchbook.md) (19)
+  - external image burg_rheinfels.jpg → `http://djtravel.homestead.com/files/burg_rheinfels.jpg`
+  - external image 19662805.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/19662805.jpg`
+  - external image 24821074.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/24821074.jpg`
+  - external image 22041583.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/22041583.jpg`
+  - external image 19291310.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/19291310.jpg`
+  - external image 2143368.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/2143368.jpg`
+  - external image 7575084-67-1.JPG.tif&tmp=Large&quality=70&width=500 → `http://images1.bonhams.com/erez4/erez?src=Images/live/2008-01/31/7575084-67-1.JPG.tif&tmp=Large&quality=70&width=500`
+  - external image Freiburg_von_Schlossberg_aus_w.jpg → `http://www.freiburg-madison.de/images/Freiburg/Freiburg_von_Schlossberg_aus_w.jpg`
+  - external image 34789432.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/34789432.jpg`
+  - external image 2189520.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/2189520.jpg`
+  - external image 12122218.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/12122218.jpg`
+  - external image via_mala5.jpg → `http://jeanmichel.guyon.free.fr/monsite/recits/via_mala5.jpg`
+  - external image 38691133.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/38691133.jpg`
+  - external image 285718108_ff8d72e972_z.jpg?zz=1 → `http://farm1.static.flickr.com/101/285718108_ff8d72e972_z.jpg?zz=1`
+  - external image 3974514.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/3974514.jpg`
+  - external image 12271845.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/12271845.jpg`
+  - external image 38556353.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/38556353.jpg`
+  - external image 16686774.jpg → `http://commondatastorage.googleapis.com/static.panoramio.com/photos/original/16686774.jpg`
+  - external image 293935-800x533-500x333.jpg → `http://rete.comuni-italiani.it/foto/2009/wp-content/uploads/2010/01/293935-800x533-500x333.jpg`
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md) (2)
+  - external image Jean-Fran%C3%A7ois_Millet_%28II%29_001.jpg → `http://upload.wikimedia.org/wikipedia/commons/d/d7/Jean-Fran%C3%A7ois_Millet_%28II%29_001.jpg`
+  - external image 3528.jpg → `http://nga.gov.au/exhibition/turnertomonet/Images/LRG/3528.jpg`
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (2)
+  - external image 304779_001.jpg → `http://www.thepeerage.com/304779_001.jpg`
+  - external image Taymouth_Castle.jpg → `http://upload.wikimedia.org/wikipedia/commons/c/ce/Taymouth_Castle.jpg`
+- [_Page 1923](_Page%201923.md): external image image-thumb.aspx?compid=64645&pubid=533&filename=fig213.gif → `http://www.british-history.ac.uk/image-thumb.aspx?compid=64645&pubid=533&filename=fig213.gif`
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md): external image 58_11_46.JPG → `http://col.museumoflondon.org.uk/media/CCity/full/58_11_46.JPG`
+- [_Slave Trade Minutes 1787-1788](_Slave%20Trade%20Minutes%201787-1788.md): external image 66minutesofcommitteeabolitionbig.jpg → `http://www.bl.uk/onlinegallery/takingliberties/images/66minutesofcommitteeabolitionbig.jpg`
+- [_Trimmer 1787](_Trimmer%201787.md): external image 459px-Sarah_Trimmer_by_Henry_Howard.jpg → `http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Sarah_Trimmer_by_Henry_Howard.jpg/459px-Sarah_Trimmer_by_Henry_Howard.jpg`
+- [index](index.md) (2)
+  - external image visitors?year=2017 → `files/external-7aace2c2dca094f9ae791539af5f687a`
+  - external image edits?year=2017 → `files/external-5ea9655ffa6622bcec8420509dc4d1c3`
+
+## Floats / layout (dropped)
+
+- [John Barton of Dublin (1782-1874)](John%20Barton%20of%20Dublin%20%281782-1874%29.md): float left on <div>: “[Embedded Google map] View Larger Map”
+- [John Barton of Newcastle-under-Lyme (1737-1836)](John%20Barton%20of%20Newcastle-under-Lyme%20%281737-1836%29.md) (3)
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+- [Mary Irving (1804-1890)](Mary%20Irving%20%281804-1890%29.md) (3)
+  - float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+- [Ormside Hall](Ormside%20Hall.md): float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+- [Robert Barton (1828-1917)](Robert%20Barton%20%281828-1917%29.md): float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+- [_Penfold](_Penfold.md) (5)
+  - float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+  - float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+  - float left on <div>: “[Embedded Google map] View Larger Map”
+  - float left on <div>: “[Embedded Bing map] View Larger Map Get Directions View Bird…”
+
+## Font size changes (dropped)
+
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md)
+  - **15px** ×2 — e.g. “http://www.geograph.org.uk/photo/279418”; “1649-1651,1660-1685”
+- [Dora Barton (1898-1962)](Dora%20Barton%20%281898-1962%29.md)
+  - **11pt** ×1 — e.g. “½”
+- [Hartsop Hall](Hartsop%20Hall.md)
+  - **12px** ×7 — e.g. “A working farm owned by the National Trust (see www.hartsoph…”; “*Curwen 1932 pp256-277 describes it thus:”
+  - **13px** ×1 — e.g. “The former residence of the Bartons of Ormside . It is a lit…”
+- [High Head Chapel](High%20Head%20Chapel.md)
+  - **18px** ×1 — e.g. “The plaque”
+  - **16px** ×1 — e.g. “U”
+  - **120%** ×1 — e.g. “ST”
+- [Ive Bank, Ivegill](Ive%20Bank%2C%20Ivegill.md)
+  - **13px** ×2 — e.g. “"IB:IB”; “1694" (see above). It could perhaps stand for John Barton (d…”
+  - **16px** ×1 — e.g. “U”
+- [Katherine Charlotte Grenfell (1842-1906)](Katherine%20Charlotte%20Grenfell%20%281842-1906%29.md)
+  - **18px** ×1 — e.g. “Children”
+- [Living connections](Living%20connections.md)
+  - **18px** ×1 — e.g. “Andrew G. Beamish”
+- [Mabell Robinson (1578-1639)](Mabell%20Robinson%20%281578-1639%29.md)
+  - **18px** ×1 — e.g. “ANCHORWill and testament Will and testament”
+  - **1.4em** ×1 — e.g. “ANCHORWill and testament”
+- [Maria Hack (1777-1844)](Maria%20Hack%20%281777-1844%29.md)
+  - **18px** ×1 — e.g. “Portrait”
+- [Mary Porter (1732-1786)](Mary%20Porter%20%281732-1786%29.md)
+  - **1.4em** ×1 — e.g. “Marriage”
+- [Online resources](Online%20resources.md)
+  - **18px** ×1 — e.g. “General reference”
+- [Sr Barnard Barton (d.1633)](Sr%20Barnard%20Barton%20%28d.1633%29.md)
+  - **18px** ×1 — e.g. “Burial”
+- [_Barton 1980s](_Barton%201980s.md)
+  - **16px** ×1 — e.g. “U”
+- [_Curwen 1932](_Curwen%201932.md)
+  - **12px** ×2 — e.g. “"”; “The former residence of the Bartons of Ormside . It is a lit…”
+  - **13px** ×1 — e.g. “The former residence of the Bartons of Ormside . It is a lit…”
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md)
+  - **small** ×1 — e.g. “John Davies and Mary Hopkinson ;”
+- [_Miscellaneous records](_Miscellaneous%20records.md)
+  - **1.4em** ×2 — e.g. “1841 census”; “1851 census”
+  - **18px** ×1 — e.g. “Search from http://beta.familysearch.org :”
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md)
+  - **15px** ×1 — e.g. “1649-1651,1660-1685”
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md)
+  - **11pt** ×1 — e.g. “¼”
+- [_Transactions CWAAS v10 1889](_Transactions%20CWAAS%20v10%201889.md)
+  - **18px** ×1 — e.g. “p267”
+- [_Transactions CWAAS v6 1882](_Transactions%20CWAAS%20v6%201882.md)
+  - **18px** ×1 — e.g. “p105”
+- [_Transactions CWAAS v7 1884](_Transactions%20CWAAS%20v7%201884.md)
+  - **18px** ×1 — e.g. “pp171-172”
+
+## Footnote references
+
+- [Fanny Barton (1841-1878)](Fanny%20Barton%20%281841-1878%29.md) (2)
+  - cite marker [1] (reference list is empty in the export)
+  - cite marker [2] (reference list is empty in the export)
+- [Margaret Barton (1755-1836)](Margaret%20Barton%20%281755-1836%29.md): cite marker [1] (reference list is empty in the export)
+- [Rev. Gerard Barton (1834-1889)](Rev.%20Gerard%20Barton%20%281834-1889%29.md): cite marker [1] (reference list is empty in the export)
+
+## Image sizing / float / alignment (dropped)
+
+- [Alicia Boileau (1779-1851)](Alicia%20Boileau%20%281779-1851%29.md) (2)
+  - St Marys Tattingstone vault stone.jpg: height: 876px; width: 716px;
+  - St Marys Tattingstone monument to Alicia Boileau.jpg: height: 1103px; width: 745px;
+- [Antoine Boileau (d.1530)](Antoine%20Boileau%20%28d.1530%29.md): Antoine (ii) Boileau.JPG: height: 302px; width: 211px;
+- [Arthur Wilmot Elliott (1841-1862)](Arthur%20Wilmot%20Elliott%20%281841-1862%29.md): Arthur Wilmot Elliott 1841-1862.jpg: height: 459px; width: 280px;
+- [Barnard Barton (d.1715)](Barnard%20Barton%20%28d.1715%29.md): HighHeadChapelDocumentPartial.jpg: height: 183px; width: 600px;
+- [Bernard Barton of Carlisle (1728-1773)](Bernard%20Barton%20of%20Carlisle%20%281728-1773%29.md) (3)
+  - BernardBartonOfCarlisleSignature.jpg: height: 209px;
+  - Bernard Barton of Carlisle 1773 will.jpg: height: 1372px; width: 480px;
+  - Bernard Barton of Carlisle Gravestone new version with John Barton's corrections.jpg: height: 547px; width: 320px;
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md): external image 6826133_108639462589.jpg: height: 516px; width: 388px;
+- [Charles Arthur Boileau Elliott (1893-1917)](Charles%20Arthur%20Boileau%20Elliott%20%281893-1917%29.md) (2)
+  - Charles Arthur Boileau Elliott 1.jpg: align=left
+  - Charles Arthur Boileau Elliott: width=640 height=481
+- [Charles Elliott (1776-1856)](Charles%20Elliott%20%281776-1856%29.md) (2)
+  - Boileau Elliott arms left male and right female respectively.jpg: height: 322px; align=left
+  - St Marys Tattingstone monument to Charles Elliott.jpg: height: 770px; width: 520px;
+- [Charlotte Elliott (1789-1871)](Charlotte%20Elliott%20%281789-1871%29.md): Charlotte Elliott 1789-1871 from Country Life v139 i3598 article by NJB.jpg: height: 399px; width: 280px;
+- [Chateau Castelnau](Chateau%20Castelnau.md): external image chateau.jpg: height: 420px;
+- [Church Missionary House, Madras](Church%20Missionary%20House%2C%20Madras.md): Church Mission House Madras India 1876 Rev John Barton in foreground William Mackworth Young and Emily Barton at windows.jpg: height: 679px; width: 560px;
+- [Coats of Arms](Coats%20of%20Arms.md): Boileau Elliott arms left male and right female respectively.jpg: height: 322px; width: 250px;
+- [Col. John Edward Broadbent (1845-1931)](Col.%20John%20Edward%20Broadbent%20%281845-1931%29.md): John Edward Broadbent 1845-1931 with his daughter Esther at Woodhall Cottage in Shimla India.jpg: height: 555px;
+- [Col. Theodore Broadbent (1881-1952)](Col.%20Theodore%20Broadbent%20%281881-1952%29.md): J.T.C. & W.K.B Broadbent.jpg: height: 711px; width: 982px;
+- [DNA](DNA.md): external image 615px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png: height: 360px; width: 367px; align=right
+- [Dora Nicholson (1844-1897)](Dora%20Nicholson%20%281844-1897%29.md) (2)
+  - Dora Broadbent nee Nicholson with her son Theo at  Woodhall Cottage in Shimla India, ~1887.jpg: height: 483px; width: 398px;
+  - Dora Broadbent nee Nicholson.jpg: height: 521px; width: 360px;
+- [Eling Venn (1758-1843)](Eling%20Venn%20%281758-1843%29.md) (2)
+  - Eling Venn 1758-1843 from Country Life v139 i3598 article by NJB.jpg: height: 443px; width: 320px;
+  - Eling Venn 1758-1843 from Country Life v139 i3597 article by NJB.jpg: height: 448px; width: 320px;
+- [Emily Dougan (1806-1877)](Emily%20Dougan%20%281806-1877%29.md): Emily Gertrude Dougan miniature from Charles Baron SMALL.JPG: align=left
+- [Emily Elliott (1839-1924)](Emily%20Elliott%20%281839-1924%29.md) (3)
+  - Emily Eugenia Elliott aged 15 and brother Arthur, by R A Heapy 1854.jpg: height: 345px; width: 320px;
+  - Emily Eugenia Elliott 1839-1924.jpg: height: 358px; width: 240px;
+  - Emily Barton nee Elliott.jpg: height: 359px; width: 250px;
+- [Esther Broadbent (1873-1959)](Esther%20Broadbent%20%281873-1959%29.md): John Edward Broadbent 1845-1931 with his daughter Esther at Woodhall Cottage in Shimla India.jpg: height: 555px; width: 299px;
+- [Famous connections](Famous%20connections.md) (20)
+  - external image ThomasPennant_oil.jpeg: height: 358px; width: 278px;
+  - external image 453px-Priestley.jpg: height: 359px; width: 269px;
+  - external image WilliamPaley.jpg: height: 316px; width: 260px;
+  - external image Williamroscoe.jpg: height: 400px; width: 280px;
+  - external image James_Stephen_cropped.jpg: height: 338px; width: 276px;
+  - external image CharlesSimeon.jpg: height: 283px; width: 240px;
+  - external image William_wilberforce.jpg: height: 379px;
+  - external image Thomas_Clarkson_by_Carl_Frederik_at_the_National_Portrait_Galery.jpg: height: 396px; width: 258px;
+  - external image Akbar_Shah_II_of_India.jpg: height: 359px; width: 269px;
+  - external image Zachary_Macaulay.jpg: height: 348px;
+  - external image CharlesLamb_01.jpg: height: 424px; width: 304px;
+  - external image 800px-George_Gordon_Byron%2C_6th_Baron_Byron_by_Richard_Westall_%282%29.jpg: height: 372px; width: 300px;
+  - external image Franz_Xaver_Winterhalter_Napoleon_III.jpg: height: 372px; width: 240px;
+  - external image Edward_FitzGerald.jpg: height: 300px; width: 200px;
+  - external image Charles_Kean_Hamlet_1838.jpg: height: 292px; width: 216px;
+  - external image Karl_Marx_001.jpg: height: 305px; width: 215px;
+  - external image Eduard_VII.jpg: height: 300px; width: 205px;
+  - external image Ranulph_Fiennes_2014.jpg: height: 192px; width: 163px;
+  - external image 430px-Ralph_Fiennes_cropped.jpg: height: 192px; width: 163px;
+  - external image JosephFiennes.png: height: 205px; width: 133px;
+- [High Head Chapel](High%20Head%20Chapel.md): HighHeadChapelDocument.jpg: height: 720px; width: 560px;
+- [Jackie Barton (1896-1904)](Jackie%20Barton%20%281896-1904%29.md): Jackie Jack and John Barton.jpg: height: 607px;
+- [John Barton the Elder (1754-1789)](John%20Barton%20the%20Elder%20%281754-1789%29.md): John Barton selling house in English Street 1782 SMALL.jpg: align=left
+- [Joseph Barton (b.1760)](Joseph%20Barton%20%28b.1760%29.md): Joseph Barton to William Roscoe, November 1789 (R.C.259) p6.jpg: height: 701px; width: 560px;
+- [Joseph Squire](Joseph%20Squire.md): Ann Dunning Squire, first wife of Joseph Squire 1777 oil painting by Northcote.jpg: height: 527px; width: 355px;
+- [Living connections](Living%20connections.md) (9)
+  - dbhbarton.JPG: align=left
+  - njbarton.jpg: align=left
+  - mdbarton.jpg: align=left
+  - agbeamish.jpg: align=left
+  - cbaron.JPG: align=left
+  - imathews.jpg: align=left
+  - sbailey.jpg: align=left
+  - lrockliff.jpg: align=left
+  - jhardy.jpg: align=left
+- [Osmaston Manor, Derbyshire](Osmaston%20Manor%2C%20Derbyshire.md): external image osmaston%20manor%201905.jpg: height: 344px; width: 540px;
+- [Parkwood Mills, Huddersfield](Parkwood%20Mills%2C%20Huddersfield.md) (9)
+  - J.T.C. & W.K.B Broadbent.jpg: height: 711px; width: 982px;
+  - General Office.jpg: height: 711px; width: 982px;
+  - Engine House.jpg: height: 711px; width: 982px;
+  - Teasing Dept.jpg: height: 711px; width: 982px;
+  - Scribbling Dept.jpg: height: 711px; width: 982px;
+  - Spinning Dept.jpg: height: 711px; width: 982px;
+  - Twisting.jpg: height: 711px; width: 982px;
+  - Warping.jpg: height: 711px; width: 982px;
+  - Weaving Shed.jpg: height: 711px; width: 982px;
+- [Parsy Close, near Thomas Close](Parsy%20Close%2C%20near%20Thomas%20Close.md): Parsy Close-Up.jpg: height: 660px; width: 379px; align=left
+- [Rev. Cecil Barton (1870-1909)](Rev.%20Cecil%20Barton%20%281870-1909%29.md): Cecil Edward Barton 1870-1909.jpg: height: 492px; width: 360px;
+- [Rev. Charles Boileau Elliott (1803-1875)](Rev.%20Charles%20Boileau%20Elliott%20%281803-1875%29.md): Charles Boileau Elliott miniature from Charles Baron SMALL.JPG: align=left
+- [Rev. Jack Barton (1866-1941)](Rev.%20Jack%20Barton%20%281866-1941%29.md): Jackie Jack and John Barton.jpg: height: 607px; width: 280px;
+- [Rev. John Barton of Cambridge (1836-1908)](Rev.%20John%20Barton%20of%20Cambridge%20%281836-1908%29.md): John Barton 1860 when staying with H V Elliott.jpg: height: 355px; width: 320px;
+- [Royal ancestry](Royal%20ancestry.md) (12)
+  - external image William1.jpg: height: 228px; width: 137px;
+  - external image Matilda-flanders_sm.png: height: 217px; width: 202px;
+  - external image 340px-Philip_I_of_France_%C2%B7_HHWXI28.svg.png: height: 247px; width: 204px;
+  - external image Henri_I.jpg: height: 260px; width: 207px;
+  - external image SaintRadegondeMural.jpg: height: 189px; width: 149px;
+  - external image 800px-Bernardus_van_Clairvaux_bekeert_Willem_van_Aquitani%C3%AB.jpg: height: 179px; width: 320px;
+  - external image 400px-Statue_of_King_Alfred_in_Wantage_Market_Square.jpg: height: 240px; width: 160px;
+  - external image 069FFC8A-5408-430E-B7A9-F025DF604EE3.jpg: height: 184px; width: 273px;
+  - external image 409px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg: height: 240px; width: 163px;
+  - external image Karl_der_gro%C3%9Fe.jpg: height: 213px; width: 160px;
+  - external image 468px-Tizian_091.jpg: height: 240px; width: 186px;
+  - external image 396px-Olympians.jpg: height: 359px; width: 236px;
+- [Shimla, India](Shimla%2C%20India.md): external image 13209483.jpg: height: 600px; width: 800px;
+- [Sir William Henry Broadbent (1835-1907)](Sir%20William%20Henry%20Broadbent%20%281835-1907%29.md): external image William_Broadbent_Vanity_Fair_30_October_1902.jpg: height: 480px; width: 315px;
+- [Srinagar, India](Srinagar%2C%20India.md) (2)
+  - external image 5492315.jpg: height: 381px; width: 560px;
+  - Boys jumping from the school classroom into the river, Sringar.jpg: height: 669px; width: 480px;
+- [St. Mary's Church, Tattingstone](St.%20Mary%27s%20Church%2C%20Tattingstone.md) (6)
+  - St Mary's church Tattingstone Suffolk: width=640 height=427
+  - St Marys Tattingstone vault stone.jpg: height: 876px; width: 716px;
+  - St Marys Tattingstone monument to Alicia Boileau.jpg: height: 1103px; width: 745px;
+  - St Marys Tattingstone monument to Charles Elliott.jpg: height: 1103px; width: 745px;
+  - St Marys Tattingstone monument to Arthur Wilmot Elliott.jpg: height: 1003px; width: 663px;
+  - Charles Arthur Boileau Elliott: width=640 height=481
+- [The Barton name](The%20Barton%20name.md) (3)
+  - Barton name 1881.jpg: height: 628px; width: 306px;
+  - Barton name 1998.jpg: height: 627px; width: 306px;
+  - Barton name North America.jpg: height: 563px; width: 800px;
+- [William Barton of Beacon Hill](William%20Barton%20of%20Beacon%20Hill.md): Broadfield House Estate map.jpg: height: 568px; width: 800px;
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md) (3)
+  - Bernard Barton to William Roscoe (R.C.206) p1.jpg: height: 720px; width: 560px;
+  - Bernard Barton to William Roscoe (R.C.206) p2.jpg: height: 579px; width: 560px;
+  - Bernard Barton to William Roscoe (R.C.206) p3.jpg: height: 231px; width: 560px;
+- [_Billy Barton Diary and Letters](_Billy%20Barton%20Diary%20and%20Letters.md) (2)
+  - external image HMS_Enterprise_WWII_IWM_FL_005389.jpg: height: 315px; width: 420px;
+  - external image HMS_Nigeria.jpg: height: 279px; width: 410px;
+- [_Cecil & Esther's wedding photos, 1896](_Cecil%20%26%20Esther%27s%20wedding%20photos%2C%201896.md): external image mw40743.jpg: height: 315px; width: 185px;
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md): Kolahoi 1900 mountaineering journal by Cecil Barton (2)A.jpg: align=left
+- [_Emily Dougan's 1856 Sketchbook](_Emily%20Dougan%27s%201856%20Sketchbook.md) (18)
+  - external image burg_rheinfels.jpg: height: 357px; width: 560px;
+  - external image 19662805.jpg: height: 420px; width: 560px;
+  - external image 24821074.jpg: height: 402px; width: 510px;
+  - Emily Dougan 1856 Sketchbook (5).jpg: height: 490px; width: 800px;
+  - external image 22041583.jpg: height: 360px; width: 480px;
+  - external image 19291310.jpg: height: 419px; width: 560px;
+  - external image 2143368.jpg: height: 420px; width: 560px;
+  - external image 34789432.jpg: height: 420px; width: 560px;
+  - external image 2189520.jpg: height: 418px; width: 560px;
+  - external image 12122218.jpg: height: 360px; width: 480px;
+  - external image via_mala5.jpg: height: 642px;
+  - external image 38691133.jpg: height: 371px; width: 560px;
+  - external image 285718108_ff8d72e972_z.jpg?zz=1: height: 423px; width: 576px;
+  - external image 3974514.jpg: height: 318px; width: 240px;
+  - external image 12271845.jpg: height: 238px; width: 480px;
+  - external image 38556353.jpg: height: 440px; width: 480px;
+  - external image 16686774.jpg: height: 359px; width: 480px;
+  - external image 293935-800x533-500x333.jpg: height: 366px; width: 550px;
+- [_John Barton the Elder Correspondence](_John%20Barton%20the%20Elder%20Correspondence.md) (6)
+  - Barton & Hodgson, Weavers Wanted 1775 SMALL.jpg: align=left
+  - John Barton to William Roscoe, January 1780 (R.C.223) p3.jpg: height: 874px; width: 560px;
+  - John Barton selling house in English Street 1782 SMALL.jpg: align=left
+  - Martha Done, February 1784 p3.jpg: height: 861px; width: 560px;
+  - John Barton to William Roscoe, March 1784 (R.C.235) p1.jpg: height: 1076px; width: 560px;
+  - John Barton the Elder letter to RSA about spinning wheel 1787.jpg: height: 1124px; width: 560px;
+- [_Maria Done Correspondence](_Maria%20Done%20Correspondence.md) (2)
+  - Maria Done to Betty Griffies, ~1774 (R.C.1259) p3.jpg: height: 748px; width: 560px;
+  - Martha Done, February 1784 p3.jpg: height: 861px; width: 560px;
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md) (5)
+  - William Pearson Elliott 1780-1802 secretary to an embassy to Arabia where he died and was buried in the garden of the Imam of Senna.jpg: height: 447px; width: 320px;
+  - Rev Charles Boileau Elliott FRS 1803-1875.jpg: height: 402px; width: 360px;
+  - Emily Dougan 1806-1877.jpg: height: 417px; width: 360px;
+  - external image Jean-Fran%C3%A7ois_Millet_%28II%29_001.jpg: height: 399px; width: 480px;
+  - external image 3528.jpg: height: 339px; width: 480px;
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (4)
+  - John Barton the Elder 1754-1789 1774 portrait.jpg: height: 326px; width: 280px;
+  - Braemar 1857 Probably Rev John Barton & friends.jpg: height: 484px;
+  - external image Taymouth_Castle.jpg: height: 336px; width: 448px;
+  - John Barton 1860 when staying with H V Elliott.jpg: height: 310px;
+- [_Miscellaneous records](_Miscellaneous%20records.md) (2)
+  - robert barton 1841c.jpg: height: 557px;
+  - robert barton 1851c.jpg: height: 515px;
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (5)
+  - Ronald Barton War Diary v1 p1 - Small.jpg: height: 545px; width: 360px; align=left
+  - Ronald Barton to Freddie July 1946 p1.jpg: height: 791px; width: 560px;
+  - Ronald Barton to Freddie July 1946 p2.jpg: height: 791px; width: 560px;
+  - Ronald Barton to Freddie July 1946 p3.jpg: height: 791px; width: 560px;
+  - Ronald Barton to Freddie July 1946 p4.jpg: height: 791px; width: 560px;
+- [_Slave Trade Minutes 1787-1788](_Slave%20Trade%20Minutes%201787-1788.md): external image 66minutesofcommitteeabolitionbig.jpg: height: 951px; width: 600px;
+
+## Indentation (dropped)
+
+- [Editors FAQ](Editors%20FAQ.md)
+  - **margin-left 1em** ×19 — e.g. “How can I rename a page, and what happens if I do?”; “How are you using tags on your wiki?”
+  - **margin-left 2em** ×3 — e.g. “Maps”; “Street view”
+- [Esther Broadbent (1873-1959)](Esther%20Broadbent%20%281873-1959%29.md)
+  - **padding-left 3em** ×5 — e.g. “Lt. Col. Ted Barton (1897-1971)”; “Dora Barton (1898-1962)”
+- [Famous connections](Famous%20connections.md)
+  - **margin-left 1em** ×19 — e.g. “Thomas Pennant (1726-1798)”; “Rev. Dr. Joseph Priestley (1733-1804)”
+- [Fanny Rickman (1807-1842)](Fanny%20Rickman%20%281807-1842%29.md)
+  - **padding-left 3em** ×9 — e.g. “Rev. Joseph Barton (1829-1905) .”; “Anne Barton (1831-1921) .”
+- [John Barton of Ivegill (d.1747)](John%20Barton%20of%20Ivegill%20%28d.1747%29.md)
+  - **padding-left 3em** ×6 — e.g. “Margaret Barton : bpt. 10 Oct 1722 , Ivegill”; “Jane Barton , bpt. 1 Aug 1725, Ivegill”
+- [Rev. Tom Causton (1835-1899)](Rev.%20Tom%20Causton%20%281835-1899%29.md)
+  - **padding-left 3em** ×13 — e.g. “Thomas Atherton Causton (b.1866)”; “Ernest Augustus Causton (b.1867)”
+- [Royal ancestry](Royal%20ancestry.md)
+  - **margin-left 1em** ×10 — e.g. “William the Conqueror (~1028-1087) and”; “Matilda of Flanders (~1031-1083)”
+- [_Barton 1980s](_Barton%201980s.md)
+  - **margin-left 2em** ×22 — e.g. “East Leigh”; “Norfolk”
+  - **margin-left 1em** ×12 — e.g. “Chapter 1: John Barton Senior's Forebears and his Half Broth…”; “Chapter 2: William Roscoe and the Bartons”
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md)
+  - **margin-left 1em** ×91 — e.g. “Bernard Barton to William Roscoe, ~1812 (R.C.206)”; “Robert Southey to Bernard Barton, August 1814 (p149)”
+- [_Billy Barton Diary and Letters](_Billy%20Barton%20Diary%20and%20Letters.md)
+  - **margin-left 2em** ×310 — e.g. “July 31st, 1939 (Monday)”; “August 22nd (Tuesday)”
+  - **margin-left 1em** ×20 — e.g. “Introduction by Malcolm Barton”; “Telegram, October 3rd, 1939”
+- [_Broadbent 1976](_Broadbent%201976.md)
+  - **margin-left 1em** ×19 — e.g. “THE BROADBENTS OF LONGWOOD (c. 1796 — c. 1930)”; “Preface”
+- [_Carlisle Journal](_Carlisle%20Journal.md)
+  - **margin-left 1em** ×29 — e.g. “18 July 1801, p3”; “6 June 1818”
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md)
+  - **margin-left 1em** ×21 — e.g. “Volume 1: Kolahoi, 1900”; “1900, Prologue”
+- [_John Barton the Elder Correspondence](_John%20Barton%20the%20Elder%20Correspondence.md)
+  - **margin-left 1em** ×78 — e.g. “Mr Lowthion to Bernard Barton, January 1772”; “Bernard Barton to Mr. Lowthion, January 1772”
+- [_Maria Done Correspondence](_Maria%20Done%20Correspondence.md)
+  - **margin-left 1em** ×35 — e.g. “Maria Done to Jenny Lightfoot, November 1771”; “Maria Done to Jenny Lightfoot, ~January 1772”
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md)
+  - **margin-left 1em** ×29 — e.g. “Family origins”; “Emily's father meets her mother, 1830”
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md)
+  - **margin-left 1em** ×14 — e.g. “Family origins”; “Schooling, 1846-1852”
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md)
+  - **margin-left 1em** ×12 — e.g. “xlix-li”; “p286”
+- [_Perriam articles and research](_Perriam%20articles%20and%20research.md)
+  - **margin-left 1em** ×6 — e.g. “Names live on from Long Island, Carlisle”; “City firm that missed out on the railway carriage boom”
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md)
+  - **margin-left 1em** ×94 — e.g. “January 10th, 1941 (Friday)”; “January 11th (Saturday)”
+
+## Non-heading anchors (kept as raw HTML `<a name>`)
+
+- [Arthur Elliott Barton (1864-1931)](Arthur%20Elliott%20Barton%20%281864-1931%29.md): `Children`
+- [Barnard Barton (d.1715)](Barnard%20Barton%20%28d.1715%29.md) (4)
+  - `Birth`
+  - `Children`
+  - `Burial`
+  - `Will`
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md): `Bartons`
+- [Catherine Marsh (1818-1912)](Catherine%20Marsh%20%281818-1912%29.md) (3)
+  - `28`
+  - `Death of Julius Elliott`
+  - `Life of William Marsh`
+- [Emily Dougan (1806-1877)](Emily%20Dougan%20%281806-1877%29.md): `Miniature`
+- [Emily Elliott (1839-1924)](Emily%20Elliott%20%281839-1924%29.md) (2)
+  - `portrait of Arthur and Emily`
+  - `Children`
+- [Esther Broadbent (1873-1959)](Esther%20Broadbent%20%281873-1959%29.md): `Children`
+- [Famous connections](Famous%20connections.md) (20)
+  - `Thomas Pennant`
+  - `Joseph Priestley`
+  - `William Paley`
+  - `William Roscoe`
+  - `James Stephen`
+  - `Sir James Stephen`
+  - `Charles Simeon`
+  - `William Wilberforce`
+  - `Thomas Clarkson`
+  - `Emperor Akbar Shah II`
+  - `Zachary Macaulay`
+  - `Macaulays`
+  - `Charles Lamb`
+  - `Lord Byron`
+  - `Napoleon III`
+  - `Edward Fitzgerald`
+  - `The Keans`
+  - `Karl Marx`
+  - `Edward VII`
+  - `Fiennes`
+- [General Edward Lake](General%20Edward%20Lake.md): `40`
+- [High Head Chapel](High%20Head%20Chapel.md) (4)
+  - `Plaque`
+  - `Bell`
+  - `Document`
+  - `Register`
+- [Holy Trinity Church, Cambridge](Holy%20Trinity%20Church%2C%20Cambridge.md) (3)
+  - `Stained glass`
+  - `Brookside`
+  - `Vicarage`
+- [Isaac Barton (1771-1819)](Isaac%20Barton%20%281771-1819%29.md): `Mentions`
+- [Ivegill](Ivegill.md) (4)
+  - `Sites`
+  - `bridge`
+  - `Bartons`
+  - `Parish`
+- [John Crooke Dougan (1811-1878)](John%20Crooke%20Dougan%20%281811-1878%29.md): `7`
+- [Joseph Barton (b.1760)](Joseph%20Barton%20%28b.1760%29.md) (2)
+  - `Mentions`
+  - `Letters`
+- [Josephina Rickman (1808-1892)](Josephina%20Rickman%20%281808-1892%29.md) (2)
+  - `97`
+  - `101`
+- [Living connections](Living%20connections.md) (10)
+  - `David Barton`
+  - `Nicholas Barton`
+  - `Malcolm Barton`
+  - `Andrew Beamish`
+  - `Charles Baron`
+  - `Iola Mathews`
+  - `Sarah Bailey`
+  - `Laurel Rockliff`
+  - `Jenny Hardy`
+  - `Tina Woodhead`
+- [Mabell Robinson (1578-1639)](Mabell%20Robinson%20%281578-1639%29.md): `Will and testament`
+- [Ormside Hall](Ormside%20Hall.md) (2)
+  - `Bartons`
+  - `Farflung`
+- [Rev. Cecil Barton (1870-1909)](Rev.%20Cecil%20Barton%20%281870-1909%29.md): `Children`
+- [Rev. Charles Boileau Elliott (1803-1875)](Rev.%20Charles%20Boileau%20Elliott%20%281803-1875%29.md) (7)
+  - `watercolour`
+  - `Miniature`
+  - `Expulsion`
+  - `Egypt`
+  - `Children`
+  - `Books`
+  - `Travels in Europe`
+- [Rev. Jack Barton (1866-1941)](Rev.%20Jack%20Barton%20%281866-1941%29.md): `Children`
+- [Rev. John Barton of Cambridge (1836-1908)](Rev.%20John%20Barton%20of%20Cambridge%20%281836-1908%29.md): `Children`
+- [Shimla, India](Shimla%2C%20India.md): `Woodhall`
+- [Tesie Moule (1882-1905)](Tesie%20Moule%20%281882-1905%29.md) (2)
+  - `125`
+  - `128`
+- [Whenby, Yorkshire](Whenby%2C%20Yorkshire.md): `Bartons`
+- [_Barton 1850](_Barton%201850.md) (2)
+  - `43-146`
+  - `149-190`
+- [_Broadbent 1976](_Broadbent%201976.md): `Royal appointment`
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md) (62)
+  - `1.3`
+  - `1.5`
+  - `1.6`
+  - `1.7`
+  - `1.8`
+  - `1.10`
+  - `1.11`
+  - `1.12`
+  - `1.13`
+  - `1.14`
+  - `1.15`
+  - `1.16`
+  - `1.17`
+  - `1.18`
+  - `1.19`
+  - `1.20`
+  - `1.21`
+  - `1.22`
+  - `1.21`
+  - `1.23`
+  - `1.25`
+  - `1.26`
+  - `1.28`
+  - `1.29`
+  - `1.30`
+  - …and 37 more
+- [_Curwen 1932](_Curwen%201932.md) (2)
+  - `189-194`
+  - `256-277`
+- [_Hole 1896](_Hole%201896.md) (2)
+  - `626`
+  - `646`
+- [_Lewis 1848](_Lewis%201848.md): `505-509`
+- [_Marx 1861-3](_Marx%201861-3.md): `sB2a`
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md) (128)
+  - `1`
+  - `2`
+  - `3`
+  - `4`
+  - `5`
+  - `6`
+  - `7`
+  - `8`
+  - `9`
+  - `10`
+  - `11`
+  - `12`
+  - `13`
+  - `14`
+  - `15`
+  - `16`
+  - `17`
+  - `18`
+  - `19`
+  - `20`
+  - `21`
+  - `22`
+  - `23`
+  - `24`
+  - `25`
+  - …and 103 more
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (4)
+  - `Osmaston Manor`
+  - `George Head`
+  - `meeting Arthur`
+  - `meeting with Arthur`
+- [_Miscellaneous records](_Miscellaneous%20records.md) (2)
+  - `children of barnard barton d.1715`
+  - `children of John Barton d.1747`
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md) (9)
+  - `xlix-li`
+  - `286`
+  - `327-328`
+  - `349`
+  - `405`
+  - `407`
+  - `408`
+  - `513`
+  - `515-517`
+- [_Perriam articles and research](_Perriam%20articles%20and%20research.md) (2)
+  - `Penfold`
+  - `William Barton will`
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (159)
+  - `1.1`
+  - `1.2`
+  - `1.3`
+  - `1.4`
+  - `1.5`
+  - `1.6`
+  - `1.7`
+  - `1.8`
+  - `1.9`
+  - `1.10`
+  - `1.11`
+  - `1.12`
+  - `1.13`
+  - `1.14`
+  - `1.15`
+  - `1.16`
+  - `1.17`
+  - `1.18`
+  - `1.19`
+  - `1.20`
+  - `1.21`
+  - `1.22`
+  - `1.23`
+  - `1.24`
+  - `1.25`
+  - …and 134 more
+- [_The Citizen (Carlisle periodical)](_The%20Citizen%20%28Carlisle%20periodical%29.md): `632-633`
+- [_Transactions CWAAS v5 1905](_Transactions%20CWAAS%20v5%201905.md) (4)
+  - `63`
+  - `88`
+  - `96`
+  - `197`
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md) (3)
+  - `68`
+  - `88`
+  - `246-248`
+
+## Scripts (removed)
+
+- [index](index.md) (2)
+  - Twitter widget script
+  - Twitter widget script
+
+## Small text (size dropped)
+
+- [Barton (hamlet & parish)](Barton%20%28hamlet%20%26%20parish%29.md): “View Ormside Barton Connections in a larger map”
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md): “View Larger Map”
+- [Chateau Castelnau](Chateau%20Castelnau.md): “View Larger Map”
+- [Church Missionary House, Madras](Church%20Missionary%20House%2C%20Madras.md): “View Larger Map”
+- [Edward Wigram (b.1802)](Edward%20Wigram%20%28b.1802%29.md): “View Larger Map”
+- [High Head Chapel](High%20Head%20Chapel.md): “View Larger Map”
+- [Huguenot Cemetery, Dublin](Huguenot%20Cemetery%2C%20Dublin.md): “View Larger Map”
+- [Ivegill](Ivegill.md): “View Larger Map”
+- [John Barton of Dublin (1782-1874)](John%20Barton%20of%20Dublin%20%281782-1874%29.md) (2)
+  - “View Larger Map”
+  - “View Larger Map”
+- [John Barton of Newcastle-under-Lyme (1737-1836)](John%20Barton%20of%20Newcastle-under-Lyme%20%281737-1836%29.md) (4)
+  - “View Larger Map”
+  - “View Larger Map”
+  - “View Larger Map”
+  - “View Larger Map”
+- [John Barton the Elder (1754-1789)](John%20Barton%20the%20Elder%20%281754-1789%29.md): “View Larger Map”
+- [Mary Irving (1804-1890)](Mary%20Irving%20%281804-1890%29.md): “View Larger Map”
+- [Ormside Hall](Ormside%20Hall.md): “View Ormside Barton Connections in a larger map”
+- [Parishes of Cumberland and Westmorland](Parishes%20of%20Cumberland%20and%20Westmorland.md): “View Cumberland parishes in a larger map”
+- [Places](Places.md): “View BartonHistory master map in a larger map”
+- [Rev. Edward King Elliott (1828-1920)](Rev.%20Edward%20King%20Elliott%20%281828-1920%29.md): “View Larger Map”
+- [Robert Barton (1893-1916)](Robert%20Barton%20%281893-1916%29.md): “View Larger Map”
+- [Shimla, India](Shimla%2C%20India.md): “View Larger Map”
+- [Srinagar, India](Srinagar%2C%20India.md): “View Larger Map”
+- [St. Mary's Church, Tattingstone](St.%20Mary%27s%20Church%2C%20Tattingstone.md): “View Larger Map”
+- [The Barton name](The%20Barton%20name.md): “View Places called 'Barton' in the UK (red markers; also wit…”
+- [Thomas Dougan (d.1797)](Thomas%20Dougan%20%28d.1797%29.md): “View Larger Map”
+- [Whenby, Yorkshire](Whenby%2C%20Yorkshire.md): “View BartonHistory master map in a larger map”
+- [_Broadbent 1976](_Broadbent%201976.md) (2)
+  - “View Broadbent locations in a larger map”
+  - “View John Edward Broadbent in India, 1868-1869 in a larger m…”
+- [_Cecil Barton Mountaineering Journals](_Cecil%20Barton%20Mountaineering%20Journals.md) (16)
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+  - “View Cecil Barton's mountaineering expeditions 1: Kolahoi, J…”
+- [_Dalston parish records](_Dalston%20parish%20records.md): “View Larger Map”
+- [_Emily Dougan's 1856 Sketchbook](_Emily%20Dougan%27s%201856%20Sketchbook.md): “View Emily Dougan's 1856 sketchbook in a larger map”
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md): “View Emily & John's Tour of South India, 1874-5 in a larger …”
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md) (3)
+  - “View Larger Map”
+  - “View John Barton's tour of Wales, 1856 in a larger map”
+  - “View John Barton's tour of Scotland, 1857 in a larger map”
+- [_Penfold](_Penfold.md) (2)
+  - “View Larger Map”
+  - “View Larger Map”
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (2)
+  - “View Ronald Barton's war diary 1941 in a larger map”
+  - “View Larger Map”
+- [_Transactions CWAAS v13 1895](_Transactions%20CWAAS%20v13%201895.md): “View Larger Map”
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md): “View Larger Map”
+- [index](index.md): “View The Barton Triangle in a larger map”
+
+## Superscript (kept as inline `<sup>` HTML)
+
+- [High Head Chapel](High%20Head%20Chapel.md) (4)
+  - “[1]”
+  - “[2]”
+  - “[3]”
+  - “[4]”
+- [Ormside Hall](Ormside%20Hall.md) (7)
+  - “1”
+  - “2”
+  - “2”
+  - “3”
+  - “4”
+  - “5”
+  - “6”
+- [Sr Barnard Barton (d.1633)](Sr%20Barnard%20Barton%20%28d.1633%29.md): “r”
+- [_Byron letters](_Byron%20letters.md) (3)
+  - “1”
+  - “2”
+  - “3”
+- [_Fitzgerald 1849](_Fitzgerald%201849.md) (2)
+  - “1”
+  - “2”
+- [_Transactions CWAAS v7 1884](_Transactions%20CWAAS%20v7%201884.md) (6)
+  - “pd”
+  - “rd”
+  - “th”
+  - “rd”
+  - “rd”
+  - “rd”
+
+## Tables (converted to Markdown tables; check layout)
+
+- [DNA](DNA.md): 2 rows — contains merged cells / line breaks / lists / images, may not render well
+- [Osmaston Manor, Derbyshire](Osmaston%20Manor%2C%20Derbyshire.md) (3)
+  - 1 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 20 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 1 rows — contains merged cells / line breaks / lists / images, may not render well
+- [The Barton name](The%20Barton%20name.md) (6)
+  - 4 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 26 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 11 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 11 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 11 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 11 rows — contains merged cells / line breaks / lists / images, may not render well
+- [_Barton 1980s](_Barton%201980s.md) (4)
+  - 6 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 13 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 11 rows — contains merged cells / line breaks / lists / images, may not render well
+  - 7 rows — contains merged cells / line breaks / lists / images, may not render well
+- [_Dalston parish records](_Dalston%20parish%20records.md): 69 rows — contains merged cells / line breaks / lists / images, may not render well
+- [_Letters of Robert Frederick Dougan](_Letters%20of%20Robert%20Frederick%20Dougan.md): 13 rows — contains merged cells / line breaks / lists / images, may not render well
+- [_Marx 1861-3](_Marx%201861-3.md): 6 rows — contains merged cells / line breaks / lists / images, may not render well
+
+## Text alignment (dropped)
+
+- [Baptismal water from the Jordan](Baptismal%20water%20from%20the%20Jordan.md): center: “”
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md): -webkit-auto: “”
+- [Charlotte Elliott (1789-1871)](Charlotte%20Elliott%20%281789-1871%29.md): right: “powered by Splicd.com”
+- [Timeline](Timeline.md): center: “Barton family history on Dipity.”
+
+## Twitter widgets (kept as plain link)
+
+- [index](index.md) (2)
+  - twitter-timeline → https://twitter.com/BartonHistory
+  - twitter-follow-button → https://twitter.com/BartonHistory
+
+## Underline (kept as inline `<u>` HTML)
+
+- [Ann Woodrouffe Smith (1791-1821)](Ann%20Woodrouffe%20Smith%20%281791-1821%29.md) (19)
+  - “twenty ninth”
+  - “eighth”
+  - “Eight”
+  - “eleven”
+  - “John Barton”
+  - “Chichester in the County of Sussex, Merchant”
+  - “John Barton, late”
+  - “Hertford deceased”
+  - “Elizabeth”
+  - “Ann Woodrouffe Smith”
+  - “Thomas Woofrouffe Smith”
+  - “Stockwell in the County of Surry deceased”
+  - “Ann”
+  - “their meeting house at Wandsworth in the County of Surry”
+  - “Tho.s Reynolds of Wallington, Surry, Bleacher”
+  - “Geo. Harrison, Wandsworth”
+  - “Sam.l West of Billiter Lane, London, Warehousekeeper”
+  - “John Barton”
+  - “Ann Woodrouffe Smith”
+- [Bartons Farm, Thomas Close](Bartons%20Farm%2C%20Thomas%20Close.md): “Memoirs of the Right Honourable Henry Lord Brougham (1840) ,…”
+- [Bernard Barton of Carlisle (1728-1773)](Bernard%20Barton%20of%20Carlisle%20%281728-1773%29.md) (5)
+  - “a”
+  - “56”
+  - “Barnard”
+  - “re-”
+  - “1840”
+- [Bernard Barton the Quaker poet (1784-1849)](Bernard%20Barton%20the%20Quaker%20poet%20%281784-1849%29.md) (24)
+  - “sixth”
+  - “eighth”
+  - “eight”
+  - “seven”
+  - “Bernard Barton”
+  - “Woodbridge, Merchant”
+  - “John Barton, late”
+  - “London”
+  - “Mary”
+  - “Lucy Jesup”
+  - “Benjamin Jesup”
+  - “Woodbridge in the County of Suffolk”
+  - “Martha”
+  - “Woodbridge aforesaid”
+  - “Mr [?] Jesup Woodbridge, Merch.t”
+  - “Wm. Alexander, Needham”
+  - “Merchant”
+  - “William Candles”
+  - “Ipswich”
+  - “Chandler”
+  - “Bernard Barton”
+  - “Lucy Jesup”
+  - “To Lucy”
+  - “To a Grandmother”
+- [Catherine Marsh (1818-1912)](Catherine%20Marsh%20%281818-1912%29.md) (5)
+  - “The Life and Friendships of Catherine Marsh (1917) by Lucy E…”
+  - “English Hearts and English Hands: or, The Railway and the Tr…”
+  - “The Victory Won; a Brief Memorial of the Last Days of G. Ree…”
+  - “Memorials of Captain Hedley Vicars, Ninety-Seventh Regiment …”
+  - “The Life of the Rev. William Marsh D.D. (1868) by Catherine …”
+- [Editors FAQ](Editors%20FAQ.md): “http://bartonhistory.wikispaces.com/Page+Name#Anchor Name Or…”
+- [Eleanor Elliott (b.1795)](Eleanor%20Elliott%20%28b.1795%29.md): “The Life and Friendships of Catherine Marsh (1917) by Lucy E…”
+- [Famous connections](Famous%20connections.md) (3)
+  - “A Sermon on the Subject of the Slave Trade (1788)”
+  - “Essay on Lord Clive”
+  - “Critical, historical and miscellaneous essays, Volume 6 (186…”
+- [FranÃ§oise de Vignolles (1643-1700)](Fran%C3%83%C2%A7oise%20de%20Vignolles%20%281643-1700%29.md): “Armorial général de la France, Volume 2 (1742)”
+- [General Edward Lake](General%20Edward%20Lake.md) (2)
+  - “Memorial Sketch of Major General Edward Lake, Commissioner o…”
+  - “Report of the Punjab Missionary Conference held at Lahore in…”
+- [Hartsop Hall](Hartsop%20Hall.md): “Hartsop Hall”
+- [High Head Chapel](High%20Head%20Chapel.md): “Highead, or Ivegill”
+- [Huguenot Cemetery, Dublin](Huguenot%20Cemetery%2C%20Dublin.md): “"Huguenot Cemetery 1693: Merrion Row, Stephens Green, Dublin…”
+- [Ive Bank, Ivegill](Ive%20Bank%2C%20Ivegill.md): “Isabell”
+- [John Barton (1782-1784)](John%20Barton%20%281782-1784%29.md) (5)
+  - “John”
+  - “the greatest”
+  - “only”
+  - “what a day may bring forth”
+  - “we rejoiced not”
+- [John Barton Senior (1789-1852)](John%20Barton%20Senior%20%281789-1852%29.md) (24)
+  - “twenty ninth”
+  - “eighth”
+  - “Eight”
+  - “eleven”
+  - “John Barton”
+  - “Chichester in the County of Sussex, Merchant”
+  - “John Barton, late”
+  - “Hertford deceased”
+  - “Elizabeth”
+  - “Ann Woodrouffe Smith”
+  - “Thomas Woofrouffe Smith”
+  - “Stockwell in the County of Surry deceased”
+  - “Ann”
+  - “their meeting house at Wandsworth in the County of Surry”
+  - “Tho.s Reynolds of Wallington, Surry, Bleacher”
+  - “Geo. Harrison, Wandsworth”
+  - “Sam.l West of Billiter Lane, London, Warehousekeeper”
+  - “John Barton”
+  - “Ann Woodrouffe Smith”
+  - “Hints for Improving the Condition of the Poor (1815) by John…”
+  - “Observations on the Circumstances which Influence the Condit…”
+  - “An Inquiry into causes of the Progressive Depreciation of Ag…”
+  - “A Statement of the Consequences likely to Ensue from our Gro…”
+  - “In Defence of the Corn Laws, or An Inquiry into the Expedien…”
+- [John Barton of Ivegill (d.1747)](John%20Barton%20of%20Ivegill%20%28d.1747%29.md): “great-”
+- [John Barton the Elder (1754-1789)](John%20Barton%20the%20Elder%20%281754-1789%29.md) (17)
+  - “Thirteenth”
+  - “Twelfth”
+  - “Seven”
+  - “Eighty Seven”
+  - “John Barton”
+  - “Hertford, Maltster”
+  - “Bernard Barton”
+  - “the City of Carlisle in the County of Cumberland, Linen Manu…”
+  - “Mary”
+  - “Eliz.th Horne”
+  - “Thomas Horne, Citizen of London, and Clothworker”
+  - “Mary”
+  - “Red Cross Street, Park”
+  - “Boro”
+  - “Southwark”
+  - “John Ady”
+  - “Horslydown”
+- [John Dougan (1765-1826)](John%20Dougan%20%281765-1826%29.md) (4)
+  - “"John Dougan Remembered" by Mary Kinsman”
+  - “Parliamentary abstracts, containing the substance of all imp…”
+  - “Social and Industrial Capacites of the Negroes (1827) by Bar…”
+  - “Critical, historical and miscellaneous essays, Volume 6 (186…”
+- [Joseph Barton (b.1760)](Joseph%20Barton%20%28b.1760%29.md): “The History of Dundalk, and Its Environs: From the Earliest …”
+- [Joy Barton (1907-1984)](Joy%20Barton%20%281907-1984%29.md) (3)
+  - “personal commitment”
+  - “then”
+  - “me”
+- [Major Harold Alfred Venn Elliott (1901-1981)](Major%20Harold%20Alfred%20Venn%20Elliott%20%281901-1981%29.md): “Collecting Colditz And Its Secrets: a Unique Pictorial Recor…”
+- [Maria Done (1752-1784)](Maria%20Done%20%281752-1784%29.md) (5)
+  - “the greatest”
+  - “only”
+  - “what a day may bring forth”
+  - “we rejoiced not”
+  - “What Various Beauties”
+- [Maria Hack (1777-1844)](Maria%20Hack%20%281777-1844%29.md) (48)
+  - “The Oxford Encyclopedia of Children’s Literature (2006)”
+  - “Seventh”
+  - “Second”
+  - “Eight”
+  - “Stephen Hack”
+  - “Chichester in the county of Sussex, Merchant”
+  - “James Hack”
+  - “the same place, Merchant”
+  - “Priscilla”
+  - “Mary Barton”
+  - “John Barton, late”
+  - “London, Linen draper”
+  - “Mary --ii--”
+  - “both deceased”
+  - “Tottenham”
+  - “William Dillwyn”
+  - “Yeoman of Walthamstow , Essex”
+  - “Edw.d Janson”
+  - “of London - Warehouseman”
+  - “Anth.y Horne, of”
+  - “Bankside, Southwark”
+  - “Coal Merchant”
+  - “The words, "both deceased" being first interlined”
+  - “Stephen Hack”
+  - “Mary Barton”
+  - …and 23 more
+- [Ormside Hall](Ormside%20Hall.md) (4)
+  - “Ormside Hall”
+  - “u”
+  - “Breeks Hall”
+  - “Pedigrees recorded at the heralds' visitations of the counti…”
+- [Rev. Cecil Barton (1870-1909)](Rev.%20Cecil%20Barton%20%281870-1909%29.md) (2)
+  - “DEATHS”
+  - “persona grata”
+- [Rev. Charles Boileau Elliott (1803-1875)](Rev.%20Charles%20Boileau%20Elliott%20%281803-1875%29.md) (3)
+  - “Letters from the North of Europe; or A Journal of Travels in…”
+  - “Travels in the Three Great Empires of Austria, Russia and Tu…”
+  - “The life of Hafiz ool-Moolk, Hafiz Rehmut Khan (1831 transla…”
+- [Rev. Thomas Henry Fitzpatrick (d.1866)](Rev.%20Thomas%20Henry%20Fitzpatrick%20%28d.1866%29.md): “The Church Missionary Intelligencer Volume 2, New Series (18…”
+- [Royal ancestry](Royal%20ancestry.md) (2)
+  - “Alternative line 1”
+  - “Alternative line 2”
+- [Solomon Boileau (1745-1810)](Solomon%20Boileau%20%281745-1810%29.md): “List of the general and field officers, as they rank in the …”
+- [Tesie Moule (1882-1905)](Tesie%20Moule%20%281882-1905%29.md): “The School of Suffering (1907) by Handley Moule”
+- [The Barton name](The%20Barton%20name.md) (14)
+  - “Frequency”
+  - “1881”
+  - “1998”
+  - “Change”
+  - “Ethnicity of forename”
+  - “Percentage”
+  - “Top Countries”
+  - “Frequency per million”
+  - “Rank”
+  - “Top Cities”
+  - “Region name”
+  - “Frequency per million”
+  - “Rank”
+  - “Top forenames”
+- [Whenby, Yorkshire](Whenby%2C%20Yorkshire.md): “Sir Edward [Radcliffe], bart., 1622-d. 1663”
+- [William Barton (1737-1818)](William%20Barton%20%281737-1818%29.md): “Carlisle Patriot”
+- [_Barton 1850](_Barton%201850.md): “Memoir, Letters and Poems of Bernard Barton (1850) ed. Lucy …”
+- [_Barton 1910](_Barton%201910.md): “John Barton, a Memoir (1910) by Cecil Edward Barton”
+- [_Barton 1966](_Barton%201966.md) (3)
+  - “Rise of a Royal Furniture-Maker (1966) by Nicholas J. Barton”
+  - “February 10 1966, pp293-295”
+  - “February 17 1966, pp361-362”
+- [_Barton 1980s](_Barton%201980s.md) (19)
+  - “John Barton Senior (1789-1852) His Family, Life and Times wi…”
+  - “gules purpure”
+  - “A Treatise of Mensuration”
+  - “manner”
+  - “all”
+  - “Peacemaker”
+  - “dishonourable treaties”
+  - “your own”
+  - “profession, if such a change shall be found practicable”
+  - “you”
+  - “outward”
+  - “verbal”
+  - “the conviction of my understanding and the feelings of my he…”
+  - “now”
+  - “humble”
+  - “to them”
+  - “Wild Oats”
+  - “momentum”
+  - “East Leigh”
+- [_Barton parish registers](_Barton%20parish%20registers.md): “The registers of the parish church of Barton, Westmorland. B…”
+- [_Bernard Barton the Quaker Poet Correspondence](_Bernard%20Barton%20the%20Quaker%20Poet%20Correspondence.md) (22)
+  - “Metrical Effusions (1812)”
+  - “Lorenzo's”
+  - “Leo's”
+  - “Day-star's”
+  - “vine-clad hill”
+  - “fat”
+  - “not”
+  - “believe”
+  - “now”
+  - “Minister”
+  - “read”
+  - “properly”
+  - “Thou wilt value it”
+  - “other”
+  - “can”
+  - “wonderful”
+  - “sent to thee”
+  - “THE DYING CHILD, by George Williams Fulcher”
+  - “sizzors”
+  - “voice”
+  - “n”
+  - “u”
+- [_Broadbent 1976](_Broadbent%201976.md) (9)
+  - “The Broadbents of Longwood c.1796-c.1930 , compiled from fam…”
+  - “August 1856”
+  - “are”
+  - “PART II. The Brothers and Sisters”
+  - “anorexia nervosa”
+  - “loved”
+  - “we”
+  - “most”
+  - “Bonny Snowlea”
+- [_Byron letters](_Byron%20letters.md): “The Works of Lord Byron, Letters and Journals Vol. 2”
+- [_Carlisle Journal](_Carlisle%20Journal.md): “Carlisle Journal”
+- [_Chronicles of Boileau](_Chronicles%20of%20Boileau.md): “The Chronicles of the Family of Boileau known as de Castelna…”
+- [_Cumbria wills](_Cumbria%20wills.md) (13)
+  - “Index to the wills proved in the Consistory court of Carlisl…”
+  - “underlined”
+  - “Rob. Barton, Dalston (Ivegill). 1662 AI [54]”
+  - “John Barton, Dalston (Ivegill). 1662 AI [60]”
+  - “Bernard Barton, Dalston (Ivegill). 1715 W”
+  - “John Barton, yeo., Hesket-in-the-Forest (Ivegill Head).”
+  - “John Barton, yeo., Dalston (Ivegill). 1747 WI 336 [183r]”
+  - “Ann Barton, wid., Dalston (Ivegill). 1749 WI 5 [12v]”
+  - “Robert Barton (Dalston). 1588 AI”
+  - “Barnard Barton (Dalston). 1633 W”
+  - “George Barton (Ivegill, Dalston). 1630 W[N]”
+  - “John Barton. 1617 I”
+  - “Mabel Barton (proved Carlisle). 1639 W[N]”
+- [_Curwen 1932](_Curwen%201932.md) (4)
+  - “The Later Records relating to North Westmorland: or the Baro…”
+  - “The church”
+  - “Breeks Hall”
+  - “Ormside Hall”
+- [_Dalston parish records](_Dalston%20parish%20records.md) (2)
+  - “The Parish registers of Dalston, Cumberland (1893) , edited …”
+  - “The Parish registers of Dalston, Cumberland (1895) , edited …”
+- [_Dictionary of National Biography](_Dictionary%20of%20National%20Biography.md): “The Dictionary of National Biography”
+- [_Dougan 1826](_Dougan%201826.md): “Slave Trade. Three volumes. Volume 2. Papers Relating to Sla…”
+- [_Eliott 1974](_Eliott%201974.md): “The Elliots: The Story of a Border Clan; A Genealogical Hist…”
+- [_Ferguson 1871](_Ferguson%201871.md): “Early Cumberland and Westmoreland Friends: A Series of Biogr…”
+- [_Fitzgerald 1849](_Fitzgerald%201849.md): “Miscellanies of Edward Fitzgerald (1904)”
+- [_Fraser 1966](_Fraser%201966.md): “The Cumberland and Westmorland Lay Subsidies for 1332 (1966)”
+- [_Griffiths 2001-2](_Griffiths%202001-2.md) (3)
+  - “John Barton of Chichester, Stoughton and East Leigh 1789-185…”
+  - “Chichester Local History #17 & #18”
+  - “Sources”
+- [_Hole 1896](_Hole%201896.md): “The early history of the Church Missionary Society for Afric…”
+- [_Hudson 1999](_Hudson%201999.md): ““The Raj; an Eye-Witness History of the British in India”, R…”
+- [_Humphries 1984](_Humphries%201984.md): “Twelve Bobbins Spinning; the story surrounding a horizontal …”
+- [_Jackson 1892](_Jackson%201892.md) (3)
+  - “Papers and pedigrees mainly relating to Cumberland and Westm…”
+  - “The Will and Codicil of Isabella Miller of Highhead Castle 1…”
+  - “The Schedule to which the Will doth refer.”
+- [_John Barton the Elder Correspondence](_John%20Barton%20the%20Elder%20Correspondence.md) (519)
+  - “now”
+  - “advice”
+  - “myself”
+  - “my friend”
+  - “studious”
+  - “mercantile”
+  - “bar”
+  - “pulpit”
+  - “former”
+  - “latter”
+  - “One”
+  - “at any rate”
+  - “long”
+  - “successfully”
+  - “agreeably”
+  - “family's”
+  - “my own”
+  - “not”
+  - “nothing”
+  - “what”
+  - “object”
+  - “That”
+  - “whatever if might be”
+  - “fortune”
+  - “competence”
+  - …and 494 more
+- [_Lewis 1848](_Lewis%201848.md) (2)
+  - “A Topographical Dictionary of England (1848) edited by Samue…”
+  - “Highead, or Ivegill”
+- [_Lucas 1893](_Lucas%201893.md): “Bernard Barton and His Friends: A Record of Quiet Lives (189…”
+- [_Mannix & Whellan 1847](_Mannix%20%26%20Whellan%201847.md): “History, Gazetteer and Directory of Cumberland (1847) by Man…”
+- [_Maria Done Correspondence](_Maria%20Done%20Correspondence.md) (199)
+  - “can”
+  - “her”
+  - “Consider'd”
+  - “my”
+  - “right”
+  - “Cirtain report”
+  - “Shade”
+  - “Soliloquy to Sensibility”
+  - “A Night Peice”
+  - “real”
+  - “Emagenary”
+  - “ken (know) every”
+  - “barberisms”
+  - “but I feel a real concern at being under the necessity of gi…”
+  - “important Affair”
+  - “disappointment”
+  - “feel”
+  - “imperfect”
+  - “That”
+  - “in vain”
+  - “him”
+  - “canny”
+  - “Phisical”
+  - “moral”
+  - “mental”
+  - …and 174 more
+- [_Marx 1861-3](_Marx%201861-3.md): “Theories of Surplus Value (1861-3) by Karl Marx”
+- [_Maupin 1980](_Maupin%201980.md): “Prologue, by Armistead Jones Maupin”
+- [_Memoirs of Emily Elliott](_Memoirs%20of%20Emily%20Elliott.md): “Memoirs of Emily Eugenia Barton nee Elliott (1839-1924)”
+- [_Memoirs of John Barton](_Memoirs%20of%20John%20Barton.md): “Memoirs of Rev. John Barton of Cambridge 1836-1908 (1889).”
+- [_Miscellaneous records](_Miscellaneous%20records.md) (8)
+  - “Principal Inhabitants of”
+  - “and Westmorland 1829”
+  - “Principal Inhabitants of”
+  - “1847 & Harriet Martineau’s Directory of the”
+  - “1855”
+  - “Census of 1851”
+  - “Bulmer's Directory of Cumberland 1901”
+  - “Combined Parish Registers”
+- [_NJB family archive](_NJB%20family%20archive.md): “if not credited elsewhere”
+- [_Nicolson et al 1777](_Nicolson%20et%20al%201777.md) (24)
+  - “The history and antiquities of the counties of Westmorland a…”
+  - “PARISH OF BARTON”
+  - “Lancasters”
+  - “Lancastres”
+  - “William de Lancastre”
+  - “Roger de Lancastre”
+  - “John de Lancastre”
+  - “Christopher”
+  - “Gilbert de Lancastre”
+  - “William de Lancastre”
+  - “Thomas de Lancastre”
+  - “William de Lancastre”
+  - “post mortem”
+  - “Hugh de Lancastre”
+  - “Christopher Lancaster”
+  - “Thomas Lancaster”
+  - “William Lancaster”
+  - “Lancelot Lancaster”
+  - “Edmund Lancaster”
+  - “Lancelot Lancaster”
+  - “Christopher Lancaster”
+  - “Elizabeth”
+  - “Barbara”
+  - “Mary”
+- [_Page 1923](_Page%201923.md) (6)
+  - “A History of the County of York North Riding, Volume 1 (1914…”
+  - “ed. William Page”
+  - “”
+  - “23)”
+  - “WHENBY”
+  - “Manor”
+- [_Penfold](_Penfold.md): “Memoirs of the Right Honourable Henry Lord Brougham (1840) ,…”
+- [_Pennant 1774 & 1776](_Pennant%201774%20%26%201776.md): “A Tour in Scotland and Voyage to the Hebrides, 1772 (1774 & …”
+- [_Perriam articles and research](_Perriam%20articles%20and%20research.md) (5)
+  - “The Monumental Inscriptions of the Parish Church & Churchyar…”
+  - “The Carlisle Journal”
+  - “The Northern Observer”
+  - “The Cumberland Pacquet”
+  - “DX/1113/21”
+- [_Pinckard 1806](_Pinckard%201806.md): “Notes on the West Indies: Written During the Expedition Unde…”
+- [_Ronald Barton Diary and Letters](_Ronald%20Barton%20Diary%20and%20Letters.md) (10)
+  - “in”
+  - “provided”
+  - “,”
+  - “No raid.”
+  - “relish”
+  - “some”
+  - “was”
+  - “we”
+  - “still”
+  - “From Group-Captain Stephen Paynter & his Mother*”
+- [_Scaife 2003](_Scaife%202003.md): “Occasional Booklet No 5: Pedigree & Patronage, the Scaifes o…”
+- [_Slave Trade Minutes 1787-1788](_Slave%20Trade%20Minutes%201787-1788.md) (2)
+  - “Fair Minute book of the London Committee for the Abolition o…”
+  - “Some lesser known members of the London Committee For the Ab…”
+- [_Smith 1878](_Smith%201878.md): “Annals of Smith of Cantley, Balby, and Doncaster, County Yor…”
+- [_Stock 1899](_Stock%201899.md): “The history of the Church missionary society, its environmen…”
+- [_The Citizen (Carlisle periodical)](_The%20Citizen%20%28Carlisle%20periodical%29.md): “The Citizen”
+- [_Transactions CWAALS n12 1887](_Transactions%20CWAALS%20n12%201887.md) (2)
+  - “Transactions of the Cumberland & Westmorland Association for…”
+  - “No 12, 1887”
+- [_Transactions CWAAS v10 1889](_Transactions%20CWAAS%20v10%201889.md) (2)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 10, 1889”
+- [_Transactions CWAAS v13 1895](_Transactions%20CWAAS%20v13%201895.md) (2)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 13, 1895”
+- [_Transactions CWAAS v4 1904](_Transactions%20CWAAS%20v4%201904.md) (3)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 4 (new series), 1904”
+  - “Sir Edward [Radcliffe], bart., 1622-d. 1663”
+- [_Transactions CWAAS v5 1905](_Transactions%20CWAAS%20v5%201905.md) (2)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 5 (new series), 1905”
+- [_Transactions CWAAS v6 1882](_Transactions%20CWAAS%20v6%201882.md) (2)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 6, 1881”
+- [_Transactions CWAAS v7 1884](_Transactions%20CWAAS%20v7%201884.md) (2)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 7, 1884”
+- [_Transactions CWAAS v9 1888](_Transactions%20CWAAS%20v9%201888.md) (4)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 9, 1888”
+  - “Schoolmasters of Sebergham, Welton, by Rev. J. Stubbs.”
+  - “HIGHHEAD & IVEGILL.”
+- [_Transactions CWAAS v9 1909](_Transactions%20CWAAS%20v9%201909.md) (3)
+  - “Transactions of the Cumberland & Westmorland Antiquarian & A…”
+  - “Volume 9 (new series), 1909”
+  - “Records relating to the Barony of Kendale, Volume 3 (1926) e…”
+- [_Transactions SEAMC v6 1788](_Transactions%20SEAMC%20v6%201788.md): “Transactions of the Society Instituted at London for the Enc…”
+- [_Trimmer 1787](_Trimmer%201787.md): “The Oeconomy of Charity or an Address to Ladies concerning S…”
+- [_Venn 1904](_Venn%201904.md): “Annals of a clerical family, being some account of the famil…”
+- [_Wheatley 1903](_Wheatley%201903.md): “Bonnie Prince Charlie in Cumberland (1903)”
+- [_Writings of John Barton Senior](_Writings%20of%20John%20Barton%20Senior.md): “very much”
+- [space.menu](space.menu.md): “SELECTED PAGES”
+
+## Wikispaces widgets: auto-generated page list (kept as static list)
+
+- [Contents](Contents.md): 371 entries
+- [Objects](Objects.md): 4 entries
+- [People](People.md): 242 entries
+- [Places](Places.md): 27 entries
+- [Sources](Sources.md): 79 entries
+- [space.menu](space.menu.md): 38 entries
+
+## Wikispaces widgets: tag cloud (removed)
+
+- [Contents](Contents.md): 100 tags: 14thc, 16thc, 17thc, 18thc, 19thc, 20thc, 21stc, abolitionist, anne, arthur, barton, bernard, boileau, broadbent, cambridge…
+- [index](index.md): 100 tags: 14thc, 16thc, 17thc, 18thc, 19thc, 20thc, 21stc, abolitionist, anne, arthur, barton, bernard, boileau, broadbent, cambridge…
