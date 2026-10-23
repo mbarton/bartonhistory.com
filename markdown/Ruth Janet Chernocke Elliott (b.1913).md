@@ -1,0 +1,28 @@
+---
+title: "Ruth Janet Chernocke Elliott (b.1913)"
+---
+
+- Born 9 October 1913, daughter of [Arthur Edward Elliott (b.1867)](Arthur%20Edward%20Elliott%20%28b.1867%29.md) and Janet Harriet Smith.
+- Married, on 12 October 1937, [Haliburton Hume Leech](Haliburton%20Hume%20Leech.md).
+
+# Marriage Announcement
+
+The following clip was sent to me by [Charles Baron](Living%20connections.md#charles-baron):
+
+"*WEDDING OF FLIGHT LIEUT. LEECH AND MISS ELLIOTT*
+
+*Eyke Ceremony*
+
+*Flying Honeymoon Abroad*
+
+*Flight Lieutenant Haliburton Hume Leech (R.A.F.) and Miss Ruth Janet Chernocke Elliott were married on Saturday last at All Saints' Church, Eyke, and after the reception they set off for a flying honeymoon abroad, having received special permission to take off from the Martlesham Aerodrome flying ground.*
+
+*The bridegroom is the son of Dr. J. W. Leech, M.P., of Sydenham House, Newcastle-on-Tyne, and the bride is the daughter of Mr. and Mrs. A. E. Elliott, of Little Hill, Bromeswell.*
+
+*The bride, who was given away by her father, Mr. A. E. Elliott, was attired in a dress of dull white crepe material, with copper sash and copper embroidery at the neck, and a tulle veil held in place by copper feathers. She carried a bouquet of lilies of the valley and white orchids.*
+
+*The ceremony was performed by the Rev. Canon C. L. B. Elliott, assisted by the Venerable Archdeacon of Suffolk (Rev. J. G. R. Darling), and the hymns sung were "Lead us, Heavenly Father, lead us," "O God, our help in ages past," and the Psalm lxvii (67) was sung. The duties of best man were performed by Lieutenant R. C. Sewell, R.N.*
+
+*Following the ceremony a reception was held at Little Hill, Bromeswell, after which the couple left for their honeymoon, the bride being attired in a rust coloured dress, with hat to match, and a silver fox fur.*
+
+*Amongst the many guests were the following:— Sir Alfred and Lady Appleby; Capt. Geoffrey Aste; Squadron Leader J. R. Addams; Dr. and Mrs. Alford; Major and Mrs. Armstrong; Miss Archer; Squadron-Leader and Mrs. Bonham Carter; Flight-Lieut. A. P. Berkeley; Admiral and Mrs. Bowring; Mr. and Mrs. Barnardiston; Colonel and Mrs. Bromfield; General and Mrs. Boddam; Dr. and Mrs. Briscoe; Lady Brancker; Mr. and Mrs. Bathurst; Mr. and Mrs. Bond; Sir Charles Bunbury; Lady Bunbury, and Miss Peggy Bunbury; Mrs. Bayliss, Mr. Dick, Miss Pamela, and Miss Diana Bayliss; Mrs. Bett, Sir Norman and Lady Bolton and Mrs. Bell; Mr. and Mrs. Craig and the Misses Craig; Sir William and Miss Churchman; Admiral and Mrs. Corbett; Mrs. Crockett and Mr. J. Crockett; Lady Cranworth and the Hon. Judith Gurdon; Mr. and Mrs. Collett; Miss Cobbold; Mr. and Mrs. Causton; Archdeacon and Mrs. Cory; Mr. and Mrs. Chandler; Mr. and Mrs. Kenneth Crawley and Miss Crawley; Mr. and Mrs. Cary; Mr. Cooper South; Flight Lieut. J. S. and Mrs. Dewar; Archdeacon Darling, Mrs. Darling and Miss N. Darling; Sir Edward and Lady Duckworth; Mrs. Dalgleish; Rev. and Mrs. Doughty; Mrs. and Miss Dewing; Miss Duncanson; Canon and Mrs. C. L. B. Elliott; Miss K. Elliott; Mr. C. Pynsent Elliott; Commander and Mrs. Everard; the Misses Exham; Mr. and Mrs. A. E. Elliott (father and mother of the bride); Flight Lieut. and Mrs. R. F. Fletcher; Sir Arthur and Lady Froom; Mrs. and Miss B. Gilligan; Mr. and Mrs. H. H. Green; Mrs. Goodwin and Mr. Aian Goodwyn; Mrs. John Gibson; Sir Bernard and Lady Greenwell and Miss Greenwell; Mr. Scott Hall; Mr. and Mrs. H. C. D. Hayter; Squadron Leader A. V. Harvey; Fight Lieut. and Mrs. Hyde; Capt. and Mrs. Hervey; Mr. and Mrs. Henniker; Colonel and Mrs. Howell; Mr. John Henderson; Flight Lieut H. Ramsbotham-Isherwood; Rev. and Mrs. D. Jackson; Mr. Dalton Jackson; Lieut. and Mrs. M. Johnstone; Squadron Leader and Mrs. Edwardes-Jones; Mr. C. Charlton Jones, Mr. and Mrs. Jeffcock and the Misses Rideout; the Misses White-Jervis; Mr. and Mrs. Jobling; Dr. and Mrs. Brooks-Keith; Miss Betty Kennard; Mr., Mrs. and Miss Kenion; Mr. Harold Luckham; Dr. J. W. Leech, M.P. (father of bridegroom); Capt. B. J. Leech (brother of bridegroom) and Mrs. Leech; Gen. and Mrs. Lamotte; Miss Louise Long; Mrs. Lowry; Flight Lieut. and Mrs. Duncan Menzies; Squadron Leader and Mrs. McKenna; Mr., Mrs. and Miss Mayall; Mr. and Mrs. Manuel; Mrs. Mason and the Misses Mason; Mrs. Morley; Miss Ann Mann; Colonel and Mrs Myles and Mr. Picton Myles; Mr. and Mrs. Mowat; Rev. and Mrs. Moore; Flight. Lieut, and Mrs. J. F. Moir; Major and Mrs. Northcote; Mr. and Mrs. Notcutt; Mr. and Mrs. Ormsby; Squadron Leader H. A. Purvis; Mrs. Pretty; Major and Mrs. Partridge; Squadron Leader and Mrs. Pearce; Wing Commander H. V. Rowley; Mr. and Mrs. F. Rowarth; Mr. and Mrs. Cramer Roberts; Sir Charles and Lady Rowley; Mr. and Mrs. Rodwell; Dr. and Mrs. Rupert Scott; Lieut. R. C. Sewell, R.N. (best man); Mr. and Mrs. H. E. Sullivan; Group Capt. and Mrs. Smart; Rev. and Mrs. Shadwell; Mr., Mrs. and Miss Stileman; Mrs. and Miss Strong; Miss Sopper; Mr., Mrs. and Miss Steele; Miss Chernocke Smith; Mr. and Mrs. John Charnock-Smith; Dr. and Mrs. Charles Charnock-Smith; Rev. Canon Scott; Rev. and Mrs. Dudley Symon; Mr. and Mrs. H. F. Sulivan; Mr. and. Mrs. Godfrey Spragge; Mrs. Talbot and Miss Diana Talbot; Sir Francis and Lady Treherne; General and Mrs. Tanner; Miss Betty Taylor; Miss Sheila Tudor; Mrs. and Miss Terry; Mrs. Vivian; Flight Lieut. and Mrs. C. T. Weir; Sir Robert and Lady White and the Misses White; Mr. and Mrs. Watkin; Canon and Mrs. Wilkinson; Col. and Mrs. Wyatt; Mr. C. Waterfall and the Misses Waterfall; Mrs. and Miss Williamson; Miss D. Wordsworth and Mr. Gordon Wordsworth; Mr. A. Young.*"

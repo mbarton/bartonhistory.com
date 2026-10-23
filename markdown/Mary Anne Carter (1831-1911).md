@@ -1,0 +1,55 @@
+---
+title: "Mary Anne Carter (1831-1911)"
+---
+
+- Married, on 11 May 1865, [Edward Barton (1828-1913)](Edward%20Barton%20%281828-1913%29.md).
+
+# Children
+
+With [Edward Barton (1828-1913)](Edward%20Barton%20%281828-1913%29.md):
+
+1. [Mary Irving Barton (d.1942)](Mary%20Irving%20Barton%20%28d.1942%29.md)
+2. unnamed male twins
+3. [Albert Edward Barton (1861-1932)](Albert%20Edward%20Barton%20%281861-1932%29.md)
+4. [Elizabeth Barton (1862-1870)](Elizabeth%20Barton%20%281862-1870%29.md)
+5. [Mabel Barton (1862-1915)](Mabel%20Barton%20%281862-1915%29.md)
+6. William Barton (died before 1913)
+7. [Maud Barton](Maud%20Barton.md)
+8. [Ethel Barton (1871-1958)](Ethel%20Barton%20%281871-1958%29.md)
+
+# Will
+
+The following transcript was found in the [\*ABH research notes](_ABH%20research%20notes.md):
+
+"*This is the last will and testament of me, Mary Ann Barton, wife of Edward Barton of Warton Grange in the County of Lancaster, Esquire.
+
+1. I appoint my said husband, my son Albert Edward, my friend Allan Sewart of Lancaster in the said County, soliciter, and my husband's Secretary, John Robert Hall of Carnforth in the said County (hereinafter called "my Trustees") to be the Executors and Trustees of this my Will.
+
+2. I give the following legacies free of duty (namely) to my Grandson Leslie Barton Prest, if he shall survive me and attain the age of twenty-four years, the sum of One thousand pounds.
+
+To my Grandson Robert Barton, if he shall survive me and attain the age of twenty-four years, the sum of Five hundred pounds.
+
+And to such cf them my Granddaughters (the Children of my said son Albert Edward) as shall survive me and attain the age of twenty-four years or marry under that age the sum of Five hundred pounds, if more than one in equal shares.
+
+3. I devise my messuage or dwellinghouse with the stable, coachhouse, and outbuildings, gardens and land of mine belonging thereto, called Red Court situate at Carnforth aforesaid and now in the occupation of my said son Albert Edward unto my Trustees Upon trust for my said son Albert Edward during his life. And from and after the decease of my said son Albert Edward In trust to retain the said dwellinghouse and hereditaments for the use, occupation, and enjoyment of all or any of the unmarried children of my said son Albert Edward for the time being desiring to make the said premises their home; my object and desire being that the said dwellinghouse shall serve the purpose for which it was intended, namely, to be the home of my said son Albert Edward and his family and for that reason I should be sorry to see the property pass into other hands as long as any of his children desire to live there. And I leave it in the power and discretion of my trustees to carry out this my wish for so long in such manner and upon such terms and conditions as they shall think fit and as they shall consider fair to all the said Children, my feeling being that if any of the children shall cease to live in the said dwellinghouse then the others remaining there shall pay or allow to the child or children who have left it a fair equivalent of what the Trustees may fix for the purpose as a moderate rent for the said dwel1inghouse and premises. And subject to the trusts aforesaid my Trustees shall sell the said dwellinghouse and hereditaments hereinbefore devised and stand possessed of the monies produced by such sale, after paying the expenses thereof, In trust for the children of my said son Albert Edward who, being sons shall attain the age of twenty-four years, or being daughters, shall attain that age or marry under that age, in equal shares, and if there shall be only one such child the whole to go to that one child, and, if no child of my said son Albert Edward shall live to attain a vested interest in the said moneys, the same shall fall into my residuary estate. And I declare that my trustees shall not be bound to see to the preservation of the said dwel1inghouse and premises nor be answerable for any loss or injury thereto during the life of my said son Albert Edward. Ana I also declare that after the decease of my said son Albert Edward, whenever my Trustees shall determine to exercise the trust for sale of the said dwel1inghouse and premises hereinbefore contained, their decision shall be final and their power to convey the premises in the event of a sale shall be absolute and they shall be in no way answerable in exercising the aforesaid trust for sale.
+
+4. And I devise and bequeath all my real and personal estate, not hereby otherwise disposed of, unto my trustees Upon trust that my Trustees shall sell, call in, and convert into money the same or such part thereof as shall not consist of money and shall with and out of the moneys produced by such sale calling in and conversion and with and out of my ready money pay my funeral and testamentary expenses and debts and the legacies bequeathed by this my Will or any Codicil hereto and the duty payable in respect of any legacies bequeathed free of duty and shall stand possessed of the residue of the said moneys In trust for such of them my said son Albert Edward and my four daughters Mary Irving, Maud, Mabel, and Ethel as shall survive me, if more than one, in equal shares. Provided always that if any of my said children shall die in my lifetime leaving a child or children who shall survive me and, being a son or sons, shall attain the age of twenty-four years or, being a daughter or daughters, shall attain that age or marry under that age then and in every case the last mentioned child or children shall take (and if more than one equally between them) the share which his, her or their parent would have taken of and in the residuary trust monies if such parent had survived me. Provided also and I declare that every grandchild of mine who has attained the age of twenty-one years and who, if he or she had attained the age of twenty-four years, would be entitled in possession to any monies under this my Will shall be entitled to receive the whole income of such monies until the same shall have become vested or he or she shall previously die.
+
+5. And I declare that my Trustees may postpone the sale and conversion of any part of my real and personal estate for so long as they shall think fit and that the rents, profits, and income to accrue from and after my decease of and from such part of my estate as shall for the time being remain unsold and unconverted shall, after payment thereof of all incidental expenses, be paid and applied to the person or persons and in the manner to whom and in which the income of the proceeds of such sale and conversion would for the time being would be payable or applicable under this my Will if such sale and conversion had been actually made.
+
+6. And I empower my trustees in their discretion to continue for such period as they may think advisable any investment which may compose part of my personal estate at my decease, notwithstanding that the same many not be an investment authorized by this my Will.
+
+7. And I also declare that all moneys liable to be invested under this my Will may be invested in or upon any of the public stocks or funds or government securities of the United Kingdom or in or upon any securities the interest on which is or shall be guaranteed by Parliament or in or upon stock of the Bank of England or of the Metropolitan Board of Works or in or upon freehold, copyhold, leasehold, or chattels real, securities in England or Wales or in or upon the debentures or debenture stock of any railway company in the United Kingdom or the shares or stock of any such Railway Company a fixed or minimum rate of dividend on which is guaranteed by the same or any other Company or secured by means of a fixed rental payable by any other Company or in or upon the bonds, debentures, or securities of, or issued by, any public, municipal, or local body or authority in the United Kingdom or in or upon the security of rates or tolls made or levied by any such body or authority.
+
+8. And I also declare that the said Allan Sewart and any future trustee of this my Will who may be a Soliciter shall be entitled and be paid the usual professional charges for all business done by him in connection with my estate in the same manner as he would be entitled to be paid if he were not an Executor and Trustee of this my Will.
+
+9. And lastly I hereby revoke all former Wills and testamentary dispositions made by me. In witness whereof I have hereunto set my hand this Thirty first day of October One thousand nine hundred and eight.
+
+Signed by the said Testatrix Mary Ann Barton as and for her last Will and Testament in the presence of us both present at the same time who at her request in her sight and presence and in the presence of each other have hereunto subscribed our names as attesting witnesses.
+
+MARY ANN BARTON
+
+THOMAS ROGERS - Accountant to Hall Marshall and Sewart, Solrs Lancaster\
+PERCY IRELAND - Clerk to Hall Marshall and Sewart, Solicitors Lancaster
+
+On the 15th November 1911 Probate of this Will was granted at Lancaster to Edward Barton, Esquire, Albert Edward Barton, Allan Sewart, and John Robert Hall, the Executors.*"

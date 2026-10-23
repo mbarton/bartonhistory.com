@@ -1,0 +1,13 @@
+---
+title: "Lord Francis Wallace Grenfell (1840-1925)"
+---
+
+- Born 29 April 1841, son of [Pascoe St. Leger Grenfell (1798-1874)](Pascoe%20St.%20Leger%20Grenfell%20%281798-1874%29.md) and [Catherine Anne Dupre (b.1804)](Catherine%20Anne%20Dupre%20%28b.1804%29.md).
+- Uncle of [Susan Thornton (1875-1958)](Susan%20Thornton%20%281875-1958%29.md) who married [Rev. Jack Barton (1866-1941)](Rev.%20Jack%20Barton%20%281866-1941%29.md).
+- Became 'Lord Grenfell': see Wikipedia entry [here](http://en.wikipedia.org/wiki/Francis_Grenfell,_1st_Baron_Grenfell) and family history entry at <http://grenfell.history.users.btopenworld.com/Biographies/francis_grenfell.htm>.
+- Died 27 January 1925, aged ~84.
+
+[![external image Francis_Wallace_Grenfell.jpg](http://upload.wikimedia.org/wikipedia/commons/d/d9/Francis_Wallace_Grenfell.jpg "external image Francis_Wallace_Grenfell.jpg")](http://en.wikipedia.org/wiki/Francis_Grenfell,_1st_Baron_Grenfell)
+
+"*In February 1895 both [Susie](Susan%20Thornton%20%281875-1958%29.md) and [Esther](Esther%20Broadbent%20%281873-1959%29.md), and their Mothers, and [Jack](Rev.%20Jack%20Barton%20%281866-1941%29.md) met one day at Castelnau, Wimbledon, and were introduced to those of the family then at home.*\
+*[Mr. Thornton](Henry%20Edward%20Thornton%20%281842-1926%29.md) objected to long engagements, and as soon as Susie passed her 20th birthday, arrangements were made for the wedding at Nottingham, and a happier one we never attended than her's and Jack's on July 31 1895. The gathering of the Clans is the best part of most of these functions, except for the young couple themselves; and where most are of one mind, and old friends or relatives, and where a fine summer day is secured, nothing can be more enjoyable. Your [Father](Rev.%20John%20Barton%20of%20Cambridge%20%281836-1908%29.md) tied the knot - the Bride had six maids to follow her, two of them her own, and two Jack's sisters. The union with the Thornton family was entirely after our hearts, and we were deeply thankful that God had given our Jack, with his young wife, all the good things both for this life and for the next which we, as parents, had for years asked of Him. The large family dinner party after the bridal pair had gone off to [Rowsley](http://en.wikipedia.org/wiki/Rowsley), Derbyshire, was kept lively by stories from [Mrs. Thornton](Katherine%20Charlotte%20Grenfell%20%281842-1906%29.md)'s brother, now **Lord Grenfell** - who though not then himself a father, had infinite sympathy with, and love for young people; and we experienced that evening none of the proverbial 'depression' after the Bride and her Groom's departure!*" [\*Memoirs of Emily Elliott p109](_Memoirs%20of%20Emily%20Elliott.md#109)
